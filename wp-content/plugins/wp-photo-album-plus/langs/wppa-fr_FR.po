@@ -1,0 +1,6995 @@
+# Translation of the WordPress plugin   by .
+# Copyright (C) 2010
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wppa\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-12 15:53+0100\n"
+"PO-Revision-Date: 2012-06-12 15:53+0100\n"
+"Last-Translator: J.N. Breetvelt <OpaJaap@OpaJaap.nl>\n"
+"Language-Team: oVa <ova13lastar@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: theme\n"
+
+#: wppa-admin-functions.php:27
+msgid "Settings successfully backed up"
+msgstr ""
+
+#: wppa-admin-functions.php:31
+msgid "Unable to backup settings"
+msgstr ""
+
+#: wppa-admin-functions.php:38
+msgid "Error writing to settings backup file"
+msgstr ""
+
+#: wppa-admin-functions.php:98
+#, fuzzy
+msgid "Settings file not found"
+msgstr "Fichier non trouvé"
+
+#: wppa-admin-functions.php:164
+msgid "Order #"
+msgstr "Ordre #"
+
+#: wppa-admin-functions.php:165
+#: wppa-ajax.php:227
+#: wppa-ajax.php:333
+#: wppa-album-admin-autosave.php:427
+#: wppa-album-admin-autosave.php:538
+msgid "Name"
+msgstr "Nom"
+
+#: wppa-admin-functions.php:166
+msgid "Random"
+msgstr "Aléatoire"
+
+#: wppa-admin-functions.php:209
+#: wppa-admin-functions.php:213
+#: wppa-ajax.php:729
+#: wppa-ajax.php:736
+msgid "Please supply a numeric value greater than or equal to"
+msgstr "Veuillez fournir une valeur numérique supérieure ou égale à"
+
+#: wppa-admin-functions.php:209
+#: wppa-admin-functions.php:213
+#: wppa-ajax.php:729
+#: wppa-ajax.php:736
+msgid "for"
+msgstr "pour"
+
+#: wppa-admin-functions.php:213
+#: wppa-ajax.php:736
+msgid "and less than or equal to"
+msgstr ""
+
+#: wppa-admin-functions.php:234
+#: wppa-album-admin-autosave.php:105
+#, fuzzy
+msgid "--- public ---"
+msgstr "--- default ---"
+
+#: wppa-admin-functions.php:384
+msgid "Please check your php configuration. Currently it does not support the required functionality to manipulate photos"
+msgstr ""
+
+#: wppa-admin-functions.php:427
+msgid "Trying to fix "
+msgstr ""
+
+#: wppa-admin-functions.php:458
+msgid "Fixed extension for "
+msgstr ""
+
+#: wppa-admin-functions.php:461
+msgid "Unable to fix extension for "
+msgstr ""
+
+#: wppa-admin-functions.php:465
+msgid "Unknown extension for photo "
+msgstr ""
+
+#: wppa-admin-functions.php:465
+msgid "Please change the name to something with the proper extension and try again!"
+msgstr ""
+
+#: wppa-admin-functions.php:474
+#: wppa-admin-functions.php:477
+#: wppa-admin-functions.php:485
+#, fuzzy
+msgid "Orphan Photos"
+msgstr "Upload Photos"
+
+#: wppa-admin-functions.php:491
+#, fuzzy
+msgid "Could not recover orphanized photos."
+msgstr "Impossible d'uploader la photo."
+
+#: wppa-admin-functions.php:497
+#: wppa-admin-functions.php:500
+#: wppa-admin-functions.php:503
+#, fuzzy
+msgid "Database fixed."
+msgstr "Révision de la base de données:"
+
+#: wppa-admin-functions.php:497
+msgid "orphanized photos recovered."
+msgstr ""
+
+#: wppa-admin-functions.php:500
+msgid "invalid entries removed:"
+msgstr ""
+
+#: wppa-admin-functions.php:503
+msgid "missing file extensions recovered."
+msgstr ""
+
+#: wppa-admin-functions.php:551
+#, php-format
+msgid "File %s is of an unsupported filetype and has been removed."
+msgstr ""
+
+#: wppa-admin-functions.php:578
+#, fuzzy
+msgid "--- all ---"
+msgstr "--- default ---"
+
+#: wppa-admin-functions.php:579
+#: wppa-common-functions.php:679
+#: wppa-common-functions.php:1366
+msgid "--- none ---"
+msgstr "--- aucun ---"
+
+#: wppa-admin-functions.php:596
+#: wppa-common-functions.php:680
+msgid "--- separate ---"
+msgstr "--- separateur ---"
+
+#: wppa-admin-functions.php:619
+#: wppa-admin-functions.php:622
+#, fuzzy
+msgid "Unable to update mean rating"
+msgstr "Options"
+
+#: wppa-admin-functions.php:634
+#: wppa-admin-functions.php:637
+msgid "No photos or error reading"
+msgstr ""
+
+#: wppa-admin-functions.php:713
+#: wppa-admin-functions.php:753
+#: wppa-admin-functions.php:757
+#: wppa-admin-functions.php:761
+msgid "Unexpected error:"
+msgstr ""
+
+#: wppa-admin-functions.php:713
+msgid "Missing database table:"
+msgstr ""
+
+#: wppa-admin-functions.php:753
+#, fuzzy
+msgid "Missing directory:"
+msgstr "Caractéristiques d'administration du plugin"
+
+#: wppa-admin-functions.php:757
+msgid "Directory is not writable:"
+msgstr ""
+
+#: wppa-admin-functions.php:761
+msgid "Directory is not readable:"
+msgstr ""
+
+#: wppa-admin-functions.php:767
+msgid "Please de-activate and re-activate the plugin. If this problem persists, ask your administrator."
+msgstr ""
+
+#: wppa-admin.php:52
+msgid "Photo&thinsp;Albums"
+msgstr "Albums&thinsp;Photo"
+
+#: wppa-admin.php:55
+#, fuzzy
+msgid "Album Admin"
+msgstr "Album #"
+
+#: wppa-admin.php:56
+msgid "Upload Photos"
+msgstr "Upload Photos"
+
+#: wppa-admin.php:57
+#, fuzzy
+msgid "Import Photos"
+msgstr "Upload Photos"
+
+#: wppa-admin.php:58
+#: wppa-export.php:36
+#, fuzzy
+msgid "Export Photos"
+msgstr "Upload Photos"
+
+#: wppa-admin.php:59
+msgid "Settings"
+msgstr "Options"
+
+#: wppa-admin.php:60
+#, fuzzy
+msgid "Photo of the day Widget"
+msgstr "Photo du jour"
+
+#: wppa-admin.php:60
+msgid "Photo of the day"
+msgstr "Photo du jour"
+
+#: wppa-admin.php:61
+#, fuzzy
+msgid "Manage comments"
+msgstr "Gérer les photos"
+
+#: wppa-admin.php:61
+#, fuzzy
+msgid "Comments"
+msgstr "contenu"
+
+#: wppa-admin.php:62
+msgid "Help &amp; Info"
+msgstr "Aide &amp; Info"
+
+#: wppa-admin.php:99
+msgid "Import"
+msgstr ""
+
+#: wppa-admin.php:99
+msgid "Update"
+msgstr ""
+
+#: wppa-ajax.php:35
+msgid "An error occurred while processing you rating request."
+msgstr ""
+
+#: wppa-ajax.php:36
+msgid "You may refresh the page and try again."
+msgstr ""
+
+#: wppa-ajax.php:37
+msgid "Althoug an error occurred while processing your rating, your vote has been registered."
+msgstr ""
+
+#: wppa-ajax.php:38
+msgid "However, this may not be reflected in the current pageview"
+msgstr ""
+
+#: wppa-ajax.php:61
+msgid "Illegal attempt to enter a second vote."
+msgstr ""
+
+#: wppa-ajax.php:109
+msgid "Unexpected error"
+msgstr ""
+
+#: wppa-ajax.php:177
+msgid "You do not have the rights to delete a photo"
+msgstr ""
+
+#: wppa-ajax.php:194
+#, fuzzy, php-format
+msgid "Photo %s has been deleted"
+msgstr "Photo Supprimée."
+
+#: wppa-ajax.php:207
+msgid "You do not have the rights to update album information"
+msgstr ""
+
+#: wppa-ajax.php:219
+msgid "<b>Ratings cleared</b>"
+msgstr ""
+
+#: wppa-ajax.php:219
+#: wppa-album-admin-autosave.php:670
+msgid "No ratings for this photo."
+msgstr ""
+
+#: wppa-ajax.php:222
+msgid "An error occurred while clearing ratings"
+msgstr ""
+
+#: wppa-ajax.php:230
+#: wppa-ajax.php:336
+#: wppa-album-admin-autosave.php:437
+#: wppa-album-admin-autosave.php:548
+msgid "Description"
+msgstr "Description"
+
+#: wppa-ajax.php:232
+msgid "Unbalanced tags in album description!"
+msgstr ""
+
+#: wppa-ajax.php:237
+#, fuzzy
+msgid "Album order #"
+msgstr "Ordre Album:"
+
+#: wppa-ajax.php:240
+#, fuzzy
+msgid "Cover photo"
+msgstr "Photo de couverture:"
+
+#: wppa-ajax.php:243
+#, fuzzy
+msgid "Parent album"
+msgstr "Album parent:"
+
+#: wppa-ajax.php:246
+#, fuzzy
+msgid "Photo order"
+msgstr "Ordre des photos:"
+
+#: wppa-ajax.php:249
+#, fuzzy
+msgid "Link type"
+msgstr "Lien vers:"
+
+#: wppa-ajax.php:252
+msgid "Link to"
+msgstr "Lien vers"
+
+#: wppa-ajax.php:255
+#: wppa-ajax.php:346
+#: wppa-album-admin-autosave.php:448
+#: wppa-album-admin-autosave.php:559
+#, fuzzy
+msgid "Owner"
+msgstr "Ordre"
+
+#: wppa-ajax.php:263
+#, php-format
+msgid "<b>%s</b> of album %s updated"
+msgstr ""
+
+#: wppa-ajax.php:266
+#, php-format
+msgid "An error occurred while trying to update <b>%s</b> of album %s"
+msgstr ""
+
+#: wppa-ajax.php:267
+#: wppa-ajax.php:319
+#: wppa-ajax.php:369
+msgid "Press CTRL+F5 and try again."
+msgstr ""
+
+#: wppa-ajax.php:282
+msgid "You do not have the rights to update photo information"
+msgstr ""
+
+#: wppa-ajax.php:291
+#, fuzzy
+msgid "left"
+msgstr "Supprimer"
+
+#: wppa-ajax.php:291
+msgid "right"
+msgstr ""
+
+#: wppa-ajax.php:293
+#, fuzzy, php-format
+msgid "Photo %s rotated %s"
+msgstr "Ordre des photos:"
+
+#: wppa-ajax.php:296
+#, php-format
+msgid "An error occurred while trying to rotate photo %s"
+msgstr ""
+
+#: wppa-ajax.php:304
+#, php-format
+msgid "Photo %s has been moved to album %s (%s)"
+msgstr ""
+
+#: wppa-ajax.php:307
+#, php-format
+msgid "An error occurred while trying to move photo %s"
+msgstr ""
+
+#: wppa-ajax.php:315
+#, fuzzy, php-format
+msgid "Photo %s copied to album %s (%s)"
+msgstr "Photos uploadées dans l'album n°"
+
+#: wppa-ajax.php:318
+#, php-format
+msgid "An error occurred while trying to copy photo %s"
+msgstr ""
+
+#: wppa-ajax.php:338
+#: wppa-ajax.php:660
+msgid "Unbalanced tags in photo description!"
+msgstr ""
+
+#: wppa-ajax.php:343
+#, fuzzy
+msgid "Photo order #"
+msgstr "Ordre des photos:"
+
+#: wppa-ajax.php:349
+#, fuzzy
+msgid "Link url"
+msgstr "Lien vers:"
+
+#: wppa-ajax.php:352
+#, fuzzy
+msgid "Link title"
+msgstr "Lien vers:"
+
+#: wppa-ajax.php:355
+#, fuzzy
+msgid "Link target"
+msgstr "Lien vers:"
+
+#: wppa-ajax.php:358
+#: wppa-album-admin-autosave.php:233
+#: wppa-comment-admin.php:245
+#: wppa-comment-admin.php:301
+#, fuzzy
+msgid "Status"
+msgstr "Démarrer"
+
+#: wppa-ajax.php:365
+#, php-format
+msgid "<b>%s</b> of photo %s updated"
+msgstr ""
+
+#: wppa-ajax.php:368
+#, php-format
+msgid "An error occurred while trying to update <b>%s</b> of photo %s"
+msgstr ""
+
+#: wppa-ajax.php:387
+msgid "You do not have the rights to update settings"
+msgstr ""
+
+#: wppa-ajax.php:464
+msgid "Capability granted"
+msgstr ""
+
+#: wppa-ajax.php:469
+msgid "Capability withdrawn"
+msgstr ""
+
+#: wppa-ajax.php:480
+msgid "Column width."
+msgstr ""
+
+#: wppa-ajax.php:483
+msgid "Full size."
+msgstr "Taille réelle."
+
+#: wppa-ajax.php:486
+msgid "Max height."
+msgstr ""
+
+#: wppa-ajax.php:489
+msgid "Thumbnail size."
+msgstr "Taille de la vignette."
+
+#: wppa-ajax.php:492
+#, fuzzy
+msgid "Thumbnail frame width"
+msgstr "Chemin des vignettes invalide."
+
+#: wppa-ajax.php:495
+msgid "Thumbnail frame height"
+msgstr ""
+
+#: wppa-ajax.php:498
+#, fuzzy
+msgid "Thumbnail Spacing"
+msgstr "Taille vignette:"
+
+#: wppa-ajax.php:501
+msgid "Photocount treshold."
+msgstr "Seuil d'affichage."
+
+#: wppa-ajax.php:504
+#, fuzzy
+msgid "Thumb page size."
+msgstr "Taille de la vignette."
+
+#: wppa-ajax.php:507
+msgid "Cover photo size."
+msgstr "Taille de la photo de couverture."
+
+#: wppa-ajax.php:510
+#, fuzzy
+msgid "Album page size."
+msgstr "Album supprimé."
+
+#: wppa-ajax.php:513
+msgid "Number of TopTen photos"
+msgstr ""
+
+#: wppa-ajax.php:516
+#, fuzzy
+msgid "Widget image thumbnail size"
+msgstr "Taille de la vignette."
+
+#: wppa-ajax.php:519
+#, fuzzy
+msgid "Max Cover width"
+msgstr "ou comme ceci:"
+
+#: wppa-ajax.php:522
+msgid "Minimal Cover text frame height"
+msgstr ""
+
+#: wppa-ajax.php:525
+#, fuzzy
+msgid "Border width"
+msgstr "ou comme ceci:"
+
+#: wppa-ajax.php:528
+#, fuzzy
+msgid "Border radius"
+msgstr "ou comme ceci:"
+
+#: wppa-ajax.php:531
+msgid "Box spacing"
+msgstr ""
+
+#: wppa-ajax.php:537
+#, fuzzy
+msgid "Popup size"
+msgstr "Photo de couverture:"
+
+#: wppa-ajax.php:540
+#, fuzzy
+msgid "Fullsize border width"
+msgstr "Taille réelle."
+
+#: wppa-ajax.php:543
+#, fuzzy
+msgid "Lightbox Bordersize"
+msgstr "Ordre des photos:"
+
+#: wppa-ajax.php:546
+#, fuzzy
+msgid "Number of Comment widget entries"
+msgstr "Pas encore de photo."
+
+#: wppa-ajax.php:549
+#, fuzzy
+msgid "Comment Widget image thumbnail size"
+msgstr "Taille de la vignette."
+
+#: wppa-ajax.php:552
+#, fuzzy
+msgid "Ratings recalculated"
+msgstr "Attention:"
+
+#: wppa-ajax.php:555
+#: wppa-ajax.php:558
+#: wppa-ajax.php:561
+msgid "Opacity."
+msgstr ""
+
+#: wppa-ajax.php:564
+msgid "Filter priority"
+msgstr ""
+
+#: wppa-ajax.php:567
+#, fuzzy
+msgid "Avatar size"
+msgstr "Album supprimé."
+
+#: wppa-ajax.php:570
+#, fuzzy
+msgid "Watermark opacity"
+msgstr "Photo de couverture:"
+
+#: wppa-ajax.php:573
+#, fuzzy
+msgid "Number of text lines"
+msgstr "Pas encore de photo."
+
+#: wppa-ajax.php:576
+#, fuzzy
+msgid "Overlay opacity"
+msgstr "Photo de couverture:"
+
+#: wppa-ajax.php:584
+msgid "Ratings cleared"
+msgstr ""
+
+#: wppa-ajax.php:587
+#, fuzzy
+msgid "Could not clear ratings"
+msgstr "Impossible de créer l'album."
+
+#: wppa-ajax.php:597
+msgid "IPTC data cleared"
+msgstr ""
+
+#: wppa-ajax.php:598
+msgid "Refresh this page to clear table X"
+msgstr ""
+
+#: wppa-ajax.php:601
+#, fuzzy
+msgid "Could not clear IPTC data"
+msgstr "Impossible de créer l'album."
+
+#: wppa-ajax.php:611
+msgid "EXIF data cleared"
+msgstr ""
+
+#: wppa-ajax.php:612
+msgid "Refresh this page to clear table XI"
+msgstr ""
+
+#: wppa-ajax.php:615
+#, fuzzy
+msgid "Could not clear EXIF data"
+msgstr "Impossible de créer l'album."
+
+#: wppa-ajax.php:623
+msgid "Recuperation performed"
+msgstr ""
+
+#: wppa-ajax.php:677
+#, php-format
+msgid "Failed to set %s to %s"
+msgstr ""
+
+#: wppa-ajax.php:682
+#, php-format
+msgid "Setting %s updated to %s"
+msgstr ""
+
+#: wppa-ajax.php:689
+msgid "You just changed a setting that requires the regeneration of thumbnails."
+msgstr ""
+
+#: wppa-ajax.php:690
+msgid "This process will start as soon as you refresh or re-enter the settings page."
+msgstr ""
+
+#: wppa-ajax.php:731
+#: wppa-ajax.php:738
+msgid "You may also enter:"
+msgstr ""
+
+#: wppa-ajax.php:732
+#: wppa-ajax.php:739
+msgid "You may also leave/set this blank"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:29
+msgid "Warning:"
+msgstr "Attention:"
+
+#: wppa-album-admin-autosave.php:29
+#, fuzzy, php-format
+msgid "The uploads directory does not exist or is not writable by the server. Please make sure that %s is writeable by the server."
+msgstr "Le répertoire d'upload n'existe pas ou n'est pas accessible en écriture par le serveur. Veuillez vous assurez-vous que <tt>wp-content/uploads/</tt> est accessible en écriture par le serveur."
+
+#: wppa-album-admin-autosave.php:36
+#, fuzzy
+msgid "New Album"
+msgstr "Créer un nouvel album"
+
+#: wppa-album-admin-autosave.php:41
+#: wppa-album-admin-autosave.php:838
+msgid "Could not create album."
+msgstr "Impossible de créer l'album."
+
+#: wppa-album-admin-autosave.php:47
+#: wppa-album-admin-autosave.php:842
+msgid "Album #"
+msgstr "Album #"
+
+#: wppa-album-admin-autosave.php:47
+#: wppa-album-admin-autosave.php:842
+msgid "Added."
+msgstr "Ajouté."
+
+#: wppa-album-admin-autosave.php:61
+#, fuzzy
+msgid "Edit Album Information"
+msgstr "Modifier les informations de l'album"
+
+#: wppa-album-admin-autosave.php:61
+msgid "Auto Save"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:63
+msgid "In this version of the album admin page, all modifications are instantly updated on the server."
+msgstr ""
+
+#: wppa-album-admin-autosave.php:64
+msgid "Edit fields are updated the moment you click anywhere outside the edit box."
+msgstr ""
+
+#: wppa-album-admin-autosave.php:65
+msgid "Selections are updated instantly, except for those that require a button push."
+msgstr ""
+
+#: wppa-album-admin-autosave.php:66
+msgid "The status fields keep you informed on the actions taken at the background."
+msgstr ""
+
+#: wppa-album-admin-autosave.php:69
+msgid "Album number:"
+msgstr "Numéro Album:"
+
+#: wppa-album-admin-autosave.php:76
+#: wppa-album-admin-autosave.php:752
+msgid "Name:"
+msgstr "Nom:"
+
+#: wppa-album-admin-autosave.php:82
+msgid "Type the name of the album. Do not leave this empty."
+msgstr "Entrez le nom de l'album. Ne pas laisser ce champ vide."
+
+#: wppa-album-admin-autosave.php:88
+#: wppa-album-admin-autosave.php:762
+msgid "Description:"
+msgstr "Description:"
+
+#: wppa-album-admin-autosave.php:94
+msgid "Enter / modify the description for this album."
+msgstr "Entrez / modifiez la description de cet album."
+
+#: wppa-album-admin-autosave.php:101
+msgid "Owned by:"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:113
+msgid "WARNING If you change the owner, you will no longer be able to modify this album and upload or import photos to it!"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:122
+msgid "Sort order #:"
+msgstr "Ordre de tri #:"
+
+#: wppa-album-admin-autosave.php:130
+msgid "Album order # has only effect if you set the album sort order method to <b>Order #</b> in the Photo Albums -> Settings screen."
+msgstr ""
+
+#: wppa-album-admin-autosave.php:133
+msgid "If you want to sort the albums by order #, enter / modify the order number here."
+msgstr "Si vous souhaitez trier les albums par ordre #, entrer / modifier le numéro d'ordre ici."
+
+#: wppa-album-admin-autosave.php:139
+msgid "Parent album:"
+msgstr "Album parent:"
+
+#: wppa-album-admin-autosave.php:146
+msgid "If this is a sub album, select the album in which this album will appear."
+msgstr "S'il s'agit d'un sous-album, sélectionner l'album dans lequel cet album apparaît."
+
+#: wppa-album-admin-autosave.php:154
+msgid "Photo order:"
+msgstr "Ordre des photos:"
+
+#: wppa-album-admin-autosave.php:157
+msgid "--- default ---"
+msgstr "--- default ---"
+
+#: wppa-album-admin-autosave.php:157
+msgid "Rating"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:157
+msgid "Timestamp"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:161
+msgid "Specify the way the photos should be ordered in this album."
+msgstr "Spécifiez la manière dont les photos devraient être classés dans cet album."
+
+#: wppa-album-admin-autosave.php:162
+#, fuzzy
+msgid "The default setting can be changed in the Photo Albums -> Settings page."
+msgstr "Le réglage par défaut peut être modifié dans la page Options."
+
+#: wppa-album-admin-autosave.php:169
+msgid "Cover Photo:"
+msgstr "Photo de couverture:"
+
+#: wppa-album-admin-autosave.php:175
+msgid "Select the photo you want to appear on the cover of this album."
+msgstr "Sélectionnez la photo que vous souhaitez voir apparaître sur la couverture de cet album."
+
+#: wppa-album-admin-autosave.php:181
+#, fuzzy
+msgid "Link type:"
+msgstr "Lien vers:"
+
+#: wppa-album-admin-autosave.php:188
+msgid "the sub-albums and thumbnails"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:189
+msgid "the album photos as slideshow"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:190
+#, fuzzy
+msgid "no link at all"
+msgstr "--- aucun ---"
+
+#: wppa-album-admin-autosave.php:197
+msgid "Link to:"
+msgstr "Lien vers:"
+
+#: wppa-album-admin-autosave.php:203
+msgid "There are no pages (yet) to link to."
+msgstr "Il n'y a pas (encore) de page vers lesquelles pointer."
+
+#: wppa-album-admin-autosave.php:208
+#, fuzzy
+msgid "--- the same page or post ---"
+msgstr "--- separateur ---"
+
+#: wppa-album-admin-autosave.php:216
+#, fuzzy
+msgid "If you want, you can link the title to a WP page in stead of the album's content. If so, select the page the title links to."
+msgstr "Si vous le souhaitez, vous pouvez lier le titre et la photo de couverture à une page de WP au lieu du contenu de l'album. Si oui, sélectionnez la page vers laquelle la photo de couverture doit pointer."
+
+#: wppa-album-admin-autosave.php:225
+#, fuzzy
+msgid "Are you sure you want to clear the ratings in this album?"
+msgstr "Etes-vous sûr de vouloir supprimer cet album?"
+
+#: wppa-album-admin-autosave.php:225
+#, fuzzy
+msgid "Reset ratings"
+msgstr "Options"
+
+#: wppa-album-admin-autosave.php:236
+#, php-format
+msgid "Album %s is not modified yet"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:242
+msgid "Manage Photos"
+msgstr "Gérer les photos"
+
+#: wppa-album-admin-autosave.php:259
+msgid "Delete Album"
+msgstr "Supprimer Album"
+
+#: wppa-album-admin-autosave.php:261
+msgid "Album:"
+msgstr "Album:"
+
+#: wppa-album-admin-autosave.php:262
+msgid "Are you sure you want to delete this album?"
+msgstr "Etes-vous sûr de vouloir supprimer cet album?"
+
+#: wppa-album-admin-autosave.php:263
+msgid "Press Delete to continue, and Cancel to go back."
+msgstr "Appuyez sur Supprimer pour continuer, ou Annuler pour revenir en arrière."
+
+#: wppa-album-admin-autosave.php:268
+msgid "What would you like to do with photos currently in the album?"
+msgstr "Que voulez-vous faire avec les photos actuellement dans l'album?"
+
+#: wppa-album-admin-autosave.php:269
+#: wppa-album-admin-autosave.php:279
+#: wppa-album-admin-autosave.php:481
+#: wppa-album-admin-autosave.php:514
+#: wppa-album-admin-autosave.php:592
+#: wppa-comment-admin.php:247
+#: wppa-comment-admin.php:286
+#: wppa-comment-admin.php:303
+msgid "Delete"
+msgstr "Supprimer"
+
+#: wppa-album-admin-autosave.php:270
+msgid "Move to:"
+msgstr "Déplacer vers:"
+
+#: wppa-album-admin-autosave.php:272
+#, fuzzy
+msgid "- select an album -"
+msgstr "albums"
+
+#: wppa-album-admin-autosave.php:278
+msgid "Cancel"
+msgstr "Annuler"
+
+#: wppa-album-admin-autosave.php:304
+msgid "Unable to move photos. Album not deleted."
+msgstr ""
+
+#: wppa-album-admin-autosave.php:320
+msgid "Manage Albums"
+msgstr "Gérer Albums"
+
+#: wppa-album-admin-autosave.php:324
+#, fuzzy
+msgid "Are you sure you want to create a new album?"
+msgstr "Etes-vous sûr de vouloir supprimer cet album?"
+
+#: wppa-album-admin-autosave.php:325
+#, fuzzy
+msgid "Create New Empty Album"
+msgstr "Créer un nouvel album"
+
+#: wppa-album-admin-autosave.php:417
+#: wppa-album-admin-autosave.php:528
+msgid "ID"
+msgstr "ID"
+
+#: wppa-album-admin-autosave.php:459
+#: wppa-album-admin-autosave.php:570
+msgid "Order"
+msgstr "Ordre"
+
+#: wppa-album-admin-autosave.php:469
+#: wppa-album-admin-autosave.php:580
+msgid "Parent"
+msgstr "Parent"
+
+#: wppa-album-admin-autosave.php:477
+#: wppa-album-admin-autosave.php:588
+msgid "Albums/Photos/Photos that need Moderation"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:478
+#: wppa-album-admin-autosave.php:589
+msgid "A/P/PM"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:480
+#: wppa-album-admin-autosave.php:510
+#: wppa-album-admin-autosave.php:591
+#: wppa-comment-admin.php:246
+#: wppa-comment-admin.php:285
+#: wppa-comment-admin.php:302
+msgid "Edit"
+msgstr "Modifier"
+
+#: wppa-album-admin-autosave.php:601
+msgid "No albums yet."
+msgstr "Pas encore d'album."
+
+#: wppa-album-admin-autosave.php:615
+msgid "No photos yet in this album."
+msgstr "Pas encore de photos dans cet album."
+
+#: wppa-album-admin-autosave.php:630
+msgid "Preview:"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:633
+#: wppa-album-admin-autosave.php:636
+#, fuzzy
+msgid "Are you sure you want to rotate this photo?"
+msgstr "Etes-vous sûr de vouloir supprimer cet album?"
+
+#: wppa-album-admin-autosave.php:633
+msgid "Rotate left"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:636
+msgid "Rotate right"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:640
+msgid "If it says 'Photo rotated', the photo is rotated. If you do not see it happen here, clear your browser cache."
+msgstr ""
+
+#: wppa-album-admin-autosave.php:651
+#, fuzzy
+msgid "Upload:"
+msgstr "Upload Photos"
+
+#: wppa-album-admin-autosave.php:655
+msgid "On:"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:655
+msgid "By:"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:661
+#, fuzzy
+msgid "Rating:"
+msgstr "Attention:"
+
+#: wppa-album-admin-autosave.php:667
+msgid "Entries:"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:667
+msgid "Mean value:"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:678
+#, fuzzy
+msgid "Photo order #:"
+msgstr "Ordre des photos:"
+
+#: wppa-album-admin-autosave.php:687
+#, fuzzy
+msgid "Are you sure you want to move this photo?"
+msgstr "Etes-vous sûr de vouloir supprimer cet album?"
+
+#: wppa-album-admin-autosave.php:687
+msgid "Please select an album to move the photo to first."
+msgstr ""
+
+#: wppa-album-admin-autosave.php:687
+#, fuzzy
+msgid "Move photo to"
+msgstr "Pas encore de photo."
+
+#: wppa-album-admin-autosave.php:696
+#, fuzzy
+msgid "Are you sure you want to copy this photo?"
+msgstr "Etes-vous sûr de vouloir supprimer cet album?"
+
+#: wppa-album-admin-autosave.php:696
+msgid "Please select an album to copy the photo to first."
+msgstr ""
+
+#: wppa-album-admin-autosave.php:696
+#, fuzzy
+msgid "Copy photo to"
+msgstr "Pas encore de photo."
+
+#: wppa-album-admin-autosave.php:705
+#, fuzzy
+msgid "Are you sure you want to delete this photo?"
+msgstr "Etes-vous sûr de vouloir supprimer cet album?"
+
+#: wppa-album-admin-autosave.php:705
+#, fuzzy
+msgid "Delete photo"
+msgstr "Supprimer"
+
+#: wppa-album-admin-autosave.php:711
+msgid ""
+"Insert code for single image in Page or Post:\\n"
+"You may change the size if you like."
+msgstr ""
+
+#: wppa-album-admin-autosave.php:711
+msgid "Insertion Code"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:717
+#, fuzzy
+msgid "Link url:"
+msgstr "Lien vers:"
+
+#: wppa-album-admin-autosave.php:722
+#, fuzzy
+msgid "Same tab"
+msgstr "Créer un nouvel album"
+
+#: wppa-album-admin-autosave.php:723
+#, fuzzy
+msgid "New tab"
+msgstr "Créer un nouvel album"
+
+#: wppa-album-admin-autosave.php:730
+#, fuzzy
+msgid "Link title:"
+msgstr "Lien vers:"
+
+#: wppa-album-admin-autosave.php:741
+msgid "If you want this link to be used, check 'PS Overrule' checkbox in table VI of the Photo Albums -> Settings admin page."
+msgstr ""
+
+#: wppa-album-admin-autosave.php:756
+msgid "Type/alter the name of the photo. It is NOT a filename and needs no file extension like .jpg."
+msgstr ""
+
+#: wppa-album-admin-autosave.php:771
+#, fuzzy
+msgid "Status:"
+msgstr "Démarrer"
+
+#: wppa-album-admin-autosave.php:775
+#: wppa-comment-admin.php:277
+#, fuzzy
+msgid "Pending"
+msgstr "Descendant:"
+
+#: wppa-album-admin-autosave.php:776
+msgid "Publish"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:777
+#, fuzzy
+msgid "Featured"
+msgstr "Caractéristiques:"
+
+#: wppa-album-admin-autosave.php:779
+msgid "Note: Featured photos should have a descriptive name; a name a search engine will look for!"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:786
+msgid "Remark:"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:789
+#, php-format
+msgid "Photo %s is not modified yet"
+msgstr ""
+
+#: wppa-album-admin-autosave.php:845
+msgid "Album Name cannot be empty."
+msgstr "Le nom de l'album ne peut pas être vide."
+
+#: wppa-album-admin-autosave.php:853
+#, php-format
+msgid "Unable to move photos to album %s. Album not deleted."
+msgstr ""
+
+#: wppa-album-admin-autosave.php:888
+msgid "Album Deleted."
+msgstr "Album supprimé."
+
+#: wppa-album-admin-autosave.php:901
+msgid "--- random ---"
+msgstr "--- aléatoire ---"
+
+#: wppa-album-admin-autosave.php:915
+msgid "No photos yet"
+msgstr "Pas encore de photo."
+
+#: wppa-comment-admin.php:28
+#, fuzzy
+msgid "WP Photo Album Plus Edit Comment"
+msgstr "Options de WP Photo Album Plus"
+
+#: wppa-comment-admin.php:47
+#, fuzzy
+msgid "Photo:"
+msgstr "Ordre des photos:"
+
+#: wppa-comment-admin.php:51
+msgid "User:"
+msgstr ""
+
+#: wppa-comment-admin.php:55
+msgid "Email:"
+msgstr ""
+
+#: wppa-comment-admin.php:59
+msgid "Comment:"
+msgstr ""
+
+#: wppa-comment-admin.php:65
+#: wppa-comment-admin.php:354
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: wppa-comment-admin.php:106
+#: wppa-comment-admin.php:114
+#: wppa-comment-admin.php:122
+#, fuzzy
+msgid "Could not bulk update status"
+msgstr "Impossible d'uploader la photo."
+
+#: wppa-comment-admin.php:129
+msgid "Changes Saved"
+msgstr "Modifications enregistrées."
+
+#: wppa-comment-admin.php:140
+#, fuzzy
+msgid "WP Photo Album Plus Comment admin"
+msgstr "Options de WP Photo Album Plus"
+
+#: wppa-comment-admin.php:142
+msgid "<h3>The Comment system is not activated</h3><p>To activate: check Table II item 18 on the <b>Photo Albums -> Settings</b> screen and press <b>Save Changes</b>"
+msgstr ""
+
+#: wppa-comment-admin.php:147
+#, fuzzy
+msgid "Total:"
+msgstr "Sous-titre:"
+
+#: wppa-comment-admin.php:151
+msgid "Approved:"
+msgstr ""
+
+#: wppa-comment-admin.php:155
+#, fuzzy
+msgid "Pending:"
+msgstr "Descendant:"
+
+#: wppa-comment-admin.php:159
+#, fuzzy
+msgid "Spam:"
+msgstr "Nom:"
+
+#: wppa-comment-admin.php:164
+#, fuzzy
+msgid "Auto deleted spam:"
+msgstr "Supprimer Album"
+
+#: wppa-comment-admin.php:174
+#, fuzzy
+msgid "Linkpage:"
+msgstr "Lien vers:"
+
+#: wppa-comment-admin.php:176
+#, fuzzy
+msgid "--- Please select a page ---"
+msgstr "--- separateur ---"
+
+#: wppa-comment-admin.php:190
+msgid "You can see the photo and all its comments on the selected page by clicking on the thumbnail image"
+msgstr ""
+
+#: wppa-comment-admin.php:193
+#, fuzzy
+msgid "Display status:"
+msgstr "Méthode d'affichage:"
+
+#: wppa-comment-admin.php:195
+msgid "all"
+msgstr ""
+
+#: wppa-comment-admin.php:196
+#, fuzzy
+msgid "pending"
+msgstr "Descendant:"
+
+#: wppa-comment-admin.php:197
+msgid "approved"
+msgstr ""
+
+#: wppa-comment-admin.php:198
+msgid "spam"
+msgstr ""
+
+#: wppa-comment-admin.php:201
+#, fuzzy
+msgid "Display order:"
+msgstr "Méthode d'affichage:"
+
+#: wppa-comment-admin.php:203
+msgid "timestamp"
+msgstr ""
+
+#: wppa-comment-admin.php:204
+#, fuzzy
+msgid "photo"
+msgstr "Upload Photos"
+
+#: wppa-comment-admin.php:206
+#, fuzzy
+msgid "Bulk action:"
+msgstr "Description:"
+
+#: wppa-comment-admin.php:209
+msgid "Approve all pending"
+msgstr ""
+
+#: wppa-comment-admin.php:210
+msgid "Move all pending to spam"
+msgstr ""
+
+#: wppa-comment-admin.php:211
+#, fuzzy
+msgid "Delete all spam"
+msgstr "Supprimer Album"
+
+#: wppa-comment-admin.php:238
+#: wppa-comment-admin.php:294
+#, fuzzy
+msgid "Photo"
+msgstr "Upload Photos"
+
+#: wppa-comment-admin.php:239
+#: wppa-comment-admin.php:295
+msgid "#"
+msgstr ""
+
+#: wppa-comment-admin.php:240
+#: wppa-comment-admin.php:296
+msgid "IP"
+msgstr ""
+
+#: wppa-comment-admin.php:241
+#: wppa-comment-admin.php:297
+#, fuzzy
+msgid "User"
+msgstr "Accélérer"
+
+#: wppa-comment-admin.php:242
+#: wppa-comment-admin.php:298
+msgid "Email"
+msgstr ""
+
+#: wppa-comment-admin.php:243
+#: wppa-comment-admin.php:299
+msgid "Time since"
+msgstr ""
+
+#: wppa-comment-admin.php:244
+#: wppa-comment-admin.php:300
+msgid "Comment"
+msgstr ""
+
+#: wppa-comment-admin.php:267
+msgid "Click to see the fullsize photo and all comments"
+msgstr ""
+
+#: wppa-comment-admin.php:278
+msgid "Approved"
+msgstr ""
+
+#: wppa-comment-admin.php:279
+msgid "Spam"
+msgstr ""
+
+#: wppa-comment-admin.php:286
+#, fuzzy
+msgid "Are you sure you want to delete this comment?"
+msgstr "Etes-vous sûr de vouloir supprimer cet album?"
+
+#: wppa-comment-admin.php:340
+#: wppa-comment-admin.php:346
+msgid "Unable to update comment. Err ="
+msgstr ""
+
+#: wppa-comment-admin.php:365
+#, fuzzy
+msgid "Prev page"
+msgstr "photos"
+
+#: wppa-comment-admin.php:378
+#, fuzzy
+msgid "Next page"
+msgstr "photos"
+
+#: wppa-comment-widget.php:13
+msgid "WPPA+ Comments on Photos"
+msgstr ""
+
+#: wppa-comment-widget.php:14
+#: wppa-comment-widget.php:103
+#, fuzzy
+msgid "Comments on Photos"
+msgstr "contenu"
+
+#: wppa-comment-widget.php:105
+#: wppa-gp-widget.php:64
+#, fuzzy
+msgid "Title:"
+msgstr "Sous-titre:"
+
+#: wppa-comment-widget.php:106
+msgid "You can set the behaviour of this widget in the <b>Photo Albums -> Settings</b> admin page."
+msgstr ""
+
+#: wppa-common-functions.php:755
+msgid "1 second"
+msgstr ""
+
+#: wppa-common-functions.php:756
+msgid "seconds"
+msgstr ""
+
+#: wppa-common-functions.php:760
+msgid "1 minute"
+msgstr ""
+
+#: wppa-common-functions.php:761
+msgid "minutes"
+msgstr ""
+
+#: wppa-common-functions.php:765
+#, fuzzy
+msgid "1 hour"
+msgstr "heure."
+
+#: wppa-common-functions.php:766
+#, fuzzy
+msgid "hours"
+msgstr "heure."
+
+#: wppa-common-functions.php:770
+#, fuzzy
+msgid "1 day"
+msgstr "jour."
+
+#: wppa-common-functions.php:771
+#, fuzzy
+msgid "days"
+msgstr "jour."
+
+#: wppa-common-functions.php:775
+#, fuzzy
+msgid "1 week"
+msgstr "semaine."
+
+#: wppa-common-functions.php:776
+#, fuzzy
+msgid "weeks"
+msgstr "semaine."
+
+#: wppa-common-functions.php:780
+msgid "1 month"
+msgstr ""
+
+#: wppa-common-functions.php:781
+msgid "months"
+msgstr ""
+
+#: wppa-common-functions.php:784
+msgid "1 year"
+msgstr ""
+
+#: wppa-common-functions.php:785
+msgid "years"
+msgstr ""
+
+#: wppa-common-functions.php:987
+#: wppa-common-functions.php:988
+msgid "ERROR: Resized or copied image could not be created."
+msgstr ""
+
+#: wppa-common-functions.php:1006
+#: wppa-common-functions.php:1007
+#, php-format
+msgid "ERROR: File %s is not a valid picture file."
+msgstr ""
+
+#: wppa-common-functions.php:1381
+msgid "top - left"
+msgstr ""
+
+#: wppa-common-functions.php:1381
+#, fuzzy
+msgid "top - center"
+msgstr "milieu"
+
+#: wppa-common-functions.php:1381
+msgid "top - right"
+msgstr ""
+
+#: wppa-common-functions.php:1382
+#, fuzzy
+msgid "center - left"
+msgstr "milieu"
+
+#: wppa-common-functions.php:1382
+msgid "center - center"
+msgstr ""
+
+#: wppa-common-functions.php:1382
+#, fuzzy
+msgid "center - right"
+msgstr "milieu"
+
+#: wppa-common-functions.php:1383
+#, fuzzy
+msgid "bottom - left"
+msgstr "bas"
+
+#: wppa-common-functions.php:1383
+msgid "bottom - center"
+msgstr ""
+
+#: wppa-common-functions.php:1383
+#, fuzzy
+msgid "bottom - right"
+msgstr "bas"
+
+#: wppa-export.php:40
+#, php-format
+msgid "Photos will be exported to: <b>%s</b>."
+msgstr ""
+
+#: wppa-export.php:41
+msgid "Export photos from album <span style=\"font-size:12px;\">(Including Album information)</span>:"
+msgstr ""
+
+#: wppa-export.php:70
+msgid "Export"
+msgstr ""
+
+#: wppa-export.php:85
+msgid "Exporting...<br/>"
+msgstr ""
+
+#: wppa-export.php:94
+msgid "ok, <br/>Filling"
+msgstr ""
+
+#: wppa-export.php:96
+msgid "failed<br/>"
+msgstr ""
+
+#: wppa-export.php:102
+msgid "Can export albums and photos, but cannot make a zipfile. Your php version is < 5.2.7."
+msgstr ""
+
+#: wppa-export.php:103
+msgid "Can export albums and photos, but cannot make a zipfile. Your php version does not support ZipArchive."
+msgstr ""
+
+#: wppa-export.php:113
+msgid "<br/>Processing album"
+msgstr ""
+
+#: wppa-export.php:133
+msgid "done."
+msgstr ""
+
+#: wppa-export.php:133
+msgid "photos processed."
+msgstr ""
+
+#: wppa-export.php:137
+msgid "<br/>Done export albums."
+msgstr ""
+
+#: wppa-export.php:140
+msgid "Nothing to export"
+msgstr ""
+
+#: wppa-export.php:144
+msgid "<br/>Closing zip."
+msgstr ""
+
+#: wppa-export.php:145
+msgid "<br/>Deleting temp files."
+msgstr ""
+
+#: wppa-export.php:154
+msgid "<br/>Done!"
+msgstr ""
+
+#: wppa-export.php:187
+#: wppa-export.php:240
+#, php-format
+msgid "Cannot write to file %s."
+msgstr ""
+
+#: wppa-export.php:201
+#, fuzzy
+msgid "Could not open album output file."
+msgstr "Impossible de créer l'album."
+
+#: wppa-export.php:206
+#, fuzzy
+msgid "Could not read album data."
+msgstr "Impossible de créer l'album."
+
+#: wppa-export.php:254
+#, fuzzy
+msgid "Could not open photo output file."
+msgstr "Impossible d'uploader la photo."
+
+#: wppa-export.php:259
+#, fuzzy
+msgid "Could not read photo data."
+msgstr "Impossible d'uploader la photo."
+
+#: wppa-functions.php:139
+#, fuzzy
+msgid "All albums"
+msgstr "albums"
+
+#: wppa-functions.php:4281
+#, fuzzy
+msgid "Photo successfully uploaded."
+msgstr "Photo Supprimée."
+
+#: wppa-functions.php:4282
+#, fuzzy, php-format
+msgid "%s photos successfully uploaded."
+msgstr "Photo Supprimée."
+
+#: wppa-functions.php:4284
+#, fuzzy
+msgid "Upload failed"
+msgstr "Upload Photos"
+
+#: wppa-functions.php:4325
+#, fuzzy
+msgid "Could not insert photo into db."
+msgstr "Impossible d'uploader la photo."
+
+#: wppa-gp-widget.php:16
+msgid "WPPA+ General purpose widget"
+msgstr ""
+
+#: wppa-gp-widget.php:18
+msgid "WPPA+ Text"
+msgstr ""
+
+#: wppa-gp-widget.php:66
+#, php-format
+msgid "Enter the content just like a normal text widget. This widget will interprete %%wppa%% script commands."
+msgstr ""
+
+#: wppa-gp-widget.php:67
+#, php-format
+msgid "Don't forget %%%%size=%s%%%%"
+msgstr ""
+
+#: wppa-gp-widget.php:71
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: wppa-help.php:21
+msgid "Help and Information"
+msgstr "Aide et information"
+
+#: wppa-help.php:23
+msgid "Plugin Description"
+msgstr "Description du plugin"
+
+#: wppa-help.php:24
+msgid "This plugin is designed to easily manage and display your photo albums within your WordPress site."
+msgstr "Ce plugin est conçu pour facilement gérer et afficher vos albums photos sur votre site WordPress."
+
+#: wppa-help.php:25
+msgid "Features:"
+msgstr "Caractéristiques:"
+
+#: wppa-help.php:27
+msgid "You can create various albums that contain photos as well as sub albums at the same time."
+msgstr "Vous pouvez créer des albums différents qui contiennent des photos ainsi que des albums sous en même temps."
+
+#: wppa-help.php:28
+msgid "There is no limitation to the number of albums and photos."
+msgstr "Il n'y a aucune limite au nombre d'albums et de photos."
+
+#: wppa-help.php:29
+msgid "There is no limitation to the nesting depth of sub-albums."
+msgstr "Il n'y a pas de limitation dans la profondeur d'imbrication des sous-albums."
+
+#: wppa-help.php:30
+msgid "You have full control over the display sizes of the photos."
+msgstr "Vous avez le plein contrôle sur la taille d'affichage des photos."
+
+#: wppa-help.php:31
+msgid "You can specify the way the albums are ordered."
+msgstr "Vous pouvez spécifier la manière dont les albums sont ordonnés."
+
+#: wppa-help.php:32
+msgid "You can specify the way the photos are ordered within the albums, both on a system-wide as well as an per album basis."
+msgstr "Vous pouvez spécifier la manière dont les photos sont classés dans les albums, les deux sur une échelle du système ainsi que sur une base par album."
+
+#: wppa-help.php:33
+msgid "The visitor of your site can run a slideshow from the photos in an album by a single mouseclick."
+msgstr "Le visiteur de votre site peut lancer un diaporama de photos dans un album via un simple clic de souris."
+
+#: wppa-help.php:34
+msgid "The visitor can see an overview of thumbnail images of the photos in album."
+msgstr "Le visiteur peut voir un aperçu des vignettes des photos dans l'album."
+
+#: wppa-help.php:35
+msgid "The visitor can browse through the photos in each album you decide to publish."
+msgstr "Le visiteur peut parcourir les photos dans chaque album que vous avez décidé de publier."
+
+#: wppa-help.php:36
+msgid "You can add a Sidebar Widget that displays a photo which can be changed every hour, day or week."
+msgstr "Vous pouvez ajouter un widget qui affiche une barre latérale avec des photos qui peuvent être changées à chaque heure, jour ou semaine...."
+
+#: wppa-help.php:37
+msgid "You can add a Sidebar Search Widget that enables the visitor to search for albums and photos with certan words in the name or description."
+msgstr ""
+
+#: wppa-help.php:40
+msgid "Plugin Admin Features"
+msgstr "Caractéristiques d'administration du plugin"
+
+#: wppa-help.php:41
+msgid "You can find the plugin admin section under Menu Photo Albums on the admin screen."
+msgstr "Vous pouvez trouver la section d'administration du plugin dans un menu spécifique : \"Albums photo\"."
+
+#: wppa-help.php:42
+msgid "The following submenus exist."
+msgstr "Les sous-menus suivants existent."
+
+#: wppa-help.php:44
+msgid "Photo Albums: Create and manage Albums."
+msgstr "Albums Photo: Créer et gérer des albums."
+
+#: wppa-help.php:45
+msgid "Upload photos: To upload photos to an album you created."
+msgstr "Upload photos: Pour uploader vos photos dans un album que vous avez créé."
+
+#: wppa-help.php:46
+msgid "Import photos: To bulk import photos that have been uploaded by an ftp program."
+msgstr ""
+
+#: wppa-help.php:47
+msgid "Settings: To control the various settings to customize your needs."
+msgstr "Options: Pour contrôler les différentes options afin de personnaliser vos besoins."
+
+#: wppa-help.php:48
+msgid "Sidebar Widget: To specify the behaviour for an optional sidebar widget."
+msgstr "Widget: Pour spécifier le comportement du widget en option."
+
+#: wppa-help.php:49
+msgid "Help & Info: The screen you are watching now."
+msgstr "Aide & Info: L'écran que vous êtes en train de lire."
+
+#: wppa-help.php:52
+msgid "Installation"
+msgstr "Installation"
+
+#: wppa-help.php:54
+msgid "You can install the plugin via the standard WP plugins admin page."
+msgstr ""
+
+#: wppa-help.php:55
+msgid "If you want to do it manually, follow the next steps:"
+msgstr ""
+
+#: wppa-help.php:58
+msgid "Unzip and upload the wppa plugin folder to"
+msgstr "Dezipper and uploader le dossier du plugin wppa vers"
+
+#: wppa-help.php:59
+msgid "Make sure that the folder"
+msgstr "Soyez sûr que le dossier"
+
+#: wppa-help.php:59
+msgid "exists and is writable by the server (CHMOD 755)"
+msgstr "existe et est accessible en écriture par le serveur (CHMOD 755)"
+
+#: wppa-help.php:60
+msgid "Activate the plugin in WP Admin -> Plugins."
+msgstr "Activer le plugin dans l'administration WP -> Extensions."
+
+#: wppa-help.php:63
+#, fuzzy
+msgid "Upgrading WP Photo Album Plus"
+msgstr "Mettre à jour depuis WP Photo Album"
+
+#: wppa-help.php:64
+#, fuzzy
+msgid "When upgrading WP Photo Album Plus be aware of:"
+msgstr "Lorsque vous passez de WP Album Photo à WP Album Photo Plus, lisez attentivement ceci:"
+
+#: wppa-help.php:66
+msgid "The revision number consists of 3 parts, Major, minor and fix revision. The current version is:"
+msgstr ""
+
+#: wppa-help.php:67
+msgid "When an update implies a major or minor version change and you have copied wppa_theme.php or wppa_style.css to your themes directory, you will have to remove them and make new copies and/or alterations if that should still be needed."
+msgstr ""
+
+#: wppa-help.php:68
+msgid "You will get a one-time reminder after upgrading, the first time you open a wppa admin page."
+msgstr ""
+
+#: wppa-help.php:71
+msgid "How to start"
+msgstr "Comment démarrer"
+
+#: wppa-help.php:73
+msgid "Install WP Photo ALbum Plus as described above under \"Installation\"."
+msgstr "Installer WP Photo ALbum Plus comme décrit au dessous de \"Installation\"."
+
+#: wppa-help.php:74
+msgid "Create at least two albums in the \"Photo Albums\" tab. Just enter the name and a brief description and press \"Create Album\". Leave \"Parent\" at \"--- none ---\"."
+msgstr "Créer au moins deux albums dans l'onglet \"Albums photos\". Il suffit d'entrer le nom et une brève description puis d'appuyez sur \"Créer Album\". Laissez \" Parent\" à \" --- aucun ---\"."
+
+#: wppa-help.php:75
+msgid "In the uploads tab, you can now upload you photots. Upload at least 2 photos to each album. Make sure the photos you are uploading are of reasonable size (say up to 1024x768 pixels). Do not upload the full 7MP images!"
+msgstr "Dans l'onglet d'upload, vous pouvez maintenant uploader vous photos. Uploadez au moins 2 photos à chaque album. Assurez-vous que les photos que vous uploadez sont de taille raisonnable (disons jusqu'à 1024x768 pixels). Ne pas uploader des images 7 MPixels!"
+
+#: wppa-help.php:76
+msgid "Create a new WP Page, name it something like \"Photo Gallery\" and put in the content:"
+msgstr "Créer une nouvelle page WP, nommez-la avec quelque chose comme \"Gallerie Photo\" and placez ceci dans le contenu:"
+
+#: wppa-help.php:77
+msgid "Publish the page, and view the page from your WP site."
+msgstr "Publiez la page, et visualisez la page depuis votre site WP."
+
+#: wppa-help.php:78
+msgid "Now, go playing with the settings in the \"Settings\" panel, discover all the configurable options and watch what is happening when you re-open the \"Photo Gallery\" page."
+msgstr "Maintenant, allez jouer avec les options du menu \"Options\", découvrez toutes les options configurables et regarder ce qui se passe lorsque vous ré-ouvrez la page \"Gallerie Photo\"."
+
+#: wppa-help.php:79
+msgid "If you want a \"Photo of the week\" sidebar widget you can use an album for that purpose. See all the options in the \"Sidebar Widget\" submenu."
+msgstr "Si vous voulez mettre une \"Photo de la semaine\" dans votre barre latérale, vous pouvez utiliser un album à cette fin. Voir toutes les options dans le sous-menu \"Widget\"."
+
+#: wppa-help.php:82
+msgid "Creating a Photo Album Page or a Post with photos - Advanced"
+msgstr "Créer une page Album Photo ou un article avec des photos - Avancé"
+
+#: wppa-help.php:84
+msgid "Create a page like you normally would in WordPress, using the \"Default Template\". In my example, give it the page title of \"Photo Gallery\". In the Page Content section add the following code:"
+msgstr "Créer une page comme vous le feriez normalement dans WordPress, en utilisant le \"Modèle par défaut\". Pour mon exemple, donnez-lui le titre de la page de la \"Gallerie Photo\". Dans la section de contenu de la page ajoutez le code suivant:"
+
+#: wppa-help.php:86
+msgid "This will result in a gallery of all Albums that have their parent set to \"--- none ---\"."
+msgstr "Cela se traduira par une galerie de tous les albums qui ont leurs parents réglé sur \" --- aucun ---\"."
+
+#: wppa-help.php:87
+msgid "If you want to display a single album - say album number 19 - in a WP page or WP post (they act exactly the same), add a second line like this:"
+msgstr "Si vous souhaitez afficher un seul album - par exemple l'album n° 19 - dans une page WP ou dans un article WP (ils agissent exactement de la même manière), ajouter une deuxième ligne comme ceci:"
+
+#: wppa-help.php:89
+#, fuzzy
+msgid "This will result in the display of the <b>contents</b> of album nr 19."
+msgstr "Cela se traduira par l'affichage du"
+
+#: wppa-help.php:90
+#, fuzzy, php-format
+msgid "If you want to display the <b>cover</b> of the album, i.e. like one of the albums in the \"Photo Gallery\" as used above, add (instead of \"%%album=...\") a second line like this:"
+msgstr "de l'album, c'est à dire comme l'un des albums dans la \"Gallerie Photo\" utilisé ci-dessus, ajoutez (au lieu de \"%%album=...\"), une deuxième ligne comme ceci:"
+
+#: wppa-help.php:92
+#, fuzzy
+msgid "If you want to display the <b>slideshow</b> directly, use:"
+msgstr "Si vous souhaitez affiche la"
+
+#: wppa-help.php:94
+msgid "You can add a third line if you want the photos to be displayed at a different size than normal. You can \"overrule\" the \"Full size\" setting by adding the line (for e.g. 300px):"
+msgstr "Vous pouvez ajouter une troisième ligne si vous voulez que les photos qui seront exposées aient une taille différente de la normale. Vous pouvez \"annuler\" le paramètre \"Taille réelle\" en ajoutant la ligne (pour par exemple 300px):"
+
+#: wppa-help.php:96
+#, php-format
+msgid "Note: all information between the %% tags including newlines will be lost."
+msgstr "Note: toutes les informations entre les balises %% (y compris les nouvelles lignes) seront perdues."
+
+#: wppa-help.php:97
+msgid "The sequence above may be used more than once in a single page or post."
+msgstr "La séquence ci-dessus peut être utilisée plusieurs fois dans une seule page ou un seul article."
+
+#: wppa-help.php:98
+msgid "The text before the first sequence, the text between 2 sequences, as well as the text after the last sequence will be preserved."
+msgstr "Le texte avant la première séquence, le texte entre 2 séquences, ainsi que le texte après la dernière séquence sera conservé."
+
+#: wppa-help.php:100
+msgid "You can also create a custom page template by dropping the following code into a page template:"
+msgstr "Vous pouvez également créer une page template personnalisée en plaçant le code suivant dans un modèle de page:"
+
+#: wppa-help.php:102
+msgid "If you want to display the <b>contents</b> of a single album in the template - say album number 19 - the code would be:"
+msgstr "Si vous souhaitez afficher le <b>contenu</b> d'un seul album dans le modèle - disons l'album n° 19 - le code devrait être:"
+
+#: wppa-help.php:104
+#, fuzzy
+msgid "If you want the <b>cover</b> to be displayed instead, use the following code:"
+msgstr "Si vous souhaitez que la <b>couverture</b> soit affichée à la place, ajoutez le code suivant:"
+
+#: wppa-help.php:106
+msgid "And to display the <b>slideshow</b> it would be:"
+msgstr ""
+
+#: wppa-help.php:108
+#, fuzzy
+msgid "If you want to specify a size, add another argument:"
+msgstr "Si vous souhaitez spécifier une taille, ajoutez le code suivant:"
+
+#: wppa-help.php:110
+msgid "For more information on usable php routines see the <a href=\"http://wppa.opajaap.nl/\">Docs & Demos</a> website."
+msgstr ""
+
+#: wppa-help.php:111
+#, fuzzy
+msgid "In order to work properly, the wppa_albums() tag needs to be within the <a href=\"http://codex.wordpress.org/The_Loop\" target=\"_blank\">WordPress loop</a>."
+msgstr "Pour fonctionner correctement, la balise wppa_albums() doit être dans le"
+
+#: wppa-help.php:112
+msgid "For more information on creating custom page templates, click"
+msgstr "Pour plus d'informations sur la création de pages de modèles personnalisés, cliquez sur"
+
+#: wppa-help.php:112
+msgid "here"
+msgstr "ici"
+
+#: wppa-help.php:115
+msgid "Adjusting CSS and Template Styling"
+msgstr "Réglage des CSS et des modèles de styles (Templates)"
+
+#: wppa-help.php:117
+msgid "WP Photo Album Plus comes with a default layout and theme."
+msgstr "WP Photo Album Plus est livré avec une mise en page par défaut et un thème."
+
+#: wppa-help.php:118
+msgid "To change the style and layout of the photo album, copy <tt>.../wp-content/plugins/wp-photo-album-plus/theme/wppa_theme.php</tt> and <tt>.../wp-content/plugins/wp-photo-album-plus/theme/wppa_style.css</tt> to your active theme's folder, and edit them."
+msgstr "Pour modifier le style et la présentation de l'album photo, copiez <tt>.../wp-content/plugins/wp-photo-album-plus/theme/wppa_theme.php</tt> et <tt>.../wp-content/plugins/wp-photo-album-plus/theme/wppa_style.css</tt> vers le dossier de votre thème actif, et modifiez-les."
+
+#: wppa-help.php:121
+msgid "Facts to remember"
+msgstr "Choses à retenir"
+
+#: wppa-help.php:123
+msgid "If the number of photos in an album is less than or equal to the treshold value, they will not display in the album. They will be used for the cover only."
+msgstr "Si le nombre de photos dans un album est inférieure ou égale à la valeur seuil, ils ne s'affichent pas dans l'album. Ils seront utilisés seulement pour la couverture."
+
+#: wppa-help.php:124
+msgid "An album that has it's parent set to \"--- separate ---\" will not be displayed in the \"generic\" gallery. This enables you to have albums for use solely for single posts or pages."
+msgstr "Un album qui a son parent mis à \"--- separateur --- \" ne sera pas affiché dans la gallerie \"générique\". Cela vous permet d'avoir des albums pour les utiliser exclusivement pour des articles ou des pages uniques."
+
+#: wppa-help.php:125
+#, php-format
+msgid "Specifying <tt>%%album=...</tt> causes the <b>content</b> of the album to be displayed."
+msgstr "La spécification de <tt>%%album=...</tt> provoque l'affichage du <b>contenu</b> de l'album."
+
+#: wppa-help.php:126
+#, php-format
+msgid "Specifying <tt>%%cover=...</tt> causes the <b>cover</b> of the album to be displayed."
+msgstr "La spécification de <tt>%%cover=...</tt> provoque l'affichage de la <b>couverture</b> de l'album."
+
+#: wppa-help.php:127
+#, fuzzy, php-format
+msgid "Specifying <tt>%%slide=...</tt> causes the <b>slideshow</b> of the album to be displayed."
+msgstr "La spécification de <tt>%%cover=...</tt> provoque l'affichage de la <b>couverture</b> de l'album."
+
+#: wppa-help.php:128
+#, fuzzy, php-format
+msgid "Keep the sequence intact: 1. <tt>%%wppa%%</tt>, 2. <tt>%%album=</tt> or <tt>%%cover=</tt> or <tt>%%slide=</tt>, 3. <tt>%%size=</tt>. (2. being optional even when using 3.)."
+msgstr "Gardez cette séquence intacte: 1. <tt>%%wppa%%</tt>, 2. <tt>%%album=</tt> or <tt>%%cover=</tt>, 3. <tt>%%size=</tt>. (2. peut être optionnel si 3. utilisé)."
+
+#: wppa-help.php:129
+msgid "Use the default page template, or create one yourself."
+msgstr ""
+
+#: wppa-help.php:130
+msgid "You can remove the plugin and re-install the latest version always. This will not affect your photos or albums."
+msgstr ""
+
+#: wppa-help.php:131
+#, php-format
+msgid "You may combine %% items on one line like: <tt>%%wppa%% %%cover=13%% %%size=250%%</tt>"
+msgstr ""
+
+#: wppa-help.php:134
+msgid "Plugin Support And Feature Request"
+msgstr "Support du plugin et requêtes"
+
+#: wppa-help.php:136
+msgid "If you've read over this readme carefully and are still having issues, if you've discovered a bug,"
+msgstr "Si vous avez lu ce readme avec soin, que vous avez toujours des problèmes, si vous avez découvert un bug,"
+
+#: wppa-help.php:137
+msgid "or have a feature request, please check the <a href=\"http://wordpress.org/tags/wp-photo-album-plus\">forum</a> for this plugin and/or leave a question there."
+msgstr ""
+
+#: wppa-help.php:139
+msgid "For hot fixes check the <a href=\"http://plugins.trac.wordpress.org/log/wp-photo-album-plus/\">development log</a> for this plugin."
+msgstr ""
+
+#: wppa-help.php:141
+msgid "You may also visit the <a href=\"http://wppa.opajaap.nl/\" target=\"_blank\">WPPA+ Docs & Demos site</a> that also contains the <a href=\"http://wppa.opajaap.nl/?page_id=39\" target=\"_blank\">WPPA+ Tutorial</a>."
+msgstr ""
+
+#: wppa-help.php:144
+msgid "If you love this plugin, I would appreciate a donation, either in <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=OpaJaap@OpaJaap.nl&item_name=WP-Photo-Album-Plus&item_number=Support-Open-Source&currency_code=USD&lc=US\">USD</a> or in <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=OpaJaap@OpaJaap.nl&item_name=WP-Photo-Album-Plus&item_number=Support-Open-Source&currency_code=EUR&lc=US\">EURO</a>."
+msgstr ""
+
+#: wppa-help.php:147
+msgid "About and credits"
+msgstr "A propos et crédits"
+
+#: wppa-help.php:149
+#, fuzzy
+msgid "WP Photo Album Plus is extended with many new features and is maintained by J.N. Breetvelt, a.k.a. (<a href=\"http://www.opajaap.nl/\">OpaJaap</a>)"
+msgstr "WP Photo Album Plus a été étendu avec de nombreuses fonctionnalités et est maintenu par J.N. Breetvelt, a.k.a."
+
+#: wppa-help.php:150
+msgid "Thanx to R.J. Kaplan for WP Photo Album 1.5.1."
+msgstr "Merci à R.J. Kaplan pour WP Photo Album 1.5.1."
+
+#: wppa-help.php:151
+msgid "Thanx to E.S. Rosenberg for programming tips on security issues."
+msgstr ""
+
+#: wppa-help.php:152
+msgid "Thanx to Pavel &#352;orejs for the Numbar code."
+msgstr ""
+
+#: wppa-help.php:153
+msgid "Thanx to the users who reported bugs and asked for enhancements. Without them WPPA should not have been what it is now!"
+msgstr ""
+
+#: wppa-help.php:156
+msgid "Licence"
+msgstr "Licence"
+
+#: wppa-help.php:158
+msgid "WP Photo Album is released under the"
+msgstr "WP Photo Album est publié sous la"
+
+#: wppa-help.php:158
+msgid "licence."
+msgstr "licence."
+
+#: wppa-potd-widget.php:13
+#, fuzzy
+msgid "WPPA+ Photo Of The Day"
+msgstr "Photo du jour"
+
+#: wppa-potd-widget.php:14
+#, fuzzy
+msgid "Photo Of The Day"
+msgstr "Photo du jour"
+
+#: wppa-potd-widget.php:95
+msgid "You can set the content and the behaviour of this widget in the <b>Photo Albums -> Sidebar Widget</b> admin page."
+msgstr ""
+
+#: wppa-search-widget.php:14
+msgid "WPPA+ Search Photos"
+msgstr ""
+
+#: wppa-search-widget.php:15
+#, fuzzy
+msgid "Search Photos"
+msgstr "Photo de couverture:"
+
+#: wppa-search-widget.php:33
+msgid "Warning. No page defined for search results!"
+msgstr ""
+
+#: wppa-search-widget.php:41
+msgid "Search"
+msgstr ""
+
+#: wppa-settings-autosave.php:68
+msgid "Saved settings restored"
+msgstr ""
+
+#: wppa-settings-autosave.php:71
+#, fuzzy
+msgid "Unable to restore saved settings"
+msgstr "Options"
+
+#: wppa-settings-autosave.php:77
+#, fuzzy
+msgid "Reset to default settings"
+msgstr "Options"
+
+#: wppa-settings-autosave.php:80
+#, fuzzy
+msgid "Unable to set defaults"
+msgstr "--- default ---"
+
+#: wppa-settings-autosave.php:85
+#, php-format
+msgid "Skinfile %s loaded"
+msgstr ""
+
+#: wppa-settings-autosave.php:100
+#, fuzzy, php-format
+msgid "Upload error %s"
+msgstr "Upload Photos"
+
+#: wppa-settings-autosave.php:105
+#, php-format
+msgid "Uploaded file %s is not a .png file"
+msgstr ""
+
+#: wppa-settings-autosave.php:109
+#, fuzzy, php-format
+msgid "Upload of %s done"
+msgstr "Upload Photos"
+
+#: wppa-settings-autosave.php:114
+msgid "No file selected or error on upload"
+msgstr ""
+
+#: wppa-settings-autosave.php:132
+#, fuzzy, php-format
+msgid "Regenerating thumbnail images, starting at id=%s. Please wait...<br />"
+msgstr "Régénération de vignettes, à partir de"
+
+#: wppa-settings-autosave.php:133
+#, fuzzy
+msgid "If the line of dots stops growing or your browser reports Ready but you did NOT get a 'READY regenerating thumbnail images' message, your server has given up. In that case: continue this action by clicking"
+msgstr "Si la ligne de points cesse de croître et que vous n'obtenez pas un <strong>READY</ strong>, veuillez continuer cette action en cliquant sur"
+
+#: wppa-settings-autosave.php:137
+#, php-format
+msgid "<br /><br />Your server reports that the elapsed time for this operation is limited to %s seconds."
+msgstr ""
+
+#: wppa-settings-autosave.php:138
+msgid "<br />There may also be other restrictions set by the server, like cpu time limit."
+msgstr ""
+
+#: wppa-settings-autosave.php:145
+msgid "READY regenerating thumbnail images."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:159
+msgid "WP Photo Album Plus Settings"
+msgstr "Options de WP Photo Album Plus"
+
+#: wppa-settings-autosave.php:160
+msgid "Database revision:"
+msgstr "Révision de la base de données:"
+
+#: wppa-settings-autosave.php:160
+msgid "WP Charset:"
+msgstr ""
+
+#: wppa-settings-autosave.php:162
+msgid "Multisite enabled. "
+msgstr ""
+
+#: wppa-settings-autosave.php:163
+msgid "Blogid = "
+msgstr ""
+
+#: wppa-settings-autosave.php:167
+#, fuzzy
+msgid "Show legenda"
+msgstr "Nom photo"
+
+#: wppa-settings-autosave.php:169
+msgid "Legenda:"
+msgstr ""
+
+#: wppa-settings-autosave.php:170
+#: wppa-settings-autosave.php:172
+#, fuzzy
+msgid "Button"
+msgstr "bas"
+
+#: wppa-settings-autosave.php:170
+msgid "action that causes page reload."
+msgstr ""
+
+#: wppa-settings-autosave.php:172
+#: wppa-settings-autosave.php:2992
+#: wppa-settings-autosave.php:3002
+#, fuzzy
+msgid "Are you sure?"
+msgstr "Etes-vous sûr de vouloir supprimer cet album?"
+
+#: wppa-settings-autosave.php:173
+msgid "action that does not cause page reload."
+msgstr ""
+
+#: wppa-settings-autosave.php:175
+#: wppa-settings-autosave.php:2439
+#: wppa-settings-autosave.php:2441
+#: wppa-settings-autosave.php:2821
+#: wppa-settings-autosave.php:2835
+#: wppa-settings-autosave.php:2846
+#: wppa-settings-autosave.php:2859
+#: wppa-settings-autosave.php:2875
+#: wppa-settings-autosave.php:2908
+#: wppa-settings-autosave.php:2938
+msgid "Setting unmodified"
+msgstr ""
+
+#: wppa-settings-autosave.php:177
+#, fuzzy
+msgid "Update in progress"
+msgstr "Upload Photos"
+
+#: wppa-settings-autosave.php:179
+#, fuzzy
+msgid "Setting updated"
+msgstr "Options"
+
+#: wppa-settings-autosave.php:181
+#, fuzzy
+msgid "Update failed"
+msgstr "Upload Photos"
+
+#: wppa-settings-autosave.php:183
+msgid "Hide this"
+msgstr ""
+
+#: wppa-settings-autosave.php:187
+msgid "You use Big Browse Buttons on slide images. Any configured links on slides like PS overrule or lightbox will not work! Check Table VI-8 and/or II-B13"
+msgstr ""
+
+#: wppa-settings-autosave.php:188
+msgid "You can not have popup and lightbox on thumbnails at the same time. Uncheck either Table IV-C8 or choose a different linktype in Table VI-2."
+msgstr ""
+
+#: wppa-settings-autosave.php:198
+msgid "Table I:"
+msgstr ""
+
+#: wppa-settings-autosave.php:198
+#, fuzzy
+msgid "Sizes:"
+msgstr "Taille réelle:"
+
+#: wppa-settings-autosave.php:199
+msgid "This table describes all the sizes and size options (except fontsizes) for the generation and display of the WPPA+ elements."
+msgstr ""
+
+#: wppa-settings-autosave.php:209
+#: wppa-settings-autosave.php:570
+#: wppa-settings-autosave.php:589
+#: wppa-settings-autosave.php:976
+#: wppa-settings-autosave.php:1175
+#: wppa-settings-autosave.php:1548
+#: wppa-settings-autosave.php:2099
+#: wppa-settings-autosave.php:2273
+#: wppa-settings-autosave.php:2519
+#, fuzzy
+msgid "Setting"
+msgstr "Options"
+
+#: wppa-settings-autosave.php:210
+#: wppa-settings-autosave.php:571
+#: wppa-settings-autosave.php:590
+#: wppa-settings-autosave.php:977
+#: wppa-settings-autosave.php:999
+#: wppa-settings-autosave.php:1157
+#: wppa-settings-autosave.php:1176
+#: wppa-settings-autosave.php:1549
+#: wppa-settings-autosave.php:1572
+#: wppa-settings-autosave.php:1713
+#: wppa-settings-autosave.php:1735
+#: wppa-settings-autosave.php:1975
+#: wppa-settings-autosave.php:2100
+#: wppa-settings-autosave.php:2120
+#: wppa-settings-autosave.php:2255
+#: wppa-settings-autosave.php:2274
+#: wppa-settings-autosave.php:2520
+#: wppa-settings-autosave.php:2540
+#: wppa-settings-autosave.php:2576
+#: wppa-settings-autosave.php:2596
+#: wppa-settings-autosave.php:2632
+msgid "Help"
+msgstr ""
+
+#: wppa-settings-autosave.php:216
+msgid "WPPA+ global system related settings"
+msgstr ""
+
+#: wppa-settings-autosave.php:218
+msgid "Column Width"
+msgstr ""
+
+#: wppa-settings-autosave.php:219
+msgid "The width of the main column in your theme's display area."
+msgstr ""
+
+#: wppa-settings-autosave.php:220
+msgid "Enter the width of the main column in your theme's display area."
+msgstr ""
+
+#: wppa-settings-autosave.php:221
+msgid "You should set this value correctly to make sure the fullsize images are properly aligned horizontally."
+msgstr ""
+
+#: wppa-settings-autosave.php:222
+msgid "You may enter auto for use in themes that have a floating content column."
+msgstr ""
+
+#: wppa-settings-autosave.php:223
+msgid "The use of 'auto' is strongly discouraged. Do not use it unless it is strictly required."
+msgstr ""
+
+#: wppa-settings-autosave.php:226
+#: wppa-settings-autosave.php:289
+#: wppa-settings-autosave.php:381
+msgid "pixels wide"
+msgstr ""
+
+#: wppa-settings-autosave.php:229
+msgid "Resize on Upload"
+msgstr ""
+
+#: wppa-settings-autosave.php:230
+#, fuzzy
+msgid "Indicate if the photos should be resized during upload."
+msgstr "Spécifiez la manière dont les photos devraient être classés dans cet album."
+
+#: wppa-settings-autosave.php:231
+msgid "If you check this item, the size of the photos will be reduced to the dimension specified in the next item during the upload/import process."
+msgstr ""
+
+#: wppa-settings-autosave.php:232
+msgid "The photos will never be stretched during upload if they are smaller."
+msgstr ""
+
+#: wppa-settings-autosave.php:238
+msgid "Resize to"
+msgstr ""
+
+#: wppa-settings-autosave.php:239
+msgid "Resize photos to fit within a given area."
+msgstr ""
+
+#: wppa-settings-autosave.php:240
+msgid "Specify the screensize for the unscaled photos."
+msgstr ""
+
+#: wppa-settings-autosave.php:241
+msgid "The use of a non-default value is particularly usefull when you make use of lightbox functionality."
+msgstr ""
+
+#: wppa-settings-autosave.php:243
+#: wppa-settings-autosave.php:262
+#: wppa-settings-autosave.php:271
+#: wppa-settings-autosave.php:278
+#: wppa-settings-autosave.php:315
+#: wppa-settings-autosave.php:333
+#: wppa-settings-autosave.php:401
+#: wppa-settings-autosave.php:431
+#: wppa-settings-autosave.php:449
+#: wppa-settings-autosave.php:457
+#: wppa-settings-autosave.php:465
+#: wppa-settings-autosave.php:501
+#: wppa-settings-autosave.php:519
+#: wppa-settings-autosave.php:535
+#: wppa-settings-autosave.php:551
+#: wppa-settings-autosave.php:1591
+#: wppa-settings-autosave.php:1606
+#: wppa-settings-autosave.php:1621
+#: wppa-settings-autosave.php:1636
+#: wppa-settings-autosave.php:1651
+#: wppa-settings-autosave.php:1666
+#: wppa-settings-autosave.php:1681
+#: wppa-settings-autosave.php:1696
+msgid "pixels"
+msgstr ""
+
+#: wppa-settings-autosave.php:244
+msgid "Fullsize as specified above"
+msgstr ""
+
+#: wppa-settings-autosave.php:250
+#, fuzzy
+msgid "Photocount threshold"
+msgstr "Seuil d'affichage:"
+
+#: wppa-settings-autosave.php:251
+msgid "Number of thumbnails in an album must exceed."
+msgstr ""
+
+#: wppa-settings-autosave.php:252
+msgid "Photos do not show up in the album unless there are more than this number of photos in the album. This allows you to have cover photos on an album that contains only sub albums without seeing them in the list of sub albums. Usually set to 0 (always show) or 1 (for one cover photo)."
+msgstr "Les photos ne s'affichent pas dans l'album à moins qu'il n'existe plus de ce nombre de photos dans l'album. Cela vous permet d'avoir des photos de couverture sur un album qui contient seulement des sous-albums, sans les voir dans la liste des sous-albums. Habituellement mettre la valeur 0 (Toujours afficher) ou 1 (pour une photo de couverture)."
+
+#: wppa-settings-autosave.php:254
+#, fuzzy
+msgid "pieces"
+msgstr "Licence"
+
+#: wppa-settings-autosave.php:257
+#, fuzzy
+msgid "Border thickness"
+msgstr "ou comme ceci:"
+
+#: wppa-settings-autosave.php:258
+msgid "Thickness of wppa+ box borders."
+msgstr ""
+
+#: wppa-settings-autosave.php:259
+msgid "Enter the thickness for the border of the WPPA+ boxes. A number of 0 means: no border."
+msgstr ""
+
+#: wppa-settings-autosave.php:260
+#: wppa-settings-autosave.php:268
+msgid "WPPA+ boxes are: the navigation bars and the filmstrip."
+msgstr ""
+
+#: wppa-settings-autosave.php:266
+msgid "Radius of wppa+ box borders."
+msgstr ""
+
+#: wppa-settings-autosave.php:267
+msgid "Enter the corner radius for the border of the WPPA+ boxes. A number of 0 means: no rounded corners."
+msgstr ""
+
+#: wppa-settings-autosave.php:269
+msgid "Note that rounded corners are only supported by modern browsers."
+msgstr ""
+
+#: wppa-settings-autosave.php:275
+msgid "Distance between wppa+ boxes."
+msgstr ""
+
+#: wppa-settings-autosave.php:281
+msgid "Fullsize photos and Slideshow related settings"
+msgstr ""
+
+#: wppa-settings-autosave.php:283
+#, fuzzy
+msgid "Fullsize Width"
+msgstr "Taille réelle."
+
+#: wppa-settings-autosave.php:284
+msgid "The maximum width fullsize photos will be displayed."
+msgstr ""
+
+#: wppa-settings-autosave.php:285
+#: wppa-settings-autosave.php:294
+msgid "Enter the largest size in pixels as how you want your photos to be displayed."
+msgstr ""
+
+#: wppa-settings-autosave.php:286
+msgid "This is usually the same as the Column Width (Table I-A1), but it may differ."
+msgstr ""
+
+#: wppa-settings-autosave.php:292
+#, fuzzy
+msgid "Fullsize Height"
+msgstr "Taille réelle."
+
+#: wppa-settings-autosave.php:293
+msgid "The maximum height fullsize photos will be displayed."
+msgstr ""
+
+#: wppa-settings-autosave.php:295
+msgid "This setting defines the height of the space reserved for full sized photos."
+msgstr ""
+
+#: wppa-settings-autosave.php:296
+#, php-format
+msgid "If you change the width of a display by the %%size= command, this value changes proportionally to match the aspect ratio as defined by this and the previous setting."
+msgstr ""
+
+#: wppa-settings-autosave.php:298
+#: wppa-settings-autosave.php:391
+msgid "pixels high"
+msgstr ""
+
+#: wppa-settings-autosave.php:301
+msgid "Stretch to fit"
+msgstr ""
+
+#: wppa-settings-autosave.php:302
+msgid "Stretch photos that are too small."
+msgstr ""
+
+#: wppa-settings-autosave.php:303
+#, fuzzy
+msgid "Fullsize images will be stretched to the Full Size at display time if they are smaller. Leaving unchecked is recommended. It is better to upload photos that fit well the sizes you use!"
+msgstr "Les images de taille réelle seront agrandies vers la taille réelle si nécessaire. Il est recommandé de laisser la case non cochée. Il est préférable de télécharger des photos qui correspondent bien la taille que vous utilisez!"
+
+#: wppa-settings-autosave.php:308
+#, fuzzy
+msgid "Fullsize borderwidth"
+msgstr "Taille réelle."
+
+#: wppa-settings-autosave.php:309
+#, fuzzy
+msgid "The width of the border around fullsize images."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:310
+msgid "The border is made by the image background being larger than the image itsself (padding)."
+msgstr ""
+
+#: wppa-settings-autosave.php:311
+msgid "Additionally there may be a one pixel outline of a different color. See Table III, item 7."
+msgstr ""
+
+#: wppa-settings-autosave.php:312
+msgid "The number you enter here is exclusive the one pixel outline."
+msgstr ""
+
+#: wppa-settings-autosave.php:313
+msgid "If you leave this entry empty, there will be no outline either."
+msgstr ""
+
+#: wppa-settings-autosave.php:318
+msgid "Numbar Max"
+msgstr ""
+
+#: wppa-settings-autosave.php:319
+msgid "Maximum nubers to display."
+msgstr ""
+
+#: wppa-settings-autosave.php:320
+msgid "In order to attemt to fit on one line, the numbers will be replaced by dots - except the current - when there are more than this number of photos in a slideshow."
+msgstr ""
+
+#: wppa-settings-autosave.php:322
+#, fuzzy
+msgid "numbers"
+msgstr "Numéro Album:"
+
+#: wppa-settings-autosave.php:326
+#, fuzzy
+msgid "Thumbnail photos related settings"
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:328
+#, fuzzy
+msgid "Thumbnail Size"
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:329
+#, fuzzy
+msgid "The size of the thumbnail images."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:330
+#: wppa-settings-autosave.php:462
+msgid "This size applies to the width or height, whichever is the largest."
+msgstr ""
+
+#: wppa-settings-autosave.php:331
+msgid "Changing the thumbnail size may result in all thumbnails being regenerated. this may take a while."
+msgstr "Changer la taille des vignettes peut entraîner que toutes les vignettes soient régénérer. Cela peut prendre un certain temps."
+
+#: wppa-settings-autosave.php:337
+#, fuzzy
+msgid "Thumbnail Aspect"
+msgstr "Taille de la vignette."
+
+#: wppa-settings-autosave.php:338
+#, fuzzy
+msgid "Aspect ration of thumbnail image"
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:342
+#, fuzzy
+msgid "--- same as fullsize ---"
+msgstr "--- default ---"
+
+#: wppa-settings-autosave.php:343
+#, fuzzy
+msgid "--- square clipped ---"
+msgstr "--- separateur ---"
+
+#: wppa-settings-autosave.php:344
+msgid "4:5 landscape clipped"
+msgstr ""
+
+#: wppa-settings-autosave.php:345
+msgid "3:4 landscape clipped"
+msgstr ""
+
+#: wppa-settings-autosave.php:346
+msgid "2:3 landscape clipped"
+msgstr ""
+
+#: wppa-settings-autosave.php:347
+msgid "9:16 landscape clipped"
+msgstr ""
+
+#: wppa-settings-autosave.php:348
+msgid "1:2 landscape clipped"
+msgstr ""
+
+#: wppa-settings-autosave.php:349
+#, fuzzy
+msgid "--- square padded ---"
+msgstr "--- separateur ---"
+
+#: wppa-settings-autosave.php:350
+msgid "4:5 landscape padded"
+msgstr ""
+
+#: wppa-settings-autosave.php:351
+msgid "3:4 landscape padded"
+msgstr ""
+
+#: wppa-settings-autosave.php:352
+msgid "2:3 landscape padded"
+msgstr ""
+
+#: wppa-settings-autosave.php:353
+msgid "9:16 landscape padded"
+msgstr ""
+
+#: wppa-settings-autosave.php:354
+msgid "1:2 landscape padded"
+msgstr ""
+
+#: wppa-settings-autosave.php:375
+#, fuzzy
+msgid "Thumbframe width"
+msgstr "Chemin des vignettes invalide."
+
+#: wppa-settings-autosave.php:376
+msgid "The width of the thumbnail frame."
+msgstr ""
+
+#: wppa-settings-autosave.php:377
+#, fuzzy
+msgid "Set the width of the thumbnail frame."
+msgstr "Sélectionnez le contenu des sous-titres."
+
+#: wppa-settings-autosave.php:378
+#: wppa-settings-autosave.php:388
+#: wppa-settings-autosave.php:398
+msgid "Set width, height and spacing for the thumbnail frames."
+msgstr ""
+
+#: wppa-settings-autosave.php:379
+#: wppa-settings-autosave.php:389
+#: wppa-settings-autosave.php:399
+msgid "These sizes should be large enough for a thumbnail image and - optionally - the text under it."
+msgstr ""
+
+#: wppa-settings-autosave.php:385
+#, fuzzy
+msgid "Thumbframe height"
+msgstr "Chemin des vignettes invalide."
+
+#: wppa-settings-autosave.php:386
+#, fuzzy
+msgid "The height of the thumbnail frame."
+msgstr "Sélectionnez le contenu des sous-titres."
+
+#: wppa-settings-autosave.php:387
+#, fuzzy
+msgid "Set the height of the thumbnail frame."
+msgstr "Sélectionnez le contenu des sous-titres."
+
+#: wppa-settings-autosave.php:395
+#, fuzzy
+msgid "Thumbnail spacing"
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:396
+msgid "The spacing between adjacent thumbnail frames."
+msgstr ""
+
+#: wppa-settings-autosave.php:397
+msgid "Set the minimal spacing between the adjacent thumbnail frames"
+msgstr ""
+
+#: wppa-settings-autosave.php:405
+msgid "Auto spacing"
+msgstr ""
+
+#: wppa-settings-autosave.php:406
+msgid "Space the thumbnail frames automatic."
+msgstr ""
+
+#: wppa-settings-autosave.php:407
+msgid "If you check this box, the thumbnail images will be evenly distributed over the available width."
+msgstr ""
+
+#: wppa-settings-autosave.php:408
+msgid "In this case, the thumbnail spacing value (setting I-9) will be regarded as a minimum value."
+msgstr ""
+
+#: wppa-settings-autosave.php:414
+#: wppa-settings-autosave.php:468
+#, fuzzy
+msgid "Page size"
+msgstr "Album supprimé."
+
+#: wppa-settings-autosave.php:415
+msgid "Max number of thumbnails per page."
+msgstr ""
+
+#: wppa-settings-autosave.php:416
+msgid "Enter the maximum number of thumbnail images per page. A value of 0 indicates no pagination."
+msgstr ""
+
+#: wppa-settings-autosave.php:418
+#, fuzzy
+msgid "thumbnails"
+msgstr "Taille de la vignette."
+
+#: wppa-settings-autosave.php:423
+#, fuzzy
+msgid "The size of the thumbnail popup images."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:424
+msgid "Enter the size of the popup images. This size should be larger than the thumbnail size."
+msgstr ""
+
+#: wppa-settings-autosave.php:425
+msgid "This size should also be at least the cover image size."
+msgstr ""
+
+#: wppa-settings-autosave.php:426
+#, fuzzy
+msgid "Changing the popup size may result in all thumbnails being regenerated. this may take a while."
+msgstr "Changer la taille de la photo de couverture peut entraîner que toutes les vignettes soient régénérer. Cela peut prendre un certain temps."
+
+#: wppa-settings-autosave.php:427
+msgid "Although this setting has only visual effect if \"Thumb popup\" (Table IV-C8) is checked,"
+msgstr ""
+
+#: wppa-settings-autosave.php:428
+msgid "the value must be right as it is the physical size of the thumbnail and coverphoto images."
+msgstr ""
+
+#: wppa-settings-autosave.php:434
+msgid "Use thumbs if fit"
+msgstr ""
+
+#: wppa-settings-autosave.php:435
+msgid "Use the thumbnail image files if they are large enough."
+msgstr ""
+
+#: wppa-settings-autosave.php:436
+msgid "This setting speeds up page loading for small photos."
+msgstr ""
+
+#: wppa-settings-autosave.php:437
+msgid "Do NOT use this when your thumbnails have a forced aspect ratio (when Table I-C2 is set to anything different from --- same as fullsize ---)"
+msgstr ""
+
+#: wppa-settings-autosave.php:442
+#: wppa-settings-autosave.php:912
+#, fuzzy
+msgid "Album cover related settings"
+msgstr "Album supprimé."
+
+#: wppa-settings-autosave.php:445
+msgid "Maximum width for a album cover display."
+msgstr ""
+
+#: wppa-settings-autosave.php:446
+msgid "Display covers in 2 or more columns if the display area is wider than the given width."
+msgstr ""
+
+#: wppa-settings-autosave.php:447
+msgid "This also applies for 'thumbnails as covers', and will NOT apply to single items."
+msgstr ""
+
+#: wppa-settings-autosave.php:452
+#, fuzzy
+msgid "Min Text frame height"
+msgstr "Chemin des vignettes invalide."
+
+#: wppa-settings-autosave.php:453
+msgid "The minimal cover text frame height."
+msgstr ""
+
+#: wppa-settings-autosave.php:454
+msgid "The minimal height of the description field in an album cover display."
+msgstr ""
+
+#: wppa-settings-autosave.php:455
+msgid "This setting enables you to give the album covers the same height provided that the cover images are equally sized."
+msgstr ""
+
+#: wppa-settings-autosave.php:460
+#, fuzzy
+msgid "Coverphoto size"
+msgstr "Taille de la photo de couverture."
+
+#: wppa-settings-autosave.php:461
+msgid "The size of the coverphoto."
+msgstr ""
+
+#: wppa-settings-autosave.php:463
+msgid "Changing the coverphoto size may result in all thumbnails being regenerated. this may take a while."
+msgstr "Changer la taille de la photo de couverture peut entraîner que toutes les vignettes soient régénérer. Cela peut prendre un certain temps."
+
+#: wppa-settings-autosave.php:469
+msgid "Max number of covers per page."
+msgstr ""
+
+#: wppa-settings-autosave.php:470
+msgid "Enter the maximum number of album covers per page. A value of 0 indicates no pagination."
+msgstr ""
+
+#: wppa-settings-autosave.php:472
+#, fuzzy
+msgid "covers"
+msgstr "\"couverture\""
+
+#: wppa-settings-autosave.php:475
+msgid "Rating and comment related settings"
+msgstr ""
+
+#: wppa-settings-autosave.php:477
+#, fuzzy
+msgid "Rating size"
+msgstr "Album supprimé."
+
+#: wppa-settings-autosave.php:478
+#, fuzzy
+msgid "Select the number of voting stars."
+msgstr "Sélectionnez le contenu des sous-titres."
+
+#: wppa-settings-autosave.php:487
+#, fuzzy
+msgid "Display precision"
+msgstr "Méthode d'affichage:"
+
+#: wppa-settings-autosave.php:488
+msgid "Select the desired rating display precision."
+msgstr ""
+
+#: wppa-settings-autosave.php:491
+msgid "decimal places"
+msgstr ""
+
+#: wppa-settings-autosave.php:498
+#, fuzzy
+msgid "Size of Avatar images."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:499
+msgid "The size of the square avatar; must be > 0 and < 256"
+msgstr ""
+
+#: wppa-settings-autosave.php:504
+#: wppa-settings-autosave.php:939
+#, fuzzy
+msgid "Widget related settings"
+msgstr "Options"
+
+#: wppa-settings-autosave.php:506
+#, fuzzy
+msgid "TopTen count"
+msgstr "Photo de couverture:"
+
+#: wppa-settings-autosave.php:507
+#, fuzzy
+msgid "Number of photos in TopTen widget."
+msgstr "Pas encore de photo."
+
+#: wppa-settings-autosave.php:508
+msgid "Enter the maximum number of rated photos in the TopTen widget."
+msgstr ""
+
+#: wppa-settings-autosave.php:510
+#: wppa-settings-autosave.php:542
+#, fuzzy
+msgid "photos"
+msgstr "Upload Photos"
+
+#: wppa-settings-autosave.php:513
+#, fuzzy
+msgid "TopTen size"
+msgstr "Photo de couverture:"
+
+#: wppa-settings-autosave.php:514
+#, fuzzy
+msgid "Size of thumbnails in TopTen widget."
+msgstr "Entrez la largeur d'affichage souhaitée de la photo dans la barre latérale."
+
+#: wppa-settings-autosave.php:515
+#, fuzzy
+msgid "Enter the size for the mini photos in the TopTen widget."
+msgstr "Entrez la largeur d'affichage souhaitée de la photo dans la barre latérale."
+
+#: wppa-settings-autosave.php:516
+#: wppa-settings-autosave.php:532
+#: wppa-settings-autosave.php:548
+msgid "The size applies to the width or height, whatever is the largest."
+msgstr ""
+
+#: wppa-settings-autosave.php:517
+#: wppa-settings-autosave.php:533
+#: wppa-settings-autosave.php:549
+msgid "Recommended values: 86 for a two column and 56 for a three column display."
+msgstr ""
+
+#: wppa-settings-autosave.php:522
+#, fuzzy
+msgid "Comment count"
+msgstr "Photo de couverture:"
+
+#: wppa-settings-autosave.php:523
+#, fuzzy
+msgid "Number of entries in Comment widget."
+msgstr "Pas encore de photo."
+
+#: wppa-settings-autosave.php:524
+#, fuzzy
+msgid "Enter the maximum number of entries in the Comment widget."
+msgstr "Entrez la largeur d'affichage souhaitée de la photo dans la barre latérale."
+
+#: wppa-settings-autosave.php:526
+#, fuzzy
+msgid "entries"
+msgstr "Caractéristiques:"
+
+#: wppa-settings-autosave.php:529
+#, fuzzy
+msgid "Comment size"
+msgstr "contenu"
+
+#: wppa-settings-autosave.php:530
+#, fuzzy
+msgid "Size of thumbnails in Comment widget."
+msgstr "Entrez la largeur d'affichage souhaitée de la photo dans la barre latérale."
+
+#: wppa-settings-autosave.php:531
+#, fuzzy
+msgid "Enter the size for the mini photos in the Comment widget."
+msgstr "Entrez la largeur d'affichage souhaitée de la photo dans la barre latérale."
+
+#: wppa-settings-autosave.php:538
+#, fuzzy
+msgid "Thumbnail count"
+msgstr "Taille de la vignette."
+
+#: wppa-settings-autosave.php:539
+#, fuzzy
+msgid "Number of photos in Thumbnail widget."
+msgstr "Pas encore de photo."
+
+#: wppa-settings-autosave.php:540
+#, fuzzy
+msgid "Enter the maximum number of rated photos in the Thumbnail widget."
+msgstr "Entrez la largeur d'affichage souhaitée de la photo dans la barre latérale."
+
+#: wppa-settings-autosave.php:545
+#, fuzzy
+msgid "Thumbnail widget size"
+msgstr "Taille de la vignette."
+
+#: wppa-settings-autosave.php:546
+#, fuzzy
+msgid "Size of thumbnails in Thumbnail widget."
+msgstr "Entrez la largeur d'affichage souhaitée de la photo dans la barre latérale."
+
+#: wppa-settings-autosave.php:547
+#, fuzzy
+msgid "Enter the size for the mini photos in the Thumbnail widget."
+msgstr "Entrez la largeur d'affichage souhaitée de la photo dans la barre latérale."
+
+#: wppa-settings-autosave.php:554
+#: wppa-settings-autosave.php:950
+#: wppa-settings-autosave.php:1523
+msgid "Lightbox related settings. These settings have effect only when Table IX-A6 is set to wppa"
+msgstr ""
+
+#: wppa-settings-autosave.php:557
+msgid "Number of lines on the lightbox description area, exclusive the n/m line."
+msgstr ""
+
+#: wppa-settings-autosave.php:558
+msgid "Enter a number in the range from 0 to 24 or auto"
+msgstr ""
+
+#: wppa-settings-autosave.php:560
+#, fuzzy
+msgid "lines"
+msgstr "licence."
+
+#: wppa-settings-autosave.php:578
+msgid "Table II:"
+msgstr ""
+
+#: wppa-settings-autosave.php:578
+msgid "Visibility:"
+msgstr ""
+
+#: wppa-settings-autosave.php:579
+msgid "This table describes the visibility of certain wppa+ elements."
+msgstr ""
+
+#: wppa-settings-autosave.php:596
+#, fuzzy
+msgid "Breadcrumb related settings"
+msgstr "Niveau d'accès:"
+
+#: wppa-settings-autosave.php:598
+#, fuzzy
+msgid "Breadcrumb"
+msgstr "Afficher le chemin de fer:"
+
+#: wppa-settings-autosave.php:599
+#, fuzzy
+msgid "Show breadcrumb navigation bars."
+msgstr "Afficher le chemin de fer:"
+
+#: wppa-settings-autosave.php:600
+msgid "Indicate whether a breadcrumb navigation should be displayed"
+msgstr "Indiquez si un chemin de fer de navigation doit être affiché"
+
+#: wppa-settings-autosave.php:606
+msgid "Breadcrumb on search results"
+msgstr ""
+
+#: wppa-settings-autosave.php:607
+#, fuzzy
+msgid "Show breadcrumb navigation bars on the search results page."
+msgstr "Afficher le chemin de fer:"
+
+#: wppa-settings-autosave.php:608
+#, fuzzy
+msgid "Indicate whether a breadcrumb navigation should be displayed above the search results."
+msgstr "Indiquez si un chemin de fer de navigation doit être affiché"
+
+#: wppa-settings-autosave.php:614
+msgid "Breadcrumb on topten displays"
+msgstr ""
+
+#: wppa-settings-autosave.php:615
+#, fuzzy
+msgid "Show breadcrumb navigation bars on topten displays."
+msgstr "Afficher le chemin de fer:"
+
+#: wppa-settings-autosave.php:616
+#, fuzzy
+msgid "Indicate whether a breadcrumb navigation should be displayed above the topten displays."
+msgstr "Indiquez si un chemin de fer de navigation doit être affiché"
+
+#: wppa-settings-autosave.php:622
+msgid "Home"
+msgstr "Accueil"
+
+#: wppa-settings-autosave.php:623
+#, fuzzy
+msgid "Show \"Home\" in breadcrumb."
+msgstr "Afficher \"Home\" dans le chemin de fer:"
+
+#: wppa-settings-autosave.php:624
+msgid "Indicate whether the breadcrumb navigation should start with a \"Home\"-link"
+msgstr "Indiquez si le chemin de fer de navigation doit démarrer par un lien \"Home\""
+
+#: wppa-settings-autosave.php:630
+msgid "Separator"
+msgstr ""
+
+#: wppa-settings-autosave.php:631
+msgid "Breadcrumb separator symbol."
+msgstr ""
+
+#: wppa-settings-autosave.php:632
+msgid "Select the desired breadcrumb separator element."
+msgstr ""
+
+#: wppa-settings-autosave.php:633
+msgid "A text string may contain valid html."
+msgstr ""
+
+#: wppa-settings-autosave.php:634
+msgid "An image will be scaled automatically if you set the navigation font size."
+msgstr ""
+
+#: wppa-settings-autosave.php:636
+msgid "Text (html):"
+msgstr ""
+
+#: wppa-settings-autosave.php:636
+msgid "Image (url):"
+msgstr ""
+
+#: wppa-settings-autosave.php:643
+msgid "Html"
+msgstr ""
+
+#: wppa-settings-autosave.php:644
+msgid "Breadcrumb separator text."
+msgstr ""
+
+#: wppa-settings-autosave.php:645
+msgid "Enter the HTML code that produces the separator symbol you want."
+msgstr ""
+
+#: wppa-settings-autosave.php:646
+msgid "It may be as simple as '-' (without the quotes) or as complex as a tag like <div>..</div>."
+msgstr ""
+
+#: wppa-settings-autosave.php:651
+msgid "Image Url"
+msgstr ""
+
+#: wppa-settings-autosave.php:652
+msgid "Full url to separator image."
+msgstr ""
+
+#: wppa-settings-autosave.php:653
+msgid "Enter the full url to the image you want to use for the separator symbol."
+msgstr ""
+
+#: wppa-settings-autosave.php:658
+#, fuzzy
+msgid "Pagelink position"
+msgstr "Description du plugin"
+
+#: wppa-settings-autosave.php:659
+msgid "The location for the pagelinks bar."
+msgstr ""
+
+#: wppa-settings-autosave.php:662
+#: wppa-settings-autosave.php:1414
+#, fuzzy
+msgid "Top"
+msgstr "haut"
+
+#: wppa-settings-autosave.php:662
+#: wppa-settings-autosave.php:1414
+#, fuzzy
+msgid "Bottom"
+msgstr "bas"
+
+#: wppa-settings-autosave.php:662
+#, fuzzy
+msgid "Both"
+msgstr "bas"
+
+#: wppa-settings-autosave.php:667
+#: wppa-settings-autosave.php:1202
+#, fuzzy
+msgid "Slideshow related settings"
+msgstr "Options"
+
+#: wppa-settings-autosave.php:669
+#, fuzzy
+msgid "Start/stop"
+msgstr "Démarrer"
+
+#: wppa-settings-autosave.php:670
+msgid "Show the Start/Stop slideshow bar."
+msgstr ""
+
+#: wppa-settings-autosave.php:671
+msgid "If checked: display the start/stop slideshow navigation bar above the full-size images and slideshow"
+msgstr ""
+
+#: wppa-settings-autosave.php:676
+#, fuzzy
+msgid "Browse bar"
+msgstr "Trier les photos par:"
+
+#: wppa-settings-autosave.php:677
+#, fuzzy
+msgid "Show Browse photos bar."
+msgstr "Trier les photos par:"
+
+#: wppa-settings-autosave.php:678
+msgid "If checked: display the preveous/next navigation bar under the full-size images and slideshow"
+msgstr ""
+
+#: wppa-settings-autosave.php:683
+msgid "Filmstrip"
+msgstr ""
+
+#: wppa-settings-autosave.php:684
+msgid "Show Filmstrip navigation bar."
+msgstr ""
+
+#: wppa-settings-autosave.php:685
+msgid "If checked: display the filmstrip navigation bar under the full_size images and slideshow"
+msgstr ""
+
+#: wppa-settings-autosave.php:690
+msgid "Film seam"
+msgstr ""
+
+#: wppa-settings-autosave.php:691
+msgid "Show seam between end and start of film."
+msgstr ""
+
+#: wppa-settings-autosave.php:692
+msgid "If checked: display the wrap-around point in the filmstrip"
+msgstr ""
+
+#: wppa-settings-autosave.php:697
+#: wppa-settings-autosave.php:1612
+#, fuzzy
+msgid "Fullsize name"
+msgstr "Taille réelle."
+
+#: wppa-settings-autosave.php:698
+msgid "Display Fullsize name."
+msgstr ""
+
+#: wppa-settings-autosave.php:699
+msgid "If checked: display the name of the photo under the full-size images and slideshow."
+msgstr ""
+
+#: wppa-settings-autosave.php:704
+#: wppa-settings-autosave.php:1597
+#, fuzzy
+msgid "Fullsize desc"
+msgstr "Taille réelle."
+
+#: wppa-settings-autosave.php:705
+msgid "Display Fullsize description."
+msgstr ""
+
+#: wppa-settings-autosave.php:706
+msgid "If checked: display description under the full-size images and slideshow."
+msgstr ""
+
+#: wppa-settings-autosave.php:711
+msgid "Rating system"
+msgstr ""
+
+#: wppa-settings-autosave.php:712
+msgid "Enable the rating system."
+msgstr ""
+
+#: wppa-settings-autosave.php:713
+msgid "If checked, the photo rating system will be enabled."
+msgstr ""
+
+#: wppa-settings-autosave.php:719
+msgid "Rating display type"
+msgstr ""
+
+#: wppa-settings-autosave.php:720
+msgid "Specify the type of the rating display."
+msgstr ""
+
+#: wppa-settings-autosave.php:723
+msgid "Graphic"
+msgstr ""
+
+#: wppa-settings-autosave.php:723
+msgid "Numeric"
+msgstr ""
+
+#: wppa-settings-autosave.php:729
+msgid "Show average rating"
+msgstr ""
+
+#: wppa-settings-autosave.php:730
+msgid "Display the avarage rating on the rating bar"
+msgstr ""
+
+#: wppa-settings-autosave.php:731
+msgid "If checked, the average rating as well as the current users rating is displayed in max 5 stars."
+msgstr ""
+
+#: wppa-settings-autosave.php:732
+msgid "If unchecked, only the current users rating is displayed (if any)."
+msgstr ""
+
+#: wppa-settings-autosave.php:738
+msgid "Comments system"
+msgstr ""
+
+#: wppa-settings-autosave.php:739
+msgid "Enable the comments system."
+msgstr ""
+
+#: wppa-settings-autosave.php:740
+msgid "Display the comments box under the fullsize images and let users enter their comments on individual photos."
+msgstr ""
+
+#: wppa-settings-autosave.php:746
+#, fuzzy
+msgid "Comment Avatar default"
+msgstr "Photo de couverture:"
+
+#: wppa-settings-autosave.php:747
+msgid "Show Avatars with the comments if not --- none ---"
+msgstr ""
+
+#: wppa-settings-autosave.php:752
+msgid "mystery man"
+msgstr ""
+
+#: wppa-settings-autosave.php:753
+msgid "identicon"
+msgstr ""
+
+#: wppa-settings-autosave.php:754
+msgid "monsterid"
+msgstr ""
+
+#: wppa-settings-autosave.php:755
+msgid "wavatar"
+msgstr ""
+
+#: wppa-settings-autosave.php:756
+#, fuzzy
+msgid "retro"
+msgstr "Ordre"
+
+#: wppa-settings-autosave.php:757
+#, fuzzy
+msgid "--- url ---"
+msgstr "--- default ---"
+
+#: wppa-settings-autosave.php:771
+#, fuzzy
+msgid "Comment Avatar url"
+msgstr "Photo de couverture:"
+
+#: wppa-settings-autosave.php:772
+#, fuzzy
+msgid "Comment Avatar default url."
+msgstr "Photo de couverture:"
+
+#: wppa-settings-autosave.php:779
+msgid "Big Browse Buttons"
+msgstr ""
+
+#: wppa-settings-autosave.php:780
+msgid "Enable invisible browsing buttons."
+msgstr ""
+
+#: wppa-settings-autosave.php:781
+#: wppa-settings-autosave.php:943
+msgid "If checked, the fullsize image is covered by two invisible areas that act as browse buttons."
+msgstr ""
+
+#: wppa-settings-autosave.php:782
+#: wppa-settings-autosave.php:944
+msgid "Make sure the Full height (Table I-B2) is properly configured to prevent these areas to overlap unwanted space."
+msgstr ""
+
+#: wppa-settings-autosave.php:783
+#: wppa-settings-autosave.php:945
+msgid "A side effect of this setting is that right clicking the image no longer enables the visitor to download the image."
+msgstr ""
+
+#: wppa-settings-autosave.php:788
+msgid "Show custom box"
+msgstr ""
+
+#: wppa-settings-autosave.php:789
+msgid "Display the custom box in the slideshow"
+msgstr ""
+
+#: wppa-settings-autosave.php:790
+#: wppa-settings-autosave.php:799
+msgid "You can fill the custom box with any html you like. It will not be checked, so it is your own responsability to close tags properly."
+msgstr ""
+
+#: wppa-settings-autosave.php:791
+#: wppa-settings-autosave.php:800
+msgid "The position of the box can be defined in Table IX-E."
+msgstr ""
+
+#: wppa-settings-autosave.php:797
+msgid "Custom content"
+msgstr ""
+
+#: wppa-settings-autosave.php:798
+#, fuzzy
+msgid "The content (html) of the custom box."
+msgstr "Sélectionnez le contenu des sous-titres."
+
+#: wppa-settings-autosave.php:806
+#, fuzzy
+msgid "Slideshow/Number bar"
+msgstr "Widget"
+
+#: wppa-settings-autosave.php:807
+msgid "Display the Slideshow / Number bar."
+msgstr ""
+
+#: wppa-settings-autosave.php:808
+msgid "If checked: display the number boxes on slideshow"
+msgstr ""
+
+#: wppa-settings-autosave.php:814
+msgid "IPTC system"
+msgstr ""
+
+#: wppa-settings-autosave.php:815
+#, fuzzy
+msgid "Enable the iptc system."
+msgstr "Diaporama"
+
+#: wppa-settings-autosave.php:816
+#, fuzzy
+msgid "Display the iptc box under the fullsize images."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:822
+msgid "EXIF system"
+msgstr ""
+
+#: wppa-settings-autosave.php:823
+#, fuzzy
+msgid "Enable the exif system."
+msgstr "Diaporama"
+
+#: wppa-settings-autosave.php:824
+#, fuzzy
+msgid "Display the exif box under the fullsize images."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:830
+msgid "Show Copyright"
+msgstr ""
+
+#: wppa-settings-autosave.php:831
+msgid "Show a copyright warning on the user upload screen."
+msgstr ""
+
+#: wppa-settings-autosave.php:838
+msgid "Copyright notice"
+msgstr ""
+
+#: wppa-settings-autosave.php:839
+msgid "The message to be displayed."
+msgstr ""
+
+#: wppa-settings-autosave.php:846
+#, fuzzy
+msgid "Thumbnail display related settings"
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:848
+#, fuzzy
+msgid "Thumbnail name"
+msgstr "Taille de la vignette."
+
+#: wppa-settings-autosave.php:849
+msgid "Display Thubnail name."
+msgstr ""
+
+#: wppa-settings-autosave.php:850
+#, fuzzy
+msgid "Display photo name under thumbnail images."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:856
+#, fuzzy
+msgid "Thumbnail desc"
+msgstr "Taille de la vignette."
+
+#: wppa-settings-autosave.php:857
+msgid "Display Thumbnail description."
+msgstr ""
+
+#: wppa-settings-autosave.php:858
+#, fuzzy
+msgid "Display description of the photo under thumbnail images."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:864
+#, fuzzy
+msgid "Thumbnail rating"
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:865
+#, fuzzy
+msgid "Display Thumbnail Rating."
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:866
+msgid "Display the rating of the photo under the thumbnail image."
+msgstr ""
+
+#: wppa-settings-autosave.php:872
+#, fuzzy
+msgid "Popup name"
+msgstr "Photo de couverture:"
+
+#: wppa-settings-autosave.php:873
+#, fuzzy
+msgid "Display Thubnail name on popup."
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:874
+#, fuzzy
+msgid "Display photo name under thumbnail images on the popup."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:880
+#, fuzzy
+msgid "Popup desc"
+msgstr "Photo de couverture:"
+
+#: wppa-settings-autosave.php:881
+#, fuzzy
+msgid "Display Thumbnail description on popup."
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:882
+#, fuzzy
+msgid "Display description of the photo under thumbnail images on the popup."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:888
+#, fuzzy
+msgid "Popup desc no links"
+msgstr "Photo de couverture:"
+
+#: wppa-settings-autosave.php:889
+#, fuzzy
+msgid "Strip html anchor tags from descriptions on popups"
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:890
+msgid "Use this option to prevent the display of links that cannot be activated."
+msgstr ""
+
+#: wppa-settings-autosave.php:896
+#, fuzzy
+msgid "Popup rating"
+msgstr "Ordre des photos:"
+
+#: wppa-settings-autosave.php:897
+#, fuzzy
+msgid "Display Thumbnail Rating on popup."
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:898
+#, fuzzy
+msgid "Display the rating of the photo under the thumbnail image on the popup."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:904
+msgid "Show rating count"
+msgstr ""
+
+#: wppa-settings-autosave.php:905
+#, fuzzy
+msgid "Display the number of votes along with average ratings."
+msgstr "Sélectionnez le contenu des sous-titres."
+
+#: wppa-settings-autosave.php:906
+msgid "If checked, the number of votes is displayed along with average rating displays on thumbnail and popup displays."
+msgstr ""
+
+#: wppa-settings-autosave.php:914
+msgid "Covertext"
+msgstr ""
+
+#: wppa-settings-autosave.php:915
+#, fuzzy
+msgid "Show the text on the album cover."
+msgstr "Sélectionnez le contenu des sous-titres."
+
+#: wppa-settings-autosave.php:916
+msgid "Display the album decription and the links to the album content"
+msgstr ""
+
+#: wppa-settings-autosave.php:917
+msgid "If switched off, you can only link to the album using the covertitle or the coverphoto."
+msgstr ""
+
+#: wppa-settings-autosave.php:918
+msgid "Make sure you configure the coverphoto link as desired."
+msgstr ""
+
+#: wppa-settings-autosave.php:923
+#: wppa-settings-autosave.php:1918
+#, fuzzy
+msgid "Slideshow"
+msgstr "Widget"
+
+#: wppa-settings-autosave.php:924
+#, fuzzy
+msgid "Enable the slideshow."
+msgstr "Diaporama"
+
+#: wppa-settings-autosave.php:925
+msgid "If you do not want slideshows: uncheck this box. Browsing full size images will remain possible."
+msgstr ""
+
+#: wppa-settings-autosave.php:930
+#, fuzzy
+msgid "Slideshow/Browse"
+msgstr "Widget"
+
+#: wppa-settings-autosave.php:931
+msgid "Display the Slideshow / Browse photos link on album covers"
+msgstr ""
+
+#: wppa-settings-autosave.php:932
+msgid "This setting causes the Slideshow link to be displayed on the album cover."
+msgstr ""
+
+#: wppa-settings-autosave.php:933
+msgid "If slideshows are disabled in item 2 in this table, you will see a browse link to fullsize images."
+msgstr ""
+
+#: wppa-settings-autosave.php:934
+msgid "If you do not want the browse link link either, uncheck this item."
+msgstr ""
+
+#: wppa-settings-autosave.php:941
+msgid "Big Browse Buttons in widget"
+msgstr ""
+
+#: wppa-settings-autosave.php:942
+msgid "Enable invisible browsing buttons in widget slideshows."
+msgstr ""
+
+#: wppa-settings-autosave.php:952
+msgid "Overlay Close label text"
+msgstr ""
+
+#: wppa-settings-autosave.php:953
+msgid "The text label for the cross exit symbol."
+msgstr ""
+
+#: wppa-settings-autosave.php:954
+msgid "This text may be multilingual according to the qTranslate short tags specs."
+msgstr ""
+
+#: wppa-settings-autosave.php:959
+msgid "Overlay theme color"
+msgstr ""
+
+#: wppa-settings-autosave.php:960
+msgid "The color of the image border and text background."
+msgstr ""
+
+#: wppa-settings-autosave.php:963
+msgid "Black"
+msgstr ""
+
+#: wppa-settings-autosave.php:963
+msgid "White"
+msgstr ""
+
+#: wppa-settings-autosave.php:984
+msgid "Table III:"
+msgstr ""
+
+#: wppa-settings-autosave.php:984
+msgid "Backgrounds:"
+msgstr ""
+
+#: wppa-settings-autosave.php:985
+msgid "This table describes the backgrounds of wppa+ elements."
+msgstr ""
+
+#: wppa-settings-autosave.php:995
+#: wppa-settings-autosave.php:1153
+msgid "Background color"
+msgstr ""
+
+#: wppa-settings-autosave.php:996
+#: wppa-settings-autosave.php:998
+#: wppa-settings-autosave.php:1154
+#: wppa-settings-autosave.php:1156
+#, fuzzy
+msgid "Sample"
+msgstr "Nom"
+
+#: wppa-settings-autosave.php:997
+#: wppa-settings-autosave.php:1155
+#, fuzzy
+msgid "Border color"
+msgstr "ou comme ceci:"
+
+#: wppa-settings-autosave.php:1005
+#, fuzzy
+msgid "Slideshow elements backgrounds"
+msgstr "Widget"
+
+#: wppa-settings-autosave.php:1007
+msgid "Nav"
+msgstr ""
+
+#: wppa-settings-autosave.php:1008
+msgid "Navigation bars."
+msgstr ""
+
+#: wppa-settings-autosave.php:1009
+msgid "Enter valid CSS colors for navigation backgrounds and borders."
+msgstr ""
+
+#: wppa-settings-autosave.php:1018
+msgid "FullImg"
+msgstr ""
+
+#: wppa-settings-autosave.php:1019
+msgid "Full size Photos and slideshows."
+msgstr ""
+
+#: wppa-settings-autosave.php:1020
+msgid "Enter valid CSS colors for fullsize photo backgrounds and borders."
+msgstr ""
+
+#: wppa-settings-autosave.php:1021
+msgid "The colors may be equal or \"transparent\""
+msgstr ""
+
+#: wppa-settings-autosave.php:1022
+msgid "For more information about fullsize image borders see the help on Table I-B4"
+msgstr ""
+
+#: wppa-settings-autosave.php:1031
+#: wppa-settings-autosave.php:1672
+msgid "Numbar"
+msgstr ""
+
+#: wppa-settings-autosave.php:1032
+msgid "Number bar box background."
+msgstr ""
+
+#: wppa-settings-autosave.php:1033
+msgid "Enter valid CSS colors for numbar box backgrounds and borders."
+msgstr ""
+
+#: wppa-settings-autosave.php:1043
+msgid "Numbar active"
+msgstr ""
+
+#: wppa-settings-autosave.php:1044
+msgid "Number bar active box background."
+msgstr ""
+
+#: wppa-settings-autosave.php:1045
+msgid "Enter valid CSS colors for numbar active box backgrounds and borders."
+msgstr ""
+
+#: wppa-settings-autosave.php:1055
+#, fuzzy
+msgid "Name/desc"
+msgstr "Nom"
+
+#: wppa-settings-autosave.php:1056
+#, fuzzy
+msgid "Name and Description bars."
+msgstr "Description:"
+
+#: wppa-settings-autosave.php:1057
+msgid "Enter valid CSS colors for name and description box backgrounds and borders."
+msgstr ""
+
+#: wppa-settings-autosave.php:1067
+msgid "Comment input and display areas."
+msgstr ""
+
+#: wppa-settings-autosave.php:1068
+msgid "Enter valid CSS colors for comment box backgrounds and borders."
+msgstr ""
+
+#: wppa-settings-autosave.php:1078
+#: wppa-settings-autosave.php:2467
+msgid "Custom"
+msgstr ""
+
+#: wppa-settings-autosave.php:1079
+msgid "Custom box background."
+msgstr ""
+
+#: wppa-settings-autosave.php:1080
+msgid "Enter valid CSS colors for custom box backgrounds and borders."
+msgstr ""
+
+#: wppa-settings-autosave.php:1089
+msgid "IPTC"
+msgstr ""
+
+#: wppa-settings-autosave.php:1090
+msgid "IPTC display box background."
+msgstr ""
+
+#: wppa-settings-autosave.php:1091
+msgid "Enter valid CSS colors for iptc box backgrounds and borders."
+msgstr ""
+
+#: wppa-settings-autosave.php:1100
+msgid "EXIF"
+msgstr ""
+
+#: wppa-settings-autosave.php:1101
+msgid "EXIF display box background."
+msgstr ""
+
+#: wppa-settings-autosave.php:1102
+msgid "Enter valid CSS colors for exif box backgrounds and borders."
+msgstr ""
+
+#: wppa-settings-autosave.php:1111
+msgid "Other backgrounds"
+msgstr ""
+
+#: wppa-settings-autosave.php:1113
+msgid "Even"
+msgstr ""
+
+#: wppa-settings-autosave.php:1114
+msgid "Even background."
+msgstr ""
+
+#: wppa-settings-autosave.php:1115
+msgid "Enter valid CSS colors for even numbered backgrounds and borders of album covers and thumbnail displays 'As covers'."
+msgstr ""
+
+#: wppa-settings-autosave.php:1124
+msgid "Odd"
+msgstr ""
+
+#: wppa-settings-autosave.php:1125
+msgid "Odd background."
+msgstr ""
+
+#: wppa-settings-autosave.php:1126
+msgid "Enter valid CSS colors for odd numbered backgrounds and borders of album covers and thumbnail displays 'As covers'."
+msgstr ""
+
+#: wppa-settings-autosave.php:1135
+msgid "Img"
+msgstr ""
+
+#: wppa-settings-autosave.php:1136
+#, fuzzy
+msgid "Cover Photos and popups."
+msgstr "Photo de couverture:"
+
+#: wppa-settings-autosave.php:1137
+msgid "Enter valid CSS colors for Cover photo and popup backgrounds and borders."
+msgstr ""
+
+#: wppa-settings-autosave.php:1164
+msgid "Table IV:"
+msgstr ""
+
+#: wppa-settings-autosave.php:1164
+msgid "Behaviour:"
+msgstr ""
+
+#: wppa-settings-autosave.php:1165
+msgid "This table describes the dynamic behaviour of certain wppa+ elements."
+msgstr ""
+
+#: wppa-settings-autosave.php:1182
+#, fuzzy
+msgid "System related settings"
+msgstr "Options"
+
+#: wppa-settings-autosave.php:1184
+#, fuzzy
+msgid "Use Ajax"
+msgstr "Attention:"
+
+#: wppa-settings-autosave.php:1185
+msgid "Use Ajax as much as is possible and implemented."
+msgstr ""
+
+#: wppa-settings-autosave.php:1192
+#, fuzzy
+msgid "Photo names in urls"
+msgstr "Nom photo"
+
+#: wppa-settings-autosave.php:1193
+#, fuzzy
+msgid "Display photo names in urls, no numbers."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:1194
+msgid "While browsing through a slideshow and Use Ajax is checked, and the browser supports history.pushState,"
+msgstr ""
+
+#: wppa-settings-autosave.php:1195
+msgid "the photo names will be displayed in the generated urls in the browser address line."
+msgstr ""
+
+#: wppa-settings-autosave.php:1196
+msgid "These urls are valid and can be saved for use later."
+msgstr ""
+
+#: wppa-settings-autosave.php:1204
+msgid "V align"
+msgstr ""
+
+#: wppa-settings-autosave.php:1205
+#, fuzzy
+msgid "Vertical alignment of full-size images."
+msgstr "Alignement vertical:"
+
+#: wppa-settings-autosave.php:1206
+msgid "Specify the vertical alignment of fullsize images."
+msgstr ""
+
+#: wppa-settings-autosave.php:1207
+msgid "If you select --- none ---, the photos will not be centered horizontally either."
+msgstr ""
+
+#: wppa-settings-autosave.php:1209
+#: wppa-settings-autosave.php:1360
+#: wppa-slideshow-widget.php:201
+msgid "top"
+msgstr "haut"
+
+#: wppa-settings-autosave.php:1209
+#: wppa-settings-autosave.php:1221
+#: wppa-settings-autosave.php:1360
+#: wppa-slideshow-widget.php:202
+#: wppa-widget-admin.php:77
+msgid "center"
+msgstr "milieu"
+
+#: wppa-settings-autosave.php:1209
+#: wppa-settings-autosave.php:1360
+#: wppa-slideshow-widget.php:203
+msgid "bottom"
+msgstr "bas"
+
+#: wppa-settings-autosave.php:1209
+#: wppa-slideshow-widget.php:204
+msgid "fit"
+msgstr ""
+
+#: wppa-settings-autosave.php:1215
+msgid "H align"
+msgstr ""
+
+#: wppa-settings-autosave.php:1216
+#, fuzzy
+msgid "Horizontal alignment of full-size images."
+msgstr "Alignement vertical:"
+
+#: wppa-settings-autosave.php:1217
+msgid "Specify the horizontal alignment of fullsize images. If you specify --- none --- , no horizontal alignment will take place."
+msgstr ""
+
+#: wppa-settings-autosave.php:1218
+msgid "This setting is only usefull when the Column Width differs from the Fullsize Width."
+msgstr ""
+
+#: wppa-settings-autosave.php:1219
+msgid "(Settings I-1 and I-2)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1227
+msgid "Start"
+msgstr "Démarrer"
+
+#: wppa-settings-autosave.php:1228
+msgid "Start slideshow running."
+msgstr ""
+
+#: wppa-settings-autosave.php:1229
+msgid "If you select \"running\", the slideshow will start running immediately, if you select \"still at first photo\", the first photo will be displayed in browse mode."
+msgstr ""
+
+#: wppa-settings-autosave.php:1230
+msgid "If you select \"still at first norated\", the first photo that the visitor did not gave a rating will be displayed in browse mode."
+msgstr ""
+
+#: wppa-settings-autosave.php:1232
+#, fuzzy
+msgid "running"
+msgstr "Attention:"
+
+#: wppa-settings-autosave.php:1233
+msgid "still at first photo"
+msgstr ""
+
+#: wppa-settings-autosave.php:1234
+msgid "still at first norated"
+msgstr ""
+
+#: wppa-settings-autosave.php:1244
+#, fuzzy
+msgid "Animation type"
+msgstr "Lien vers:"
+
+#: wppa-settings-autosave.php:1245
+msgid "The way successive slides appear."
+msgstr ""
+
+#: wppa-settings-autosave.php:1246
+msgid "Select the way the old slide is to be replaced by the new one in the slideshow/browse fullsize display."
+msgstr ""
+
+#: wppa-settings-autosave.php:1248
+msgid "Fade out and in simultaneous"
+msgstr ""
+
+#: wppa-settings-autosave.php:1249
+msgid "Fade in after fade out"
+msgstr ""
+
+#: wppa-settings-autosave.php:1250
+msgid "Shift adjacent"
+msgstr ""
+
+#: wppa-settings-autosave.php:1251
+msgid "Stack on"
+msgstr ""
+
+#: wppa-settings-autosave.php:1252
+msgid "Stack off"
+msgstr ""
+
+#: wppa-settings-autosave.php:1253
+msgid "Turn over"
+msgstr ""
+
+#: wppa-settings-autosave.php:1265
+msgid "Timeout"
+msgstr ""
+
+#: wppa-settings-autosave.php:1266
+#, fuzzy
+msgid "Slideshow timeout."
+msgstr "Diaporama"
+
+#: wppa-settings-autosave.php:1267
+msgid "Select the time a single slide will be visible when the slideshow is started."
+msgstr ""
+
+#: wppa-settings-autosave.php:1269
+msgid "very short (1 s.)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1269
+msgid "short (1.5 s.)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1269
+msgid "normal (2.5 s.)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1269
+msgid "long (4 s.)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1269
+msgid "very long (6 s.)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1275
+msgid "Speed"
+msgstr ""
+
+#: wppa-settings-autosave.php:1276
+msgid "Slideshow animation speed."
+msgstr ""
+
+#: wppa-settings-autosave.php:1277
+msgid "Specify the animation speed to be used in slideshows."
+msgstr ""
+
+#: wppa-settings-autosave.php:1278
+msgid "This is the time it takes a photo to fade in or out."
+msgstr ""
+
+#: wppa-settings-autosave.php:1280
+#: wppa-settings-autosave.php:2086
+#: wppa-settings-autosave.php:2347
+#: wppa-settings-autosave.php:2356
+#, fuzzy
+msgid "--- off ---"
+msgstr "--- aucun ---"
+
+#: wppa-settings-autosave.php:1280
+msgid "very fast (200 ms.)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1280
+msgid "fast (400 ms.)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1280
+msgid "normal (800 ms.)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1280
+msgid "slow (1.2 s.)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1280
+msgid "very slow (2 s.)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1280
+msgid "extremely slow (4 s.)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1286
+#, fuzzy
+msgid "Slide hover pause"
+msgstr "Widget"
+
+#: wppa-settings-autosave.php:1287
+msgid "Running Slideshow suspends during mouse hover."
+msgstr ""
+
+#: wppa-settings-autosave.php:1293
+#, fuzzy
+msgid "Slideshow wrap around"
+msgstr "Widget"
+
+#: wppa-settings-autosave.php:1294
+msgid "The slideshow wraps around the start and end"
+msgstr ""
+
+#: wppa-settings-autosave.php:1300
+#, fuzzy
+msgid "Full desc align"
+msgstr "Taille réelle."
+
+#: wppa-settings-autosave.php:1301
+#, fuzzy
+msgid "The alignment of the descriptions under fullsize images and slideshows."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:1304
+#: wppa-settings-autosave.php:1349
+#: wppa-settings-autosave.php:1414
+msgid "Left"
+msgstr ""
+
+#: wppa-settings-autosave.php:1304
+#, fuzzy
+msgid "Center"
+msgstr "milieu"
+
+#: wppa-settings-autosave.php:1304
+#: wppa-settings-autosave.php:1349
+#: wppa-settings-autosave.php:1414
+msgid "Right"
+msgstr ""
+
+#: wppa-settings-autosave.php:1309
+msgid "Remove redundant space"
+msgstr ""
+
+#: wppa-settings-autosave.php:1310
+msgid "Removes unwanted &lt;p> and &lt;br> tags in fullsize descriptions."
+msgstr ""
+
+#: wppa-settings-autosave.php:1311
+msgid "This setting has only effect when Table IX-A7 (foreign shortcodes) is checked."
+msgstr ""
+
+#: wppa-settings-autosave.php:1316
+#, fuzzy
+msgid "Thumbnail related settings"
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:1319
+msgid "Photo ordering sequence method."
+msgstr ""
+
+#: wppa-settings-autosave.php:1320
+msgid "Specify the way the photos should be ordered. This is the default setting. You can overrule the default sorting order on a per album basis."
+msgstr "Spécifiez la manière dont les photos doivent être ordonnées. C'est le réglage par défaut. Vous pouvez annuler l'ordre de tri par défaut sur une base par album."
+
+#: wppa-settings-autosave.php:1322
+#, fuzzy
+msgid "Rating mean value"
+msgstr "Attention:"
+
+#: wppa-settings-autosave.php:1322
+#: wppa-topten-widget.php:129
+msgid "Number of votes"
+msgstr ""
+
+#: wppa-settings-autosave.php:1327
+#: wppa-settings-autosave.php:1403
+#, fuzzy
+msgid "Descending"
+msgstr "Descendant:"
+
+#: wppa-settings-autosave.php:1328
+#: wppa-settings-autosave.php:1404
+#, fuzzy
+msgid "Descending order."
+msgstr "Descendant:"
+
+#: wppa-settings-autosave.php:1329
+#: wppa-settings-autosave.php:1405
+msgid "If checked: largest first"
+msgstr "Si coché: la plus grande en premier"
+
+#: wppa-settings-autosave.php:1330
+msgid "This is a system wide setting."
+msgstr "Il s'agit d'un système de réglage de largeur."
+
+#: wppa-settings-autosave.php:1335
+#, fuzzy
+msgid "Thumbnail type"
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:1336
+msgid "The way the thumbnail images are displayed."
+msgstr ""
+
+#: wppa-settings-autosave.php:1337
+msgid "You may select an altenative display method for thumbnails. Note that some of the thumbnail settings do not apply to all available display methods."
+msgstr ""
+
+#: wppa-settings-autosave.php:1339
+msgid "like album covers"
+msgstr ""
+
+#: wppa-settings-autosave.php:1345
+#: wppa-settings-autosave.php:1410
+#, fuzzy
+msgid "Placement"
+msgstr "Parent"
+
+#: wppa-settings-autosave.php:1346
+msgid "Thumbnail image left or right."
+msgstr ""
+
+#: wppa-settings-autosave.php:1347
+msgid "Indicate the placement position of the thumbnailphoto you wish."
+msgstr ""
+
+#: wppa-settings-autosave.php:1355
+#, fuzzy
+msgid "Vertical alignment"
+msgstr "Alignement vertical:"
+
+#: wppa-settings-autosave.php:1356
+#, fuzzy
+msgid "Vertical alignment of thumbnails."
+msgstr "Alignement vertical:"
+
+#: wppa-settings-autosave.php:1357
+#, fuzzy
+msgid "Specify the vertical alignment of thumbnail images. Use this setting when albums contain both portrait and landscape photos."
+msgstr "Spécifier l'alignement vertical des vignettes. Utilisez ce paramètre uniquement lorsque des albums contiennent à la fois des portraits et des photos en mode paysage."
+
+#: wppa-settings-autosave.php:1358
+msgid "It is NOT recommended to use the value --- default ---; it will affect the horizontal alignment also and is meant to be used with custom css."
+msgstr ""
+
+#: wppa-settings-autosave.php:1366
+msgid "Thumb mouseover"
+msgstr ""
+
+#: wppa-settings-autosave.php:1367
+msgid "Apply thumbnail mouseover effect."
+msgstr ""
+
+#: wppa-settings-autosave.php:1368
+msgid "Check this box to use mouseover effect on thumbnail images."
+msgstr ""
+
+#: wppa-settings-autosave.php:1375
+#, fuzzy
+msgid "Thumb opacity"
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:1376
+#: wppa-settings-autosave.php:1428
+msgid "Initial opacity value."
+msgstr ""
+
+#: wppa-settings-autosave.php:1377
+#: wppa-settings-autosave.php:1429
+#: wppa-settings-autosave.php:1480
+msgid "Enter percentage of opacity. 100% is opaque, 0% is transparant"
+msgstr ""
+
+#: wppa-settings-autosave.php:1379
+#: wppa-settings-autosave.php:1431
+#: wppa-settings-autosave.php:1482
+#: wppa-settings-autosave.php:1529
+msgid "%"
+msgstr ""
+
+#: wppa-settings-autosave.php:1383
+msgid "Thumb popup"
+msgstr ""
+
+#: wppa-settings-autosave.php:1384
+#, fuzzy
+msgid "Use popup effect on thumbnail images."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:1385
+msgid "Thumbnails pop-up to a larger image when hovered."
+msgstr ""
+
+#: wppa-settings-autosave.php:1392
+msgid "Album and covers related settings"
+msgstr ""
+
+#: wppa-settings-autosave.php:1394
+#, fuzzy
+msgid "Album order"
+msgstr "Ordre Album:"
+
+#: wppa-settings-autosave.php:1395
+msgid "Album ordering sequence method."
+msgstr ""
+
+#: wppa-settings-autosave.php:1396
+msgid "Specify the way the albums should be ordered."
+msgstr "Spécifiez la manière dont les albums doivent être ordonnés."
+
+#: wppa-settings-autosave.php:1411
+msgid "Cover image position."
+msgstr ""
+
+#: wppa-settings-autosave.php:1412
+msgid "Indicate the placement position of the coverphoto you wish."
+msgstr ""
+
+#: wppa-settings-autosave.php:1419
+msgid "Cover mouseover"
+msgstr ""
+
+#: wppa-settings-autosave.php:1420
+msgid "Apply coverphoto mouseover effect."
+msgstr ""
+
+#: wppa-settings-autosave.php:1421
+msgid "Check this box to use mouseover effect on cover images."
+msgstr ""
+
+#: wppa-settings-autosave.php:1427
+#, fuzzy
+msgid "Cover opacity"
+msgstr "Photo de couverture:"
+
+#: wppa-settings-autosave.php:1435
+#, fuzzy
+msgid "Rating related settings"
+msgstr "Attention:"
+
+#: wppa-settings-autosave.php:1437
+#, fuzzy
+msgid "Rating login"
+msgstr "Attention:"
+
+#: wppa-settings-autosave.php:1438
+msgid "Users must login to rate photos."
+msgstr ""
+
+#: wppa-settings-autosave.php:1439
+msgid "If users want to vote for a photo (rating 1..5 stars) the must login first. The avarage rating will always be displayed as long as the rating system is enabled."
+msgstr ""
+
+#: wppa-settings-autosave.php:1445
+#, fuzzy
+msgid "Rating change"
+msgstr "Attention:"
+
+#: wppa-settings-autosave.php:1446
+#: wppa-settings-autosave.php:1447
+msgid "Users may change their ratings."
+msgstr ""
+
+#: wppa-settings-autosave.php:1453
+#, fuzzy
+msgid "Rating multi"
+msgstr "Attention:"
+
+#: wppa-settings-autosave.php:1454
+msgid "Users may give multiple votes."
+msgstr ""
+
+#: wppa-settings-autosave.php:1455
+msgid "Users may give multiple votes. (This has no effect when users may change their votes.)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1461
+#, fuzzy
+msgid "Rating use Ajax"
+msgstr "Attention:"
+
+#: wppa-settings-autosave.php:1462
+msgid "Use Ajax technology in rating (voting)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1463
+msgid "If checked, the page is updated rather than reloaded after clicking a rating star."
+msgstr ""
+
+#: wppa-settings-autosave.php:1464
+msgid "Enabling this feature ensures the fastest rating mechanism possible."
+msgstr ""
+
+#: wppa-settings-autosave.php:1470
+msgid "Next after vote"
+msgstr ""
+
+#: wppa-settings-autosave.php:1471
+msgid "Goto next slide after voting"
+msgstr ""
+
+#: wppa-settings-autosave.php:1472
+msgid "If checked, the visitor goes straight to the slide following the slide he voted. This will speed up mass voting."
+msgstr ""
+
+#: wppa-settings-autosave.php:1478
+#, fuzzy
+msgid "Star off opacity"
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:1479
+msgid "Rating star off state opacity value."
+msgstr ""
+
+#: wppa-settings-autosave.php:1486
+#, fuzzy
+msgid "Comments related settings"
+msgstr "Niveau d'accès:"
+
+#: wppa-settings-autosave.php:1488
+#, fuzzy
+msgid "Commenting login"
+msgstr "Attention:"
+
+#: wppa-settings-autosave.php:1489
+msgid "Users must be logged in to comment on photos."
+msgstr ""
+
+#: wppa-settings-autosave.php:1490
+msgid "Check this box if you want users to be logged in to be able to enter comments on individual photos."
+msgstr ""
+
+#: wppa-settings-autosave.php:1496
+#, fuzzy
+msgid "Last comment first"
+msgstr "Gérer les photos"
+
+#: wppa-settings-autosave.php:1497
+msgid "Display the newest comment on top."
+msgstr ""
+
+#: wppa-settings-autosave.php:1498
+msgid "If checked: Display the newest comment on top."
+msgstr ""
+
+#: wppa-settings-autosave.php:1499
+msgid "If unchecked, the comments are listed in the ordere they were entered."
+msgstr ""
+
+#: wppa-settings-autosave.php:1505
+#, fuzzy
+msgid "Comment moderation"
+msgstr "Attention:"
+
+#: wppa-settings-autosave.php:1506
+msgid "Comments from what users need approval."
+msgstr ""
+
+#: wppa-settings-autosave.php:1507
+#, fuzzy
+msgid "Select the desired users of which the comments need approval."
+msgstr "Sélectionnez la page vers laquelle la photo pointe."
+
+#: wppa-settings-autosave.php:1509
+msgid "All users"
+msgstr ""
+
+#: wppa-settings-autosave.php:1509
+msgid "Logged out users"
+msgstr ""
+
+#: wppa-settings-autosave.php:1509
+#, fuzzy
+msgid "No users"
+msgstr "heure."
+
+#: wppa-settings-autosave.php:1515
+msgid "Comment email required"
+msgstr ""
+
+#: wppa-settings-autosave.php:1516
+msgid "Commenting users must enter their email addresses."
+msgstr ""
+
+#: wppa-settings-autosave.php:1526
+#, fuzzy
+msgid "The opacity of the lightbox overlay background."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:1532
+#, fuzzy
+msgid "Click on background"
+msgstr "Widget"
+
+#: wppa-settings-autosave.php:1533
+msgid "Select the action to be taken on click on background."
+msgstr ""
+
+#: wppa-settings-autosave.php:1536
+msgid "Nothing"
+msgstr ""
+
+#: wppa-settings-autosave.php:1536
+msgid "Exit (close)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1536
+msgid "Browse (left/right)"
+msgstr ""
+
+#: wppa-settings-autosave.php:1556
+msgid "Table V:"
+msgstr ""
+
+#: wppa-settings-autosave.php:1556
+msgid "Fonts:"
+msgstr ""
+
+#: wppa-settings-autosave.php:1557
+msgid "This table describes the Fonts used for the wppa+ elements."
+msgstr ""
+
+#: wppa-settings-autosave.php:1558
+msgid "If you leave fields empty, your themes defaults will be used."
+msgstr ""
+
+#: wppa-settings-autosave.php:1568
+#: wppa-settings-autosave.php:1709
+msgid "Font family"
+msgstr ""
+
+#: wppa-settings-autosave.php:1569
+#: wppa-settings-autosave.php:1710
+#, fuzzy
+msgid "Font size"
+msgstr "Taille réelle."
+
+#: wppa-settings-autosave.php:1570
+#: wppa-settings-autosave.php:1711
+msgid "Font color"
+msgstr ""
+
+#: wppa-settings-autosave.php:1571
+#: wppa-settings-autosave.php:1712
+#, fuzzy
+msgid "Font weight"
+msgstr "Taille réelle."
+
+#: wppa-settings-autosave.php:1579
+msgid "normal"
+msgstr ""
+
+#: wppa-settings-autosave.php:1579
+msgid "bold"
+msgstr ""
+
+#: wppa-settings-autosave.php:1579
+msgid "bolder"
+msgstr ""
+
+#: wppa-settings-autosave.php:1579
+msgid "lighter"
+msgstr ""
+
+#: wppa-settings-autosave.php:1582
+#, fuzzy
+msgid "Album titles"
+msgstr "Ordre Album:"
+
+#: wppa-settings-autosave.php:1583
+msgid "Font used for Album titles."
+msgstr ""
+
+#: wppa-settings-autosave.php:1584
+msgid "Enter font name, size, color and weight for album cover titles."
+msgstr ""
+
+#: wppa-settings-autosave.php:1598
+msgid "Font for fullsize photo descriptions."
+msgstr ""
+
+#: wppa-settings-autosave.php:1599
+msgid "Enter font name, size, color and weight for fullsize photo descriptions."
+msgstr ""
+
+#: wppa-settings-autosave.php:1613
+msgid "Font for fullsize photo names."
+msgstr ""
+
+#: wppa-settings-autosave.php:1614
+msgid "Enter font name, size, color and weight for fullsize photo names."
+msgstr ""
+
+#: wppa-settings-autosave.php:1627
+msgid "Navigations"
+msgstr ""
+
+#: wppa-settings-autosave.php:1628
+msgid "Font for navigations."
+msgstr ""
+
+#: wppa-settings-autosave.php:1629
+msgid "Enter font name, size, color and weight for navigation items."
+msgstr ""
+
+#: wppa-settings-autosave.php:1642
+#, fuzzy
+msgid "Thumbnails"
+msgstr "Taille de la vignette."
+
+#: wppa-settings-autosave.php:1643
+#, fuzzy
+msgid "Font for text under thumbnails."
+msgstr "Sélectionnez le contenu des sous-titres."
+
+#: wppa-settings-autosave.php:1644
+msgid "Enter font name, size, color and weight for text under thumbnail images."
+msgstr ""
+
+#: wppa-settings-autosave.php:1657
+#, fuzzy
+msgid "Other"
+msgstr "ici"
+
+#: wppa-settings-autosave.php:1658
+msgid "General font in wppa boxes."
+msgstr ""
+
+#: wppa-settings-autosave.php:1659
+msgid "Enter font name, size, color and weight for all other items."
+msgstr ""
+
+#: wppa-settings-autosave.php:1673
+msgid "Font in wppa number bars."
+msgstr ""
+
+#: wppa-settings-autosave.php:1674
+#: wppa-settings-autosave.php:1689
+msgid "Enter font name, size, color and weight for numberbar navigation."
+msgstr ""
+
+#: wppa-settings-autosave.php:1687
+msgid "Numbar Active"
+msgstr ""
+
+#: wppa-settings-autosave.php:1688
+msgid "Font in wppa number bars, active item."
+msgstr ""
+
+#: wppa-settings-autosave.php:1720
+msgid "Table VI:"
+msgstr ""
+
+#: wppa-settings-autosave.php:1720
+#, fuzzy
+msgid "Links:"
+msgstr "Lien vers:"
+
+#: wppa-settings-autosave.php:1721
+msgid "This table defines the link types and pages."
+msgstr ""
+
+#: wppa-settings-autosave.php:1732
+#: wppa-settings-autosave.php:1972
+#, fuzzy
+msgid "Link page"
+msgstr "Lien vers:"
+
+#: wppa-settings-autosave.php:1734
+#: wppa-settings-autosave.php:1974
+msgid "Photo specific link overrules"
+msgstr ""
+
+#: wppa-settings-autosave.php:1734
+#: wppa-settings-autosave.php:1974
+msgid "PSO"
+msgstr ""
+
+#: wppa-settings-autosave.php:1742
+#: wppa-settings-autosave.php:1744
+#: wppa-settings-autosave.php:1746
+#: wppa-settings-autosave.php:1748
+#: wppa-settings-autosave.php:1750
+#: wppa-settings-autosave.php:1926
+#: wppa-settings-autosave.php:2955
+#, fuzzy
+msgid "no link at all."
+msgstr "--- aucun ---"
+
+#: wppa-settings-autosave.php:1742
+#: wppa-settings-autosave.php:1744
+#: wppa-settings-autosave.php:1746
+#: wppa-settings-autosave.php:1748
+#: wppa-settings-autosave.php:1750
+#: wppa-settings-autosave.php:1926
+#: wppa-settings-autosave.php:2956
+msgid "the plain photo (file)."
+msgstr ""
+
+#: wppa-settings-autosave.php:1742
+#: wppa-settings-autosave.php:1744
+#: wppa-settings-autosave.php:1746
+#: wppa-settings-autosave.php:1748
+#: wppa-settings-autosave.php:2957
+msgid "the full size photo in a slideshow."
+msgstr ""
+
+#: wppa-settings-autosave.php:1742
+#: wppa-settings-autosave.php:1744
+#: wppa-settings-autosave.php:1746
+#: wppa-settings-autosave.php:1748
+#: wppa-settings-autosave.php:2958
+msgid "the fullsize photo on its own."
+msgstr ""
+
+#: wppa-settings-autosave.php:1742
+msgid "the fullsize photo with a print button."
+msgstr ""
+
+#: wppa-settings-autosave.php:1742
+#: wppa-settings-autosave.php:1748
+#: wppa-settings-autosave.php:1926
+msgid "lightbox."
+msgstr ""
+
+#: wppa-settings-autosave.php:1744
+#: wppa-settings-autosave.php:1746
+#: wppa-settings-autosave.php:1748
+#: wppa-settings-autosave.php:2960
+#, fuzzy
+msgid "the content of the album."
+msgstr "Sélectionnez le contenu des sous-titres."
+
+#: wppa-settings-autosave.php:1746
+#: wppa-settings-autosave.php:2961
+msgid "defined at widget activation."
+msgstr ""
+
+#: wppa-settings-autosave.php:1748
+#: wppa-settings-autosave.php:2962
+msgid "defined on widget admin page."
+msgstr ""
+
+#: wppa-settings-autosave.php:1750
+#: wppa-settings-autosave.php:2963
+msgid "same as title."
+msgstr ""
+
+#: wppa-settings-autosave.php:1759
+#, fuzzy
+msgid "--- The same post or page ---"
+msgstr "--- separateur ---"
+
+#: wppa-settings-autosave.php:1777
+#, fuzzy
+msgid "--- No page to link to (yet) ---"
+msgstr "--- aucun ---"
+
+#: wppa-settings-autosave.php:1781
+msgid "Mphoto"
+msgstr ""
+
+#: wppa-settings-autosave.php:1782
+msgid "Media-like photo link."
+msgstr ""
+
+#: wppa-settings-autosave.php:1783
+#: wppa-settings-autosave.php:1803
+#, fuzzy
+msgid "Select the type of link you want, or no link at all."
+msgstr "Sélectionnez la photo que vous souhaitez voir apparaître sur la couverture de cet album."
+
+#: wppa-settings-autosave.php:1784
+#: wppa-settings-autosave.php:1804
+msgid "If you select the fullsize photo on its own, it will be stretched to fit, regardless of that setting."
+msgstr ""
+
+#: wppa-settings-autosave.php:1785
+#: wppa-settings-autosave.php:1805
+#, php-format
+msgid "Note that a page must have at least %%wppa%% in its content to show up the photo(s)."
+msgstr ""
+
+#: wppa-settings-autosave.php:1801
+#, fuzzy
+msgid "Thumbnail"
+msgstr "Taille de la vignette."
+
+#: wppa-settings-autosave.php:1802
+#, fuzzy
+msgid "Thumbnail link."
+msgstr "Taille de la vignette."
+
+#: wppa-settings-autosave.php:1822
+msgid "TopTenWidget"
+msgstr ""
+
+#: wppa-settings-autosave.php:1823
+#, fuzzy
+msgid "TopTen widget photo link."
+msgstr "Largeur Photo Widget."
+
+#: wppa-settings-autosave.php:1824
+#: wppa-settings-autosave.php:1843
+#, fuzzy
+msgid "Select the type of link the top ten photos point to."
+msgstr "Sélectionnez la page vers laquelle la photo pointe."
+
+#: wppa-settings-autosave.php:1841
+#, fuzzy
+msgid "SlideWidget"
+msgstr "Widget"
+
+#: wppa-settings-autosave.php:1842
+#, fuzzy
+msgid "Slideshow widget photo link."
+msgstr "Sélectionnez la page vers laquelle la photo pointe."
+
+#: wppa-settings-autosave.php:1859
+msgid "PotdWidget"
+msgstr ""
+
+#: wppa-settings-autosave.php:1860
+#, fuzzy
+msgid "Photo Of The Day widget link."
+msgstr "Photo du jour"
+
+#: wppa-settings-autosave.php:1861
+#, fuzzy
+msgid "Select the type of link the photo of the day points to."
+msgstr "Sélectionnez la page vers laquelle la photo pointe."
+
+#: wppa-settings-autosave.php:1862
+msgid "If you select 'defined on widget admin page' you can manually enter a link and title on the Photo of the day Widget Admin page."
+msgstr ""
+
+#: wppa-settings-autosave.php:1878
+msgid "Cover Image"
+msgstr ""
+
+#: wppa-settings-autosave.php:1879
+msgid "The link from the cover image of an album."
+msgstr ""
+
+#: wppa-settings-autosave.php:1880
+#, fuzzy
+msgid "Select the type of link the coverphoto points to."
+msgstr "Sélectionnez la page vers laquelle la photo pointe."
+
+#: wppa-settings-autosave.php:1881
+msgid "The link from the album title can be configured on the Edit Album page."
+msgstr ""
+
+#: wppa-settings-autosave.php:1882
+msgid "This link will be used for the photo also if you select: same as title."
+msgstr ""
+
+#: wppa-settings-autosave.php:1883
+msgid "If you specify New Tab on this line, all links from the cover will open a new tab,"
+msgstr ""
+
+#: wppa-settings-autosave.php:1884
+msgid "except when Ajax is activated on Table IV-A1."
+msgstr ""
+
+#: wppa-settings-autosave.php:1900
+#, fuzzy
+msgid "CommentWidget"
+msgstr "contenu"
+
+#: wppa-settings-autosave.php:1901
+#, fuzzy
+msgid "Comment widget photo link."
+msgstr "Largeur Photo Widget."
+
+#: wppa-settings-autosave.php:1902
+#, fuzzy
+msgid "Select the type of link the comment widget photos point to."
+msgstr "Sélectionnez la page vers laquelle la photo pointe."
+
+#: wppa-settings-autosave.php:1919
+#, fuzzy
+msgid "Slideshow fullsize link"
+msgstr "Sélectionnez la page vers laquelle la photo pointe."
+
+#: wppa-settings-autosave.php:1920
+msgid "You can overrule lightbox but not big browse buttons with the photo specifc link."
+msgstr ""
+
+#: wppa-settings-autosave.php:1937
+#, fuzzy
+msgid "ThumbnailWidget"
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:1938
+#, fuzzy
+msgid "Thumbnail widget photo link."
+msgstr "Largeur Photo Widget."
+
+#: wppa-settings-autosave.php:1939
+#, fuzzy
+msgid "Select the type of link the thumbnail photos point to."
+msgstr "Sélectionnez la page vers laquelle la photo pointe."
+
+#: wppa-settings-autosave.php:1955
+#, fuzzy
+msgid "Film linktype"
+msgstr "Lien vers:"
+
+#: wppa-settings-autosave.php:1956
+msgid "Direct access goto image in:"
+msgstr ""
+
+#: wppa-settings-autosave.php:1957
+msgid "Select the action to be taken when the user clicks on a filmstrip image."
+msgstr ""
+
+#: wppa-settings-autosave.php:1959
+#, fuzzy
+msgid "slideshow window"
+msgstr "Widget"
+
+#: wppa-settings-autosave.php:1959
+#, fuzzy
+msgid "lightbox overlay"
+msgstr "Taille vignette:"
+
+#: wppa-settings-autosave.php:1982
+msgid "Table VII:"
+msgstr ""
+
+#: wppa-settings-autosave.php:1982
+msgid "Access and Security:"
+msgstr ""
+
+#: wppa-settings-autosave.php:1983
+msgid "This table describes the access settings for wppa+ elements and pages."
+msgstr ""
+
+#: wppa-settings-autosave.php:2009
+msgid "Role"
+msgstr ""
+
+#: wppa-settings-autosave.php:2017
+#, fuzzy
+msgid "Roles and Capability settings"
+msgstr "Options"
+
+#: wppa-settings-autosave.php:2039
+msgid "Miscellaneous scurity settings"
+msgstr ""
+
+#: wppa-settings-autosave.php:2041
+#, fuzzy
+msgid "User upload login"
+msgstr "Dernier upload"
+
+#: wppa-settings-autosave.php:2042
+msgid "Users must be logged in to be able to upload."
+msgstr ""
+
+#: wppa-settings-autosave.php:2043
+msgid "If you uncheck this box, make sure you check the next 3 items."
+msgstr ""
+
+#: wppa-settings-autosave.php:2044
+msgid "Set the owner to ---public--- of the albums that are allowed to be uploaded to."
+msgstr ""
+
+#: wppa-settings-autosave.php:2049
+#, fuzzy
+msgid "Owners only"
+msgstr "Ordre"
+
+#: wppa-settings-autosave.php:2050
+msgid "Limit album access to the album owners only."
+msgstr ""
+
+#: wppa-settings-autosave.php:2051
+msgid "If checked, users who can edit albums and/or upload/import photos can do that with their own albums and --- public --- albums only."
+msgstr ""
+
+#: wppa-settings-autosave.php:2052
+msgid "Users can give their albums to another user. Administrators can change ownership and access all albums always."
+msgstr ""
+
+#: wppa-settings-autosave.php:2057
+#, fuzzy
+msgid "User upload"
+msgstr "Dernier upload"
+
+#: wppa-settings-autosave.php:2058
+#, fuzzy
+msgid "Enable visitors to upload photos."
+msgstr "avant de vouloir uploader vos photos."
+
+#: wppa-settings-autosave.php:2059
+msgid "If you check this item, visitors who are logged in and have wppa+ upload rights and have access to the album will see an upload photo link on album covers and thumbnail displays."
+msgstr ""
+
+#: wppa-settings-autosave.php:2065
+#, fuzzy
+msgid "Upload moderation"
+msgstr "Attention:"
+
+#: wppa-settings-autosave.php:2066
+msgid "Uploaded photos need moderation."
+msgstr ""
+
+#: wppa-settings-autosave.php:2067
+msgid "If checked, photos uploaded by users who do not have photo album admin access rights need moderation."
+msgstr ""
+
+#: wppa-settings-autosave.php:2068
+msgid "Users who have photo album admin access rights can change the photo status to publish or featured."
+msgstr ""
+
+#: wppa-settings-autosave.php:2069
+msgid "You can set the album admin access rights in Table VII-A."
+msgstr ""
+
+#: wppa-settings-autosave.php:2074
+#, fuzzy
+msgid "Comment captcha"
+msgstr "Photo de couverture:"
+
+#: wppa-settings-autosave.php:2075
+msgid "Use a simple calculate captcha on comments form."
+msgstr ""
+
+#: wppa-settings-autosave.php:2082
+msgid "Spam lifetime"
+msgstr ""
+
+#: wppa-settings-autosave.php:2083
+msgid "Delete spam comments when older than."
+msgstr ""
+
+#: wppa-settings-autosave.php:2086
+msgid "10 minutes"
+msgstr ""
+
+#: wppa-settings-autosave.php:2086
+#, fuzzy
+msgid "half an hour"
+msgstr "heure."
+
+#: wppa-settings-autosave.php:2086
+#, fuzzy
+msgid "one hour"
+msgstr "heure."
+
+#: wppa-settings-autosave.php:2086
+#, fuzzy
+msgid "one day"
+msgstr "jour."
+
+#: wppa-settings-autosave.php:2086
+#, fuzzy
+msgid "one week"
+msgstr "semaine."
+
+#: wppa-settings-autosave.php:2107
+msgid "Table VIII:"
+msgstr ""
+
+#: wppa-settings-autosave.php:2107
+#, fuzzy
+msgid "Actions:"
+msgstr "Description:"
+
+#: wppa-settings-autosave.php:2108
+msgid "This table lists all actions that can be taken to the wppa+ system"
+msgstr ""
+
+#: wppa-settings-autosave.php:2118
+#: wppa-settings-autosave.php:2253
+msgid "Specification"
+msgstr ""
+
+#: wppa-settings-autosave.php:2119
+#: wppa-settings-autosave.php:2254
+#: wppa-settings-autosave.php:2985
+#: wppa-settings-autosave.php:2998
+msgid "Do it!"
+msgstr ""
+
+#: wppa-settings-autosave.php:2127
+msgid "Harmless and reverseable actions"
+msgstr ""
+
+#: wppa-settings-autosave.php:2129
+msgid "Setup"
+msgstr ""
+
+#: wppa-settings-autosave.php:2130
+msgid "Re-initialize plugin."
+msgstr ""
+
+#: wppa-settings-autosave.php:2131
+msgid "Re-initilizes the plugin, (re)creates database tables and sets up default settings and directories if required."
+msgstr ""
+
+#: wppa-settings-autosave.php:2132
+msgid "This action may be required to setup blogs in a multiblog (network) site as well as in rare cases to correct initilization errors."
+msgstr ""
+
+#: wppa-settings-autosave.php:2139
+#, fuzzy
+msgid "Backup settings"
+msgstr "Niveau d'accès:"
+
+#: wppa-settings-autosave.php:2140
+msgid "Save all settings into a backup file."
+msgstr ""
+
+#: wppa-settings-autosave.php:2141
+msgid "Saves all the settings into a backup file"
+msgstr ""
+
+#: wppa-settings-autosave.php:2148
+#, fuzzy
+msgid "Load settings"
+msgstr "Niveau d'accès:"
+
+#: wppa-settings-autosave.php:2149
+msgid "Restore all settings from defaults, a backup or skin file."
+msgstr ""
+
+#: wppa-settings-autosave.php:2150
+msgid "Restores all the settings from the factory supplied defaults, the backup you created or from a skin file."
+msgstr ""
+
+#: wppa-settings-autosave.php:2157
+#, fuzzy
+msgid "--- set to defaults ---"
+msgstr "--- default ---"
+
+#: wppa-settings-autosave.php:2160
+msgid "--- restore backup ---"
+msgstr ""
+
+#: wppa-settings-autosave.php:2178
+msgid "Regenerate"
+msgstr ""
+
+#: wppa-settings-autosave.php:2179
+#: wppa-settings-autosave.php:2180
+#, fuzzy
+msgid "Regenerate all thumbnails."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:2187
+#, fuzzy
+msgid "Rerate"
+msgstr "ici"
+
+#: wppa-settings-autosave.php:2188
+#, fuzzy
+msgid "Recalculate ratings."
+msgstr "Installation"
+
+#: wppa-settings-autosave.php:2189
+msgid "This function will recalculate all mean photo ratings from the ratings table."
+msgstr ""
+
+#: wppa-settings-autosave.php:2190
+msgid "You may need this function after the re-import of previously exported photos"
+msgstr ""
+
+#: wppa-settings-autosave.php:2197
+msgid "Cleanup"
+msgstr ""
+
+#: wppa-settings-autosave.php:2198
+msgid "Fix and secure WPPA+ system consistency"
+msgstr ""
+
+#: wppa-settings-autosave.php:2199
+msgid "This function will cleanup incomplete db entries and recover lost photos."
+msgstr ""
+
+#: wppa-settings-autosave.php:2206
+#, fuzzy
+msgid "Recuperate"
+msgstr "ici"
+
+#: wppa-settings-autosave.php:2208
+msgid "This action will attempt to find and register IPTC and EXIF data from photos in the WPPA+ system."
+msgstr ""
+
+#: wppa-settings-autosave.php:2209
+msgid "WARNING: Photos that have been downzised during upload/import will have NO IPTC and/or EXIF data."
+msgstr ""
+
+#: wppa-settings-autosave.php:2210
+msgid "If you want that data, you will have to re-import the original files. Use the update switch. You may resize them again."
+msgstr ""
+
+#: wppa-settings-autosave.php:2217
+msgid "Clearing and other irreverseable actions"
+msgstr ""
+
+#: wppa-settings-autosave.php:2219
+#, fuzzy
+msgid "Clear ratings"
+msgstr "Impossible de créer l'album."
+
+#: wppa-settings-autosave.php:2220
+#, fuzzy
+msgid "Reset all ratings."
+msgstr "Installation"
+
+#: wppa-settings-autosave.php:2221
+msgid "WARNING: If checked, this will clear all ratings in the system!"
+msgstr ""
+
+#: wppa-settings-autosave.php:2228
+msgid "Reset IPTC"
+msgstr ""
+
+#: wppa-settings-autosave.php:2229
+msgid "Clear all IPTC data."
+msgstr ""
+
+#: wppa-settings-autosave.php:2230
+msgid "WARNING: If checked, this will clear all IPTC data in the system!"
+msgstr ""
+
+#: wppa-settings-autosave.php:2237
+msgid "Reset EXIF"
+msgstr ""
+
+#: wppa-settings-autosave.php:2238
+#, fuzzy
+msgid "Clear all EXIF data."
+msgstr "Installation"
+
+#: wppa-settings-autosave.php:2239
+msgid "WARNING: If checked, this will clear all EXIF data in the system!"
+msgstr ""
+
+#: wppa-settings-autosave.php:2262
+msgid "Table IX:"
+msgstr ""
+
+#: wppa-settings-autosave.php:2262
+msgid "Miscellaneous:"
+msgstr ""
+
+#: wppa-settings-autosave.php:2263
+msgid "This table lists all settings that do not fit into an other table"
+msgstr ""
+
+#: wppa-settings-autosave.php:2280
+msgid "WPPA+ System related miscellaneous settings"
+msgstr ""
+
+#: wppa-settings-autosave.php:2282
+msgid "Allow HTML"
+msgstr ""
+
+#: wppa-settings-autosave.php:2283
+msgid "Allow HTML in album and photo descriptions."
+msgstr ""
+
+#: wppa-settings-autosave.php:2284
+msgid "If checked: html is allowed. WARNING: No checks on syntax, it is your own responsability to close tags properly!"
+msgstr ""
+
+#: wppa-settings-autosave.php:2289
+msgid "Check tag balance"
+msgstr ""
+
+#: wppa-settings-autosave.php:2290
+msgid "Check if the HTML tags are properly closed: \"balanced\"."
+msgstr ""
+
+#: wppa-settings-autosave.php:2291
+msgid "If the HTML tags in an album or a photo description are not in balance, the description is not updated, an errormessage is displayed"
+msgstr ""
+
+#: wppa-settings-autosave.php:2296
+msgid "Allow WPPA+ Debugging"
+msgstr ""
+
+#: wppa-settings-autosave.php:2297
+msgid "Allow the use of &debug=.. in urls to this site."
+msgstr ""
+
+#: wppa-settings-autosave.php:2298
+msgid "If checked: appending (?)(&)debug or (?)(&)debug=<int> to an url to this site will generate the display of special WPPA+ diagnostics, as well as php warnings"
+msgstr ""
+
+#: wppa-settings-autosave.php:2303
+msgid "Autoclean"
+msgstr ""
+
+#: wppa-settings-autosave.php:2304
+msgid "Auto cleanup invalid database entries."
+msgstr ""
+
+#: wppa-settings-autosave.php:2305
+msgid "If checked, the database consistency will be automaticly secured after an interrupted upload or import procedure."
+msgstr ""
+
+#: wppa-settings-autosave.php:2310
+msgid "WPPA+ Filter priority"
+msgstr ""
+
+#: wppa-settings-autosave.php:2311
+msgid "Sets the priority of the wppa+ content filter."
+msgstr ""
+
+#: wppa-settings-autosave.php:2312
+msgid "If you encounter conflicts with the theme or other plugins, increasing this value sometimes helps. Use with great care!"
+msgstr ""
+
+#: wppa-settings-autosave.php:2317
+#, fuzzy
+msgid "Lightbox keyname"
+msgstr "Ordre des photos:"
+
+#: wppa-settings-autosave.php:2318
+msgid "The identifier of lightbox."
+msgstr ""
+
+#: wppa-settings-autosave.php:2319
+msgid "If you use a lightbox plugin that uses rel=\"lbox-id\" you can enter the lbox-id here."
+msgstr ""
+
+#: wppa-settings-autosave.php:2325
+msgid "Foreign shortcodes"
+msgstr ""
+
+#: wppa-settings-autosave.php:2326
+msgid "Enable the use of non-wppa+ shortcodes in fullsize photo descriptions."
+msgstr ""
+
+#: wppa-settings-autosave.php:2327
+msgid "When checked, you can use shortcodes from other plugins in the description of photos."
+msgstr ""
+
+#: wppa-settings-autosave.php:2328
+#, fuzzy
+msgid "The shortcodes will be expanded in the descriptions of fullsize images."
+msgstr "PRET à regénérer les vignettes."
+
+#: wppa-settings-autosave.php:2329
+msgid "You will most likely need also to check Table IX-A1 (Allow HTML)."
+msgstr ""
+
+#: wppa-settings-autosave.php:2334
+msgid "Arrow color"
+msgstr ""
+
+#: wppa-settings-autosave.php:2335
+msgid "Left/right browsing arrow color."
+msgstr ""
+
+#: wppa-settings-autosave.php:2336
+msgid "Enter the color of the navigation arrows."
+msgstr ""
+
+#: wppa-settings-autosave.php:2341
+msgid "New Album and New Photo related miscellaneous settings"
+msgstr ""
+
+#: wppa-settings-autosave.php:2344
+msgid "Maximum time an album is indicated as New!"
+msgstr ""
+
+#: wppa-settings-autosave.php:2347
+#: wppa-settings-autosave.php:2356
+#, fuzzy
+msgid "One hour"
+msgstr "heure."
+
+#: wppa-settings-autosave.php:2347
+#: wppa-settings-autosave.php:2356
+#, fuzzy
+msgid "One day"
+msgstr "jour."
+
+#: wppa-settings-autosave.php:2347
+#: wppa-settings-autosave.php:2356
+#, fuzzy
+msgid "One week"
+msgstr "semaine."
+
+#: wppa-settings-autosave.php:2347
+#: wppa-settings-autosave.php:2356
+msgid "One month"
+msgstr ""
+
+#: wppa-settings-autosave.php:2352
+#, fuzzy
+msgid "New Photo"
+msgstr "Upload Photos"
+
+#: wppa-settings-autosave.php:2353
+msgid "Maximum time a photo is indicated as New!"
+msgstr ""
+
+#: wppa-settings-autosave.php:2361
+msgid "Apply Newphoto desc"
+msgstr ""
+
+#: wppa-settings-autosave.php:2362
+msgid "Give each new photo a standard description."
+msgstr ""
+
+#: wppa-settings-autosave.php:2363
+msgid "If checked, each new photo will get the description (template) as specified in the next item."
+msgstr ""
+
+#: wppa-settings-autosave.php:2368
+#, fuzzy
+msgid "New photo desc"
+msgstr "Upload Photos"
+
+#: wppa-settings-autosave.php:2369
+msgid "The description (template) to add to a new photo."
+msgstr ""
+
+#: wppa-settings-autosave.php:2370
+#, fuzzy
+msgid "Enter the default description."
+msgstr "Entrez / modifiez la description de cet album."
+
+#: wppa-settings-autosave.php:2371
+msgid "If you use html, please check item A-1 of this table."
+msgstr ""
+
+#: wppa-settings-autosave.php:2376
+msgid "Search Albums and Photos related settings"
+msgstr ""
+
+#: wppa-settings-autosave.php:2378
+#, fuzzy
+msgid "Search page"
+msgstr "photos"
+
+#: wppa-settings-autosave.php:2379
+msgid "Display the search results on page."
+msgstr ""
+
+#: wppa-settings-autosave.php:2380
+#, php-format
+msgid "Select the page to be used to display search results. The page MUST contain %%wppa%%."
+msgstr ""
+
+#: wppa-settings-autosave.php:2381
+msgid "You may give it the title \"Search results\" or something alike."
+msgstr ""
+
+#: wppa-settings-autosave.php:2382
+msgid "Or you ou may use the standard page on which you display the generic album."
+msgstr ""
+
+#: wppa-settings-autosave.php:2399
+msgid "Exclude separate"
+msgstr ""
+
+#: wppa-settings-autosave.php:2400
+#, fuzzy
+msgid "Do not search 'separate' albums."
+msgstr "Impossible de créer l'album."
+
+#: wppa-settings-autosave.php:2401
+msgid "When checked, albums (and photos in them) that have the parent set to --- separate --- will be excluded from being searched."
+msgstr ""
+
+#: wppa-settings-autosave.php:2406
+#, fuzzy
+msgid "Photos only"
+msgstr "Ordre des photos:"
+
+#: wppa-settings-autosave.php:2407
+#, fuzzy
+msgid "Search for photos only."
+msgstr "photos"
+
+#: wppa-settings-autosave.php:2408
+msgid "When checked, only photos will be searched for."
+msgstr ""
+
+#: wppa-settings-autosave.php:2413
+msgid "Watermark related settings"
+msgstr ""
+
+#: wppa-settings-autosave.php:2415
+msgid "Watermark"
+msgstr ""
+
+#: wppa-settings-autosave.php:2416
+msgid "Enable the application of watermarks."
+msgstr ""
+
+#: wppa-settings-autosave.php:2417
+#, fuzzy
+msgid "If checked, photos can be watermarked during upload / import."
+msgstr "Spécifiez la manière dont les photos devraient être classés dans cet album."
+
+#: wppa-settings-autosave.php:2423
+msgid "User Watermark"
+msgstr ""
+
+#: wppa-settings-autosave.php:2424
+msgid "Uploading users may select watermark settings"
+msgstr ""
+
+#: wppa-settings-autosave.php:2425
+msgid "If checked, anyone who can upload and/or import photos can overrule the default watermark settings."
+msgstr ""
+
+#: wppa-settings-autosave.php:2431
+msgid "Watermark file"
+msgstr ""
+
+#: wppa-settings-autosave.php:2432
+msgid "The default watermarkfile to be used."
+msgstr ""
+
+#: wppa-settings-autosave.php:2433
+msgid "Watermark files are of type png and reside in"
+msgstr ""
+
+#: wppa-settings-autosave.php:2434
+msgid "A suitable watermarkfile typically consists of a transparent background and a black text or drawing."
+msgstr ""
+
+#: wppa-settings-autosave.php:2435
+msgid "The watermark image will be overlaying the photo with 80% transparency."
+msgstr ""
+
+#: wppa-settings-autosave.php:2440
+#, fuzzy
+msgid "position:"
+msgstr "Description:"
+
+#: wppa-settings-autosave.php:2444
+#, fuzzy
+msgid "Upload watermark"
+msgstr "Upload Photos"
+
+#: wppa-settings-autosave.php:2445
+msgid "Upload a new watermark file"
+msgstr ""
+
+#: wppa-settings-autosave.php:2449
+#, fuzzy
+msgid "Upload it!"
+msgstr "Upload Photos"
+
+#: wppa-settings-autosave.php:2453
+msgid "You can set the intensity of watermarks here."
+msgstr ""
+
+#: wppa-settings-autosave.php:2454
+msgid "The higher the number, the intenser the watermark. Value must be > 0 and <= 100."
+msgstr ""
+
+#: wppa-settings-autosave.php:2459
+msgid "Slideshow elements sequence order settings"
+msgstr ""
+
+#: wppa-settings-autosave.php:2464
+#, fuzzy
+msgid "StartStop"
+msgstr "Démarrer"
+
+#: wppa-settings-autosave.php:2465
+msgid "SlideFrame"
+msgstr ""
+
+#: wppa-settings-autosave.php:2466
+#, fuzzy
+msgid "NameDesc"
+msgstr "Nom"
+
+#: wppa-settings-autosave.php:2469
+msgid "FilmStrip"
+msgstr ""
+
+#: wppa-settings-autosave.php:2470
+#, fuzzy
+msgid "Browsebar"
+msgstr "Trier les photos par:"
+
+#: wppa-settings-autosave.php:2472
+msgid "IPTC data"
+msgstr ""
+
+#: wppa-settings-autosave.php:2473
+msgid "EXIF data"
+msgstr ""
+
+#: wppa-settings-autosave.php:2474
+msgid "Enabled"
+msgstr ""
+
+#: wppa-settings-autosave.php:2475
+msgid "Disabled"
+msgstr ""
+
+#: wppa-settings-autosave.php:2477
+msgid "Start/Stop & Slower/Faster navigation bar"
+msgstr ""
+
+#: wppa-settings-autosave.php:2478
+msgid "The Slide Frame"
+msgstr ""
+
+#: wppa-settings-autosave.php:2478
+msgid "( Always )"
+msgstr ""
+
+#: wppa-settings-autosave.php:2479
+#, fuzzy
+msgid "Photo Name & Description Box"
+msgstr "Description:"
+
+#: wppa-settings-autosave.php:2480
+msgid "Custom Box"
+msgstr ""
+
+#: wppa-settings-autosave.php:2481
+#, fuzzy
+msgid "Rating Bar"
+msgstr "Attention:"
+
+#: wppa-settings-autosave.php:2482
+msgid "Film Strip with embedded Start/Stop and Goto functionality"
+msgstr ""
+
+#: wppa-settings-autosave.php:2483
+msgid "Browse Bar with Photo X of Y counter"
+msgstr ""
+
+#: wppa-settings-autosave.php:2484
+#, fuzzy
+msgid "Comments Box"
+msgstr "contenu"
+
+#: wppa-settings-autosave.php:2485
+msgid "IPTC box"
+msgstr ""
+
+#: wppa-settings-autosave.php:2486
+msgid "EXIF box"
+msgstr ""
+
+#: wppa-settings-autosave.php:2492
+#, fuzzy
+msgid "Move Up"
+msgstr "Déplacer vers:"
+
+#: wppa-settings-autosave.php:2499
+#, fuzzy
+msgid "Swap Namedesc"
+msgstr "Nom"
+
+#: wppa-settings-autosave.php:2500
+msgid "Swap the order sequence of name and description"
+msgstr ""
+
+#: wppa-settings-autosave.php:2527
+msgid "Table X:"
+msgstr ""
+
+#: wppa-settings-autosave.php:2527
+msgid "IPTC Configuration:"
+msgstr ""
+
+#: wppa-settings-autosave.php:2528
+msgid "This table defines the IPTC configuration"
+msgstr ""
+
+#: wppa-settings-autosave.php:2536
+#: wppa-settings-autosave.php:2572
+#: wppa-settings-autosave.php:2592
+#: wppa-settings-autosave.php:2628
+msgid "Tag"
+msgstr ""
+
+#: wppa-settings-autosave.php:2557
+#: wppa-settings-autosave.php:2613
+#, fuzzy
+msgid "Display"
+msgstr "Méthode d'affichage:"
+
+#: wppa-settings-autosave.php:2557
+#: wppa-settings-autosave.php:2613
+#: wppa-settings-autosave.php:2979
+msgid "Hide"
+msgstr ""
+
+#: wppa-settings-autosave.php:2557
+#: wppa-settings-autosave.php:2613
+msgid "Optional"
+msgstr ""
+
+#: wppa-settings-autosave.php:2583
+msgid "Table XI:"
+msgstr ""
+
+#: wppa-settings-autosave.php:2583
+msgid "EXIF Configuration:"
+msgstr ""
+
+#: wppa-settings-autosave.php:2584
+msgid "This table defines the EXIF configuration"
+msgstr ""
+
+#: wppa-settings-autosave.php:2639
+msgid "Table XII:"
+msgstr ""
+
+#: wppa-settings-autosave.php:2639
+msgid "WPPA+ and PHP Configuration:"
+msgstr ""
+
+#: wppa-settings-autosave.php:2640
+msgid "This table lists all WPPA+ constants and PHP server configuration parameters and is read only"
+msgstr ""
+
+#: wppa-settings-autosave.php:2650
+msgid "Value"
+msgstr ""
+
+#: wppa-settings-autosave.php:2655
+#, fuzzy
+msgid "Albums db table name."
+msgstr "L'album ne peut pas être mis à jour."
+
+#: wppa-settings-autosave.php:2660
+msgid "Photos db table name."
+msgstr ""
+
+#: wppa-settings-autosave.php:2665
+msgid "Rating db table name."
+msgstr ""
+
+#: wppa-settings-autosave.php:2670
+msgid "Comments db table name."
+msgstr ""
+
+#: wppa-settings-autosave.php:2675
+#, fuzzy
+msgid "IPTC db table name."
+msgstr "L'album ne peut pas être mis à jour."
+
+#: wppa-settings-autosave.php:2680
+#, fuzzy
+msgid "EXIF db table name."
+msgstr "L'album ne peut pas être mis à jour."
+
+#: wppa-settings-autosave.php:2685
+#, fuzzy
+msgid "Plugins main file name."
+msgstr "Caractéristiques d'administration du plugin"
+
+#: wppa-settings-autosave.php:2690
+msgid "Path to plugins directory."
+msgstr ""
+
+#: wppa-settings-autosave.php:2695
+msgid "Plugins directory name."
+msgstr ""
+
+#: wppa-settings-autosave.php:2700
+#, fuzzy
+msgid "Plugins directory url."
+msgstr "Caractéristiques d'administration du plugin"
+
+#: wppa-settings-autosave.php:2705
+#, fuzzy
+msgid "The relative upload directory."
+msgstr "Impossible de créer l'album."
+
+#: wppa-settings-autosave.php:2710
+msgid "The upload directory path."
+msgstr ""
+
+#: wppa-settings-autosave.php:2715
+msgid "The upload directory url."
+msgstr ""
+
+#: wppa-settings-autosave.php:2720
+#, fuzzy
+msgid "The relative depot directory."
+msgstr "Impossible de créer l'album."
+
+#: wppa-settings-autosave.php:2725
+msgid "The depot directory path."
+msgstr ""
+
+#: wppa-settings-autosave.php:2730
+msgid "The depot directory url."
+msgstr ""
+
+#: wppa-settings-autosave.php:2791
+msgid "The default for this setting is:"
+msgstr ""
+
+#: wppa-settings-autosave.php:2800
+msgid "No help available"
+msgstr ""
+
+#: wppa-settings-autosave.php:2805
+msgid "Click for help"
+msgstr ""
+
+#: wppa-settings-autosave.php:2953
+msgid "Checked"
+msgstr ""
+
+#: wppa-settings-autosave.php:2954
+msgid "Unchecked"
+msgstr ""
+
+#: wppa-settings-autosave.php:2959
+msgid "the photo specific link."
+msgstr ""
+
+#: wppa-settings-autosave.php:2980
+#, fuzzy
+msgid "Show"
+msgstr "Ralentir"
+
+#: wppa-settings-autosave.php:3003
+#, fuzzy
+msgid "Not done yet"
+msgstr "Pas encore de photo."
+
+#: wppa-setup.php:231
+msgid "IMPORTANT UPGRADE NOTICE"
+msgstr ""
+
+#: wppa-setup.php:232
+msgid "Please CHECK your customized WPPA-STYLE.CSS file against the newly supplied one. You may wish to add or modify some attributes. Be aware of the fact that most settings can now be set in the admin settings page."
+msgstr ""
+
+#: wppa-setup.php:233
+msgid "Please REPLACE your customized WPPA-THEME.PHP file by the newly supplied one, or just remove it from your theme directory. You may modify it later if you wish. Your current customized version is NOT compatible with this version of the plugin software."
+msgstr ""
+
+#: wppa-setup.php:245
+#, php-format
+msgid "WPPA+ successfully updated in multi site mode to db version %s."
+msgstr ""
+
+#: wppa-setup.php:248
+#, php-format
+msgid "WPPA+ successfully updated in single site mode to db version %s."
+msgstr ""
+
+#: wppa-setup.php:253
+msgid "An error occurred during update"
+msgstr ""
+
+#: wppa-setup.php:391
+msgid "<span style=\"color:red\" >Warning: Do not upload copyrighted material!</span>"
+msgstr ""
+
+#: wppa-setup.php:621
+msgid "Type your custom url here"
+msgstr ""
+
+#: wppa-setup.php:622
+msgid "Type the title here"
+msgstr ""
+
+#: wppa-setup.php:632
+#: wppa-topten-widget.php:14
+#, fuzzy
+msgid "Top Ten Photos"
+msgstr "Photo de couverture:"
+
+#: wppa-setup.php:635
+#: wppa-thumbnail-widget.php:14
+#, fuzzy
+msgid "Thumbnail Photos"
+msgstr "Taille de la vignette."
+
+#: wppa-setup.php:638
+#, fuzzy
+msgid "Search photos"
+msgstr "photos"
+
+#: wppa-setup.php:672
+msgid "The uploads directory does not exist, please do a regular WP upload first."
+msgstr ""
+
+#: wppa-setup.php:676
+msgid "Successfully created uploads directory."
+msgstr ""
+
+#: wppa-setup.php:687
+#, fuzzy
+msgid "Could not create the wppa directory."
+msgstr "Impossible de créer l'album."
+
+#: wppa-setup.php:691
+msgid "Successfully created wppa directory."
+msgstr ""
+
+#: wppa-setup.php:701
+#, fuzzy
+msgid "Could not create the wppa thumbs directory."
+msgstr "Impossible de créer l'album."
+
+#: wppa-setup.php:705
+msgid "Successfully created wppa thumbs directory."
+msgstr ""
+
+#: wppa-setup.php:715
+#, fuzzy
+msgid "Could not create the wppa watermarks directory."
+msgstr "Impossible de créer l'album."
+
+#: wppa-setup.php:719
+#, fuzzy
+msgid "Successfully created wppa watermarks directory."
+msgstr "Impossible de créer l'album."
+
+#: wppa-setup.php:731
+#, fuzzy
+msgid "Unable to create depot directory."
+msgstr "Impossible de créer l'album."
+
+#: wppa-setup.php:735
+#, fuzzy
+msgid "Successfully created wppa depot directory."
+msgstr "Impossible de créer l'album."
+
+#: wppa-setup.php:746
+#, fuzzy
+msgid "Unable to create user depot directory"
+msgstr "Impossible de créer l'album."
+
+#: wppa-setup.php:750
+msgid "Successfully created wppa user depot directory."
+msgstr ""
+
+#: wppa-setup.php:758
+#, php-format
+msgid "Ask your administrator to give you more rights, try CHMOD from table VII item 1 of the Photo Albums -> Settings admin page or create <b>%s</b> manually using an FTP program."
+msgstr ""
+
+#: wppa-slideshow-widget.php:16
+msgid "WPPA+ Sidebar Slideshow"
+msgstr ""
+
+#: wppa-slideshow-widget.php:17
+#: wppa-slideshow-widget.php:149
+#, fuzzy
+msgid "Sidebar Slideshow"
+msgstr "Widget"
+
+#: wppa-slideshow-widget.php:187
+msgid "Enter the width and optionally the height of the area wherein the slides will appear. If you specify a 0 for the height, it will be calculated. The value for the height will be ignored if you set the vertical alignment to 'fit'."
+msgstr ""
+
+#: wppa-slideshow-widget.php:188
+msgid "Width:"
+msgstr ""
+
+#: wppa-slideshow-widget.php:188
+#: wppa-slideshow-widget.php:189
+#: wppa-widget-admin.php:71
+msgid "pixels."
+msgstr ""
+
+#: wppa-slideshow-widget.php:189
+msgid "Height:"
+msgstr ""
+
+#: wppa-slideshow-widget.php:191
+msgid "Portrait only:"
+msgstr ""
+
+#: wppa-slideshow-widget.php:193
+#: wppa-slideshow-widget.php:213
+#: wppa-slideshow-widget.php:220
+#: wppa-slideshow-widget.php:227
+#: wppa-slideshow-widget.php:234
+#: wppa-slideshow-widget.php:241
+#: wppa-thumbnail-widget.php:138
+msgid "no."
+msgstr ""
+
+#: wppa-slideshow-widget.php:194
+#: wppa-slideshow-widget.php:214
+#: wppa-slideshow-widget.php:221
+#: wppa-slideshow-widget.php:228
+#: wppa-slideshow-widget.php:235
+#: wppa-slideshow-widget.php:242
+#: wppa-thumbnail-widget.php:139
+msgid "yes."
+msgstr ""
+
+#: wppa-slideshow-widget.php:195
+msgid "Set to 'yes' if there are only portrait images in the album and you want the photos to fill the full width of the widget.<br/>Set to 'no' otherwise."
+msgstr ""
+
+#: wppa-slideshow-widget.php:196
+msgid "If set to 'yes', Vertical alignment will be forced to 'fit'."
+msgstr ""
+
+#: wppa-slideshow-widget.php:199
+msgid "Vertical alignment:"
+msgstr "Alignement vertical:"
+
+#: wppa-slideshow-widget.php:205
+msgid "Set the desired vertical alignment method."
+msgstr ""
+
+#: wppa-slideshow-widget.php:207
+#, fuzzy
+msgid "Slideshow timeout:"
+msgstr "Diaporama"
+
+#: wppa-slideshow-widget.php:207
+msgid "sec."
+msgstr ""
+
+#: wppa-slideshow-widget.php:211
+#, fuzzy
+msgid "Show name:"
+msgstr "Nom photo"
+
+#: wppa-slideshow-widget.php:218
+#, fuzzy
+msgid "Show description:"
+msgstr "Description:"
+
+#: wppa-slideshow-widget.php:225
+msgid "Show filmstrip:"
+msgstr ""
+
+#: wppa-slideshow-widget.php:232
+#, fuzzy
+msgid "Show browsebar:"
+msgstr "Trier les photos par:"
+
+#: wppa-slideshow-widget.php:239
+#, fuzzy
+msgid "Show numbar:"
+msgstr "Nom photo"
+
+#: wppa-slideshow-widget.php:246
+msgid "The following text fields support qTranslate"
+msgstr ""
+
+#: wppa-slideshow-widget.php:247
+msgid "Tooltip text:"
+msgstr ""
+
+#: wppa-slideshow-widget.php:248
+#, fuzzy
+msgid "Text above photos:"
+msgstr "Voir la photo de couverture"
+
+#: wppa-slideshow-widget.php:249
+msgid "Text below photos:"
+msgstr ""
+
+#: wppa-thumbnail-widget.php:13
+#, fuzzy
+msgid "WPPA+ Thumbnails"
+msgstr "Taille de la vignette."
+
+#: wppa-thumbnail-widget.php:136
+#, fuzzy
+msgid "Show photo names:"
+msgstr "Nom photo"
+
+#: wppa-topten-widget.php:13
+msgid "WPPA+ Top Ten Rated Photos"
+msgstr ""
+
+#: wppa-topten-widget.php:126
+msgid "Sort by:"
+msgstr ""
+
+#: wppa-topten-widget.php:128
+msgid "Mean value"
+msgstr ""
+
+#: wppa-upload.php:40
+msgid "Connecting to your depot..."
+msgstr ""
+
+#: wppa-upload.php:72
+#: wppa-upload.php:77
+msgid "unknown"
+msgstr ""
+
+#: wppa-upload.php:81
+#, php-format
+msgid "<b>Notice:</b> your server allows you to upload <b>%s</b> files of maximum total <b>%s</b> bytes and allows <b>%s</b> seconds to complete."
+msgstr ""
+
+#: wppa-upload.php:82
+msgid "If your request exceeds these limitations, it will fail, probably without an errormessage."
+msgstr ""
+
+#: wppa-upload.php:83
+msgid "Additionally your hosting provider may have set other limitations on uploading files."
+msgstr ""
+
+#: wppa-upload.php:87
+msgid "Box A:"
+msgstr ""
+
+#: wppa-upload.php:87
+msgid "Multiple Photos in one selection"
+msgstr ""
+
+#: wppa-upload.php:88
+#, fuzzy, php-format
+msgid "You can select up to %s photos in one selection and upload them."
+msgstr "Vous pouvez uploader jusqu'à 15 fichiers à la fois."
+
+#: wppa-upload.php:89
+msgid "You need a modern browser that supports HTML-5 to select multiple files"
+msgstr ""
+
+#: wppa-upload.php:94
+#: wppa-upload.php:103
+#: wppa-upload.php:175
+msgid "Selected Files:"
+msgstr "Fichiers sélectionnés:"
+
+#: wppa-upload.php:105
+#, fuzzy
+msgid "Size"
+msgstr "Taille réelle:"
+
+#: wppa-upload.php:105
+msgid "Type"
+msgstr ""
+
+#: wppa-upload.php:126
+msgid "Too many!"
+msgstr ""
+
+#: wppa-upload.php:130
+msgid "Too big!"
+msgstr ""
+
+#: wppa-upload.php:134
+msgid "Try again!"
+msgstr ""
+
+#: wppa-upload.php:136
+#, fuzzy
+msgid "Total"
+msgstr "Sous-titre:"
+
+#: wppa-upload.php:151
+#: wppa-upload.php:187
+#: wppa-upload.php:421
+msgid "Apply watermark file:"
+msgstr ""
+
+#: wppa-upload.php:156
+#: wppa-upload.php:192
+#: wppa-upload.php:425
+#, fuzzy
+msgid "Position:"
+msgstr "Description:"
+
+#: wppa-upload.php:162
+#, fuzzy
+msgid "Upload Multiple Photos"
+msgstr "Upload Photos"
+
+#: wppa-upload.php:169
+msgid "Box B:"
+msgstr ""
+
+#: wppa-upload.php:169
+msgid "Single Photos in multiple selections"
+msgstr ""
+
+#: wppa-upload.php:170
+#, fuzzy, php-format
+msgid "You can select up to %s photos one by one and upload them at once."
+msgstr "Vous pouvez uploader jusqu'à 15 fichiers à la fois."
+
+#: wppa-upload.php:198
+#, fuzzy
+msgid "Upload Single Photos"
+msgstr "Upload Photos"
+
+#: wppa-upload.php:213
+msgid "Box C:"
+msgstr ""
+
+#: wppa-upload.php:213
+#, fuzzy
+msgid "Zipped Photos in one selection"
+msgstr "Upload Photos"
+
+#: wppa-upload.php:214
+#, php-format
+msgid "You can upload one zipfile. It will be placed in your personal wppa-depot: <b>.../%s</b><br/>Once uploaded, use <b>Import Photos</b> to unzip the file and place the photos in any album."
+msgstr ""
+
+#: wppa-upload.php:218
+#, fuzzy
+msgid "Upload Zipped Photos"
+msgstr "Upload Photos"
+
+#: wppa-upload.php:219
+msgid "After upload: Go to the <b>Import Photos</b> page."
+msgstr ""
+
+#: wppa-upload.php:225
+msgid "<small>Ask your administrator to upgrade php to version 5.2.7 or later. This will enable you to upload zipped photos.</small>"
+msgstr ""
+
+#: wppa-upload.php:231
+#: wppa-upload.php:487
+msgid "No albums exist. You must"
+msgstr "Aucun album n'existe. Vous devez"
+
+#: wppa-upload.php:231
+#: wppa-upload.php:487
+msgid "create one"
+msgstr "en créer un"
+
+#: wppa-upload.php:231
+#: wppa-upload.php:487
+msgid "beofre you can upload your photos."
+msgstr "avant de vouloir uploader vos photos."
+
+#: wppa-upload.php:249
+#: wppa-upload.php:274
+msgid "illegal files deleted."
+msgstr ""
+
+#: wppa-upload.php:306
+msgid "Import photos from:"
+msgstr ""
+
+#: wppa-upload.php:308
+msgid "Your depot"
+msgstr ""
+
+#: wppa-upload.php:312
+msgid "Set source directory"
+msgstr ""
+
+#: wppa-upload.php:326
+#: wppa-upload.php:368
+#: wppa-upload.php:409
+#, fuzzy
+msgid "There are"
+msgstr "ici"
+
+#: wppa-upload.php:326
+msgid "zipfiles in the depot."
+msgstr ""
+
+#: wppa-upload.php:331
+#: wppa-upload.php:373
+#: wppa-upload.php:434
+msgid "Check/uncheck all"
+msgstr ""
+
+#: wppa-upload.php:336
+msgid "Delete after successful extraction."
+msgstr ""
+
+#: wppa-upload.php:368
+msgid "albumdefinitions in the depot."
+msgstr ""
+
+#: wppa-upload.php:378
+msgid "Delete after successful import, or if the album already exits."
+msgstr ""
+
+#: wppa-upload.php:409
+#, fuzzy
+msgid "photos in the depot."
+msgstr "Photo du jour"
+
+#: wppa-upload.php:409
+msgid "Photos will be downsized during import."
+msgstr ""
+
+#: wppa-upload.php:412
+msgid "Default album for import:"
+msgstr ""
+
+#: wppa-upload.php:417
+msgid "Photos that have (<em>name</em>)[<em>album</em>] will be imported by that <em>name</em> in that <em>album</em>."
+msgstr ""
+
+#: wppa-upload.php:438
+msgid "Delete after successful import."
+msgstr ""
+
+#: wppa-upload.php:442
+#, fuzzy
+msgid "Update existing photos"
+msgstr "Upload Photos"
+
+#: wppa-upload.php:478
+msgid "There are no archives, albums or photos in directory:"
+msgstr ""
+
+#: wppa-upload.php:481
+#, fuzzy
+msgid "There are no albums or photos in directory:"
+msgstr "Il n'y a pas (encore) de page vers lesquelles pointer."
+
+#: wppa-upload.php:511
+#: wppa-upload.php:541
+#: wppa-upload.php:739
+msgid "Error inserting photo"
+msgstr ""
+
+#: wppa-upload.php:520
+#: wppa-upload.php:548
+msgid "Photos Uploaded in album nr"
+msgstr "Photos uploadées dans l'album n°"
+
+#: wppa-upload.php:566
+#: wppa-upload.php:943
+msgid "Zipfile"
+msgstr ""
+
+#: wppa-upload.php:566
+msgid "sucessfully uploaded."
+msgstr ""
+
+#: wppa-upload.php:567
+msgid "Error"
+msgstr ""
+
+#: wppa-upload.php:567
+msgid "during upload."
+msgstr ""
+
+#: wppa-upload.php:646
+#, fuzzy
+msgid "Unknown parent album:"
+msgstr "Album parent:"
+
+#: wppa-upload.php:646
+#, fuzzy
+msgid "--- none --- used."
+msgstr "--- aucun ---"
+
+#: wppa-upload.php:692
+msgid "Processing files, please wait..."
+msgstr ""
+
+#: wppa-upload.php:692
+#, fuzzy
+msgid "If the line of dots stops growing or your browser reports Ready, your server has given up. In that case: try again"
+msgstr "Si la ligne de points cesse de croître et que vous n'obtenez pas un <strong>READY</ strong>, veuillez continuer cette action en cliquant sur"
+
+#: wppa-upload.php:692
+#, fuzzy
+msgid "here."
+msgstr "ici"
+
+#: wppa-upload.php:743
+#, php-format
+msgid "Error inserting photo %s, unknown or non existent album."
+msgstr ""
+
+#: wppa-upload.php:750
+msgid "Done processing files."
+msgstr ""
+
+#: wppa-upload.php:753
+msgid "No files to import."
+msgstr ""
+
+#: wppa-upload.php:757
+msgid "Zipfiles extracted."
+msgstr ""
+
+#: wppa-upload.php:758
+#, fuzzy
+msgid "Albums created."
+msgstr "Album supprimé."
+
+#: wppa-upload.php:760
+#, fuzzy
+msgid "Photos updated."
+msgstr "Photo Supprimée."
+
+#: wppa-upload.php:761
+#, fuzzy
+msgid "Photos imported."
+msgstr "Photo Supprimée."
+
+#: wppa-upload.php:783
+msgid "Although the photos are resized during the upload/import process, you may encounter 'Out of memory'errors."
+msgstr ""
+
+#: wppa-upload.php:783
+msgid "In that case: make sure you set the memory limit to 64M and make sure your hosting provider allows you the use of 64 Mb."
+msgstr ""
+
+#: wppa-upload.php:786
+msgid "WARNING: You are uploading very large photos, this may result in server problems and excessive download times for your website visitors."
+msgstr ""
+
+#: wppa-upload.php:786
+msgid "Check the 'Resize on upload' checkbox, and/or resize the photos before uploading. The recommended size is: not larger than 1024 x 768 pixels (up to approx. 250 kB)."
+msgstr ""
+
+#: wppa-upload.php:791
+msgid "WARNING: You are uploading photos that are too small. Photos must be larger than the thumbnail size and larger than the coverphotosize."
+msgstr ""
+
+#: wppa-upload.php:796
+msgid "ERROR: Unable to retrieve immage size of"
+msgstr ""
+
+#: wppa-upload.php:796
+#, fuzzy
+msgid "Are you sure it is a photo?"
+msgstr "Etes-vous sûr de vouloir supprimer cet album?"
+
+#: wppa-upload.php:805
+msgid "Unsupported mime type encountered:"
+msgstr ""
+
+#: wppa-upload.php:822
+msgid "Album not known while trying to add a photo"
+msgstr ""
+
+#: wppa-upload.php:826
+#, php-format
+msgid "Album %s does not exist or is not accessable while trying to add a photo"
+msgstr ""
+
+#: wppa-upload.php:834
+#, fuzzy
+msgid "Could not insert photo. query="
+msgstr "Impossible d'uploader la photo."
+
+#: wppa-upload.php:840
+msgid "ERROR: Unknown file or album."
+msgstr ""
+
+#: wppa-upload.php:913
+msgid "Error: unexpected fgets() fail in wppa_get_meta_data()."
+msgstr ""
+
+#: wppa-upload.php:934
+msgid "Class ZipArchive does not exist! Check your php configuration"
+msgstr ""
+
+#: wppa-upload.php:943
+msgid "extracted."
+msgstr ""
+
+#: wppa-upload.php:946
+msgid "Failed to extract"
+msgstr ""
+
+#: wppa-widget-admin.php:34
+msgid "Widget Photo Width."
+msgstr "Largeur Photo Widget."
+
+#: wppa-widget-admin.php:39
+msgid "Changes Saved. Don't forget to activate the widget!"
+msgstr "Modifications enregistrées. N'oubliez pas d'activer le widget!"
+
+#: wppa-widget-admin.php:49
+msgid "WP Photo Album Plus Sidebar Widget Settings"
+msgstr "Options de la barre latéral du widget WP Photo Album Plus"
+
+#: wppa-widget-admin.php:58
+msgid "Widget Title:"
+msgstr "Titre Widget:"
+
+#: wppa-widget-admin.php:62
+msgid "Enter/modify the title for the widget. This is a default and can be overriden at widget activation."
+msgstr ""
+
+#: wppa-widget-admin.php:67
+msgid "Widget Photo Width:"
+msgstr "Largeur Photo Widget:"
+
+#: wppa-widget-admin.php:71
+#, fuzzy
+msgid "Horizontal alignment:"
+msgstr "Alignement vertical:"
+
+#: wppa-widget-admin.php:80
+#, fuzzy
+msgid "Enter the desired display width and alignment of the photo in the sidebar."
+msgstr "Entrez la largeur d'affichage souhaitée de la photo dans la barre latérale."
+
+#: wppa-widget-admin.php:85
+#, fuzzy
+msgid "Use album(s):"
+msgstr "Utilisez album:"
+
+#: wppa-widget-admin.php:101
+#, fuzzy
+msgid "Select:"
+msgstr "Fichiers sélectionnés:"
+
+#: wppa-widget-admin.php:103
+#, fuzzy
+msgid "Or Edit:"
+msgstr "Modifier"
+
+#: wppa-widget-admin.php:104
+msgid "Update thumbnails"
+msgstr ""
+
+#: wppa-widget-admin.php:106
+msgid "Select or edit the album(s) you want to use the photos of for the widget."
+msgstr ""
+
+#: wppa-widget-admin.php:108
+msgid "If you want a <b>- special -</b> selection or get rid of it, you may need to use <b>- start over -</b> first."
+msgstr ""
+
+#: wppa-widget-admin.php:114
+msgid "Display method:"
+msgstr "Méthode d'affichage:"
+
+#: wppa-widget-admin.php:120
+msgid "Fixed photo"
+msgstr "Photo fixe"
+
+#: wppa-widget-admin.php:122
+msgid "Last upload"
+msgstr "Dernier upload"
+
+#: wppa-widget-admin.php:123
+msgid "Change every"
+msgstr "Changer tous les"
+
+#: wppa-widget-admin.php:127
+msgid "pageview."
+msgstr ""
+
+#: wppa-widget-admin.php:128
+msgid "hour."
+msgstr "heure."
+
+#: wppa-widget-admin.php:129
+msgid "day."
+msgstr "jour."
+
+#: wppa-widget-admin.php:130
+msgid "week."
+msgstr "semaine."
+
+#: wppa-widget-admin.php:132
+msgid "Select how the widget should display."
+msgstr "Sélectionnez la façon dont le widget doit s'afficher."
+
+#: wppa-widget-admin.php:143
+msgid "Links are set on the <b>Photo Albums -> Settings</b> screen."
+msgstr ""
+
+#: wppa-widget-admin.php:155
+msgid "Url:"
+msgstr ""
+
+#: wppa-widget-admin.php:157
+msgid "Enter the title and the url. Do'nt forget the HTTP://"
+msgstr ""
+
+#: wppa-widget-admin.php:164
+msgid "Subtitle:"
+msgstr "Sous-titre:"
+
+#: wppa-widget-admin.php:170
+msgid "Photo Name"
+msgstr "Nom photo"
+
+#: wppa-widget-admin.php:173
+msgid "Select the content of the subtitle."
+msgstr "Sélectionnez le contenu des sous-titres."
+
+#: wppa-widget-functions.php:98
+#, fuzzy
+msgid "- select (another) album or a set -"
+msgstr "albums"
+
+#: wppa-widget-functions.php:132
+#, fuzzy
+msgid "- all albums -"
+msgstr "albums"
+
+#: wppa-widget-functions.php:134
+msgid "- all -separate- albums -"
+msgstr ""
+
+#: wppa-widget-functions.php:136
+msgid "- all albums except -separate-"
+msgstr ""
+
+#: wppa-widget-functions.php:138
+#, fuzzy
+msgid "- top rated photos -"
+msgstr "Upload Photos"
+
+#: wppa-widget-functions.php:139
+#, fuzzy
+msgid "- start over -"
+msgstr "--- separateur ---"
+
+#: theme/photo-album-page.php:30
+msgid "Pages:"
+msgstr ""
+
+#: theme/search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: theme/search.php:29
+msgid "Nothing Found"
+msgstr ""
+
+#: theme/search.php:31
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#, fuzzy
+#~ msgid "Help & Info"
+#~ msgstr "Aide &amp; Info"
+
+#~ msgid "Photo Albums"
+#~ msgstr "Albums Photo"
+
+#, fuzzy
+#~ msgid "CHMOD unchanged"
+#~ msgstr "Enregistrer les modifications"
+
+#~ msgid "Could not update photo."
+#~ msgstr "Impossible d'uploader la photo."
+
+#~ msgid "Album could not be updated."
+#~ msgstr "L'album ne peut pas être mis à jour."
+
+#~ msgid "Album information edited."
+#~ msgstr "Informations sur l'album modifiées."
+
+#~ msgid "Back to album management."
+#~ msgstr "Retour à la gestion de l'album."
+
+#~ msgid "Photo Deleted."
+#~ msgstr "Photo Supprimée."
+
+#, fuzzy
+#~ msgid "Photo copied"
+#~ msgstr "Ordre des photos:"
+
+#, fuzzy
+#~ msgid "Photo rotated"
+#~ msgstr "Ordre des photos:"
+
+#~ msgid "The default setting can be changed in the Options page."
+#~ msgstr "Le réglage par défaut peut être modifié dans la page Options."
+
+#, fuzzy
+#~ msgid "Reset ratings:"
+#~ msgstr "Options"
+
+#, fuzzy
+#~ msgid "Save All Changes"
+#~ msgstr "Enregistrer les modifications"
+
+#, fuzzy
+#~ msgid "Comment Avatar"
+#~ msgstr "Photo de couverture:"
+
+#, fuzzy
+#~ msgid "Leave unchanged."
+#~ msgstr "Enregistrer les modifications"
+
+#, fuzzy
+#~ msgid "Albums Access Level."
+#~ msgstr "Niveau d'accès:"
+
+#, fuzzy
+#~ msgid ""
+#~ "The minmum user level that can access the photo album admin (i.e. Create "
+#~ "and Manage Albums)."
+#~ msgstr ""
+#~ "Le niveau d'accès minimum qui peut accéder à l'administration de WP Photo "
+#~ "Album"
+
+#~ msgid "Administrator"
+#~ msgstr "Administrateur"
+
+#~ msgid "Editor"
+#~ msgstr "Editeur"
+
+#~ msgid "Author"
+#~ msgstr "Auteur"
+
+#~ msgid "Contributor"
+#~ msgstr "Contributeur"
+
+#, fuzzy
+#~ msgid "Upload"
+#~ msgstr "Upload Photos"
+
+#, fuzzy
+#~ msgid "Upload/Import Access Level."
+#~ msgstr "Niveau d'accès:"
+
+#, fuzzy
+#~ msgid "The minmum user level that can upload or import photos."
+#~ msgstr ""
+#~ "Le niveau d'accès minimum qui peut accéder à l'administration de WP Photo "
+#~ "Album"
+
+#, fuzzy
+#~ msgid "Widget"
+#~ msgstr "Titre Widget:"
+
+#, fuzzy
+#~ msgid "Photo of the day widget admin."
+#~ msgstr "Photo du jour"
+
+#, fuzzy
+#~ msgid ""
+#~ "The minmum user level that can access the photo of the day sidebar widget "
+#~ "admin."
+#~ msgstr ""
+#~ "Le niveau d'accès minimum qui peut accéder à l'administration de WP Photo "
+#~ "Album"
+
+#, fuzzy
+#~ msgid "Other changes saved"
+#~ msgstr "Modifications enregistrées."
+
+#~ msgid "and click \"Save Changes\" again."
+#~ msgstr "et cliquez sur \"Enregistrer les modifications\" à nouveau."
+
+#~ msgid ""
+#~ "Regeneration of thumbnail images interrupted. Please press \"Save Changes"
+#~ "\""
+#~ msgstr ""
+#~ "La regénération des vignettes a été interrompue. Merci de cliquer sur "
+#~ "\"Enregistrer les modifications\""
+
+#, fuzzy
+#~ msgid "% opacity"
+#~ msgstr "Taille vignette:"
+
+#, fuzzy
+#~ msgid "Fading"
+#~ msgstr "Attention:"
+
+#, fuzzy
+#~ msgid "Settings autosave"
+#~ msgstr "Options"
+
+#, fuzzy
+#~ msgid "Single Photos"
+#~ msgstr "Gérer les photos"
+
+#, fuzzy
+#~ msgid "Comment login approved"
+#~ msgstr "Attention:"
+
+#, fuzzy
+#~ msgid "or"
+#~ msgstr "pour"
+
+#, fuzzy
+#~ msgid "Album access"
+#~ msgstr "Ordre Album:"
+
+#~ msgid "--- the album's content ---"
+#~ msgstr "--- contenu de l'album ---"
+
+#, fuzzy
+#~ msgid "--- no link at all ---"
+#~ msgstr "--- aucun ---"
+
+#~ msgid "Type the name of the new album. Do not leave this empty."
+#~ msgstr "Entrez le nom du nouvel album. Ne pas laisser ce champ vide."
+
+#~ msgid "Order #:"
+#~ msgstr "Ordre #:"
+
+#~ msgid ""
+#~ "If you want to sort the albums by order #, enter the order number here."
+#~ msgstr ""
+#~ "Si vous souhaitez trier les albums par ordre #, entrez le numéro d'ordre "
+#~ "ici."
+
+#~ msgid "Order photos by:"
+#~ msgstr "Trier les photos par:"
+
+#~ msgid ""
+#~ "If you want to sort the photos in this album different from the system "
+#~ "setting, select the order method here."
+#~ msgstr ""
+#~ "Si vous souhaitez trier les photos de cet album différemment de la "
+#~ "configuration du système, sélectionnez la méthode de tri ici."
+
+#~ msgid "Create Album!"
+#~ msgstr "Créer Album!"
+
+#~ msgid ""
+#~ "You can change all these settings later by clicking the \"Edit\" link in "
+#~ "the table above."
+#~ msgstr ""
+#~ "Vous pourrez changer tous ces paramètres plus tard en cliquant sur le "
+#~ "lien \"Modifier\" dans le tableau ci-dessus."
+
+#, fuzzy
+#~ msgid "Could not process comment"
+#~ msgstr "Impossible d'uploader la photo."
+
+#, fuzzy
+#~ msgid "Two column width treshold"
+#~ msgstr "Seuil d'affichage."
+
+#, fuzzy
+#~ msgid "Three column width treshold"
+#~ msgstr "Seuil d'affichage."
+
+#, fuzzy
+#~ msgid "Popup and Cover Photos."
+#~ msgstr "Photo de couverture:"
+
+#, fuzzy
+#~ msgid "Edit!"
+#~ msgstr "Modifier"
+
+#, fuzzy
+#~ msgid "Padding top:"
+#~ msgstr "Lien vers:"
+
+#, fuzzy
+#~ msgid "default"
+#~ msgstr "--- default ---"
+
+#, fuzzy
+#~ msgid "Widget Photo Padding."
+#~ msgstr "Largeur Photo Widget."
+
+#~ msgid "Order:"
+#~ msgstr "Ordre:"
+
+#~ msgid "Full Size:"
+#~ msgstr "Taille réelle:"
+
+#, fuzzy
+#~ msgid "Widget thumbnail size:"
+#~ msgstr "Taille de la vignette."
+
+#~ msgid "Coverphoto Size:"
+#~ msgstr "Taille de la photo de couverture:"
+
+#, fuzzy
+#~ msgid "Borders:"
+#~ msgstr "Ordre:"
+
+#, fuzzy
+#~ msgid "Sidebar Access Level:"
+#~ msgstr "Niveau d'accès:"
+
+#, fuzzy
+#~ msgid "No album defined yet."
+#~ msgstr "Pas encore d'album."
+
+#~ msgid "Photo not found."
+#~ msgstr "Photo non trouvée."
+
+#~ msgid "Page is not available."
+#~ msgstr "Page non accessible."
+
+#~ msgid "s"
+#~ msgstr "s"
+
+#~ msgid "View the album"
+#~ msgstr "Voir l'album"
+
+#~ msgid "View"
+#~ msgstr "Voir"
+
+#~ msgid "and"
+#~ msgstr "et"
+
+#~ msgid "please wait."
+#~ msgstr "merci de patienter."
+
+#~ msgid "HERE"
+#~ msgstr "ICI"
+
+#~ msgid ""
+#~ "The size of the full images is controled with html, the photo itself will "
+#~ "not be resized."
+#~ msgstr ""
+#~ "La taille des grandes images est contrôlée par html, la photo elle-même "
+#~ "n'est pas redimmensionnée."
+
+#~ msgid "Enlarge if needed:"
+#~ msgstr "Agrandir si nécessaire:"
+
+#~ msgid "Enter the caption to be displayed for the widget."
+#~ msgstr "Entrez la légende à afficher pour le widget."
+
+#~ msgid "Select the album that contains the widget photos."
+#~ msgstr "Sélectionnez l'album qui contient les photos widget."
+
+#~ msgid ""
+#~ "First de-activate WP Photo Album before activating WP Photo Album Plus!!"
+#~ msgstr ""
+#~ "D'abord, désactiver WP Photo Album avant d'activer WP Photo Album Plus!!"
+
+#~ msgid "YOU CAN NOT RUN BOTH VERSIONS AT THE SAME TIME!!"
+#~ msgstr "VOUS NE POUVEZ PAS EXECUTER LES DEUX VERSIONS EN MEME TEMPS!!"
+
+#~ msgid "The existing database and albums and photos will be preserved."
+#~ msgstr ""
+#~ "La base de données existante, les albums et les photos seront préservés."
+
+#~ msgid "YOU DO NOT NEED TO RE-UPLOAD YOUR PHOTOS"
+#~ msgstr "VOUS N'AVEZ PAS BESOIN DE RE-UPLOADER VOS PHOTOS"
+
+#~ msgid ""
+#~ "You will need to use (and probably modify) the newly supplied default "
+#~ "theme file \"wppa_theme.php\"."
+#~ msgstr ""
+#~ "Vous aurez besoin d'utiliser (et probablement modifier) le nouveau "
+#~ "fichier du thème par défaut fourni : \"wppa_theme.php\"."
+
+#~ msgid ""
+#~ "You can use existing albums to make sub-albums, simply by specifying in "
+#~ "which album they belong."
+#~ msgstr ""
+#~ "Vous pouvez utiliser des albums existants pour créer des sous-albums, "
+#~ "simplement en spécifiant à quel album ils appartiennent."
+
+#~ msgid "of album nr 19."
+#~ msgstr "de l'album n° 19."
+
+#~ msgid ""
+#~ "Alternatively, you can create an extra album (say it has number 22) and "
+#~ "set the \"parent\" property of album 19 to this new album. Then your "
+#~ "second line should read:"
+#~ msgstr ""
+#~ "Alternativement, vous pouvez créer un album supplémentaire (disons qu'il "
+#~ "a le numéro 22) et réglez la la propriété \"parent\" de l'album de 19 à "
+#~ "ce nouvel album. Ensuite, votre deuxième ligne doit se lire:"
+
+#~ msgid ""
+#~ "This method enables you to add more than one album to a specific page or "
+#~ "post as long as they have the same parent."
+#~ msgstr ""
+#~ "Cette méthode vous permet d'ajouter plus d'un album à une page spécifique "
+#~ "ou par article aussi longtemps qu'ils ont le même parent."
+
+#~ msgid ""
+#~ "Additionally, if you set the parent of this album (nr 22 in this example) "
+#~ "to \"--- separate ---\", it will not be listed in the \"generic\" photo "
+#~ "gallery and the breadcrumb will display the best."
+#~ msgstr ""
+#~ "En outre, si vous définissez le parent de cet album (n° 22 dans cet "
+#~ "exemple) à \"--- separateur ---\", il ne sera pas répertorié dans la "
+#~ "gallerie photo \"générique\" et le chemin de fer affichera les meilleures."
+
+#~ msgid "You can combine the above as follows: (example)"
+#~ msgstr "Vous pouvez combiner ce qui précède comme suit: (exemple)"
+
+#~ msgid "An album can have only <b>ONE</b> parent."
+#~ msgstr "Un album ne peut avoir qu'<b>un seul</b> parent."
+
+#~ msgid ""
+#~ "Use the default page template, or create one yourself. In this case, "
+#~ "study the example (actually the version i use myself): <tt>...wp-content/"
+#~ "plugins/wp-photo-album-plus/examples/page-photo-album.php</tt>"
+#~ msgstr ""
+#~ "Utilisez la page de template par défaut, ou en créer-une vous-même. Dans "
+#~ "ce cas, étudier l'exemple (en fait la version que j'utilise moi-même): "
+#~ "<tt>...wp-content/plugins/wp-photo-album-plus/examples/page-photo-album."
+#~ "php</tt>"
+
+#~ msgid ""
+#~ "WPPA uses a system of tags similar to the WordPress theme system. To view "
+#~ "a list of available tags, please read tags.txt"
+#~ msgstr ""
+#~ "WPPA utilise un système de tags similaires au système de thème WordPress. "
+#~ "Pour afficher une liste des balises disponibles, veuillez lire le fichier "
+#~ "tags.txt"
+
+#~ msgid "or have a feature request, please contact me via my"
+#~ msgstr "ou que vous avez une requête, merci de me contacter via mon "
+
+#~ msgid "If you love this plugin, I would appreciate a donation, either in"
+#~ msgstr "Si vous aimez ce plugin, j'apprécierais un don, soit en"
+
+#~ msgid "or in"
+#~ msgstr "ou en"
+
+#~ msgid "Filetype not supported. Thumbnail not created."
+#~ msgstr "Type de fichier non supporté. Vignette non créée."
+
+#~ msgid "Not implemented yet (5)"
+#~ msgstr "Pas encore implémenté (5)"
+
+#~ msgid "Not implemented yet (6)"
+#~ msgstr "Pas encore implémenté (6)"
