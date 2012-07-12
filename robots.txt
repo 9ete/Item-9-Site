@@ -1,0 +1,24 @@
+User-agent: *
+
+Disallow: /feed/
+Disallow: /trackback/
+Disallow: /wp-admin/
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /xmlrpc.php
+Disallow: /songs/
+Disallow: /slideshow/
+Disallow: /siteBackups/
+Disallow: /resources/
+Disallow: /oldSite/
+Disallow: /movies/
+Disallow: /logs/
+Disallow: /jqueryTest/
+Disallow: /item9andthemadhatters/
+Disallow: /images/
+Disallow: /i9slider/
+Disallow: /dir994207816/
+Disallow: /classRepo/
+Disallow: /BandImages/
+
+Sitemap: http://item9andthemadhatters.com/sitemap.xml
